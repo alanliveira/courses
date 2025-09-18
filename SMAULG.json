@@ -132,8 +132,8 @@
     {
       "b": 41,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Cena_32sem_32t_237tulo",
-      "name": "Cena sem título",
+      "mangledName": "Test",
+      "name": "Test",
       "r": 41,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -149,7 +149,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7619362677197614,
+        "zoomFactor": 0.6455105703311492,
         "windowMask": false
       },
       "objectsGroups": [],
