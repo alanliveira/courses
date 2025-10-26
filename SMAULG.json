@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 236,
+    "build": 244,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -149,8 +149,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6455105703311492,
-        "windowMask": false
+        "zoomFactor": 0.9610368693714736,
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -164,8 +165,8 @@
           "name": "Player",
           "persistentUuid": "51838f05-5d16-40ca-9ac9-7ed9e544635e",
           "width": 0,
-          "x": 192,
-          "y": 128,
+          "x": 640,
+          "y": 96,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3353,6 +3354,7 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
+              "choices": [],
               "name": "Animation"
             },
             {
@@ -3362,6 +3364,7 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
+              "choices": [],
               "name": "TopDownMovement"
             },
             {
@@ -4063,6 +4066,7 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
+              "choices": [],
               "name": "Topdown"
             }
           ],
@@ -4734,6 +4738,7 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
+              "choices": [],
               "name": "Platformer"
             }
           ],
