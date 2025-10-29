@@ -260,6 +260,14 @@
         "name": "tile_02.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2346,7 +2354,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.20220707303601937,
+        "zoomFactor": 0.46331118245139946,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -2794,7 +2802,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.24672586957406267,
+        "zoomFactor": 0.8141881203709918,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4130,7 +4138,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.18305734955560032,
+        "zoomFactor": 0.5843784410740938,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4184,6 +4192,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewShapePainter",
+          "persistentUuid": "ddb73ce2-9dbd-4e5c-bde6-c74e85b661fd",
+          "width": 0,
+          "x": 81,
+          "y": -126,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4197,6 +4221,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -4206,9 +4232,7 @@
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
               "movementAngleOffset": 0,
-              "name": "TopDownMovement",
               "rotateObject": false,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "useLegacyTurnBack": false,
               "viewpoint": "TopDown"
             }
@@ -4383,6 +4407,40 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewShapePainter",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "FlashTransitionPainter",
+              "type": "FlashTransitionPainter::FlashTransitionPainter",
+              "Progress": 0,
+              "Duration": 0,
+              "Type": "",
+              "Direction": "",
+              "MaxOpacity": 255
+            }
+          ],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true,
+          "antialiasing": "none",
+          "fillColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4396,6 +4454,9 @@
           },
           {
             "objectName": "Fundo"
+          },
+          {
+            "objectName": "NewShapePainter"
           }
         ]
       },
@@ -4426,6 +4487,29 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "FlashTransitionPainter",
+                    "\"0;0;0\"",
+                    "1.5",
+                    "\"Flash\"",
+                    "\"Forward\"",
+                    "255",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PushScene"
