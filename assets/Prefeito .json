@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Prefeito",
+		"tags": "",
+		"body": "Ah Naian e Lohan, bom te ver novamente. [[Answer:Naian|Naian]]",
+		"position": {
+			"x": 531,
+			"y": 203
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Naian",
+		"tags": "",
+		"body": "Bom dia senhor Prefeito, como anda você?",
+		"position": {
+			"x": 836,
+			"y": 422
+		},
+		"colorID": 0
+	}
+]

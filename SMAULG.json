@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -316,6 +316,50 @@
         "name": "slot",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dialog Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dialog Box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/New dialogue tree.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "New dialogue tree",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Prefeito .json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Prefeito .json\"}",
+        "name": "Prefeito ",
+        "userAdded": false
+      },
+      {
+        "file": "assets/9patch_Bordered Hud Grey_all_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Bordered Hud Grey_all_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/b6451298a85b275ad943340bd1394f488fa5e07a4fe1f69dd1ebc11220647437_9patch_Bordered Hud Grey_all_32.png",
+          "name": "9patch_Bordered Hud Grey_all_32.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -466,6 +510,21 @@
   },
   "objectsGroups": [
     {
+      "name": "Npcs",
+      "objects": []
+    },
+    {
+      "name": "dialogo",
+      "objects": [
+        {
+          "name": "Caixa_dialogo"
+        },
+        {
+          "name": "dialogo_"
+        }
+      ]
+    },
+    {
       "name": "Enemies",
       "objects": [
         {
@@ -484,11 +543,6 @@
       "name": "EnemyTurn",
       "type": "boolean",
       "value": false
-    },
-    {
-      "name": "PlayerXP",
-      "type": "number",
-      "value": 0
     }
   ],
   "layouts": [
@@ -2387,7 +2441,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -2395,8 +2449,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.46331118245139946,
+        "snap": false,
+        "zoomFactor": 0.2467258695740638,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -2432,6 +2486,56 @@
           "x": 320,
           "y": 256,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Prefeito_",
+          "persistentUuid": "23c3550c-4a0d-4205-ad15-9736bd1c0446",
+          "width": 64,
+          "x": 320,
+          "y": 448,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Caixa_dialogo",
+          "persistentUuid": "e14339d7-6f5f-47a9-95d7-0c2e6d1d7c3f",
+          "width": 0,
+          "x": 352,
+          "y": 448,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogo_",
+          "persistentUuid": "b8caa98e-0daf-4dda-bccf-9da29ae917ec",
+          "width": 249,
+          "x": 451,
+          "y": 468,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2497,6 +2601,170 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Prefeito_",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Caixa_dialogo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dialog Box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 395,
+                            "y": 4
+                          },
+                          {
+                            "x": 395,
+                            "y": 97
+                          },
+                          {
+                            "x": 3,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "dialogo_",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "aaaaa",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "aaaaa",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2504,6 +2772,15 @@
         "children": [
           {
             "objectName": "Cidade"
+          },
+          {
+            "objectName": "Prefeito_"
+          },
+          {
+            "objectName": "Caixa_dialogo"
+          },
+          {
+            "objectName": "dialogo_"
           }
         ]
       },
@@ -2613,6 +2890,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogo"
         }
       ],
       "layers": [
@@ -2719,6 +3003,10 @@
           "type": "StayOnScreen::StayOnScreen"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
@@ -2744,12 +3032,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203709918,
+        "zoomFactor": 0.5468750000000009,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "State",
+          "type": "string",
+          "value": "WaitPlayerChoice"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -2841,8 +3135,8 @@
           "name": "Ataque",
           "persistentUuid": "fc825767-492d-4c46-b15a-4a2554d115e8",
           "width": 192,
-          "x": 74,
-          "y": 496,
+          "x": 69,
+          "y": 519,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2857,8 +3151,8 @@
           "name": "Defesa",
           "persistentUuid": "559643db-c5a3-4652-8045-7100a31fbd58",
           "width": 0,
-          "x": 284,
-          "y": 496,
+          "x": 282,
+          "y": 519,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2873,9 +3167,26 @@
           "name": "Fugir",
           "persistentUuid": "0d7d3162-4b4d-44c1-a25d-346114ae9f3d",
           "width": 0,
-          "x": 74,
-          "y": 579,
+          "x": 69,
+          "y": 609,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 239,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bordered_Hud_Grey",
+          "persistentUuid": "1b96f4ac-76f7-41b7-9451-7b7fd13969ca",
+          "width": 1280,
+          "x": -1,
+          "y": 478,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3210,6 +3521,22 @@
             "HoveredFadeOutDuration": 0.2,
             "LabelText": "Defender"
           }
+        },
+        {
+          "assetStoreId": "f37c907f80941eed9ea67ec073fa82aeb87dc934f4eaa660f33e9d107c7b3cd2",
+          "bottomMargin": 32,
+          "height": 96,
+          "leftMargin": 32,
+          "name": "Bordered_Hud_Grey",
+          "rightMargin": 32,
+          "texture": "9patch_Bordered Hud Grey_all_32.png",
+          "tiled": true,
+          "topMargin": 32,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -3218,6 +3545,9 @@
           {
             "folderName": "UX",
             "children": [
+              {
+                "objectName": "Bordered_Hud_Grey"
+              },
               {
                 "objectName": "Ataque"
               },
@@ -3252,7 +3582,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "No inicio ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3277,7 +3606,7 @@
                   "parameters": [
                     "Transition",
                     "FlashTransitionPainter",
-                    "\"0,0,0\"",
+                    "\"0;0;0\"",
                     "0.5",
                     "\"Circular\"",
                     "\"Backward\"",
@@ -3287,39 +3616,61 @@
                 },
                 {
                   "type": {
-                    "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                    "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
                   },
                   "parameters": [
                     "Player",
-                    "ShakeObject_PositionAngleScale",
+                    "ShakeObject_PositionAngle",
                     "0.5",
                     "7",
                     "7",
                     "0",
                     "2",
-                    "1",
                     "yes",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "ShakeObject_PositionAngle",
+                    "0.5",
+                    "-5",
+                    "-5",
+                    "0",
+                    "2",
+                    "yes",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "6.5",
+                    "\"Background\"",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                    "value": "Wait"
                   },
                   "parameters": [
-                    "Enemy",
-                    "ShakeObject_PositionAngleScale",
-                    "0.5",
-                    "-5",
-                    "-5",
-                    "0",
-                    "2",
-                    "2",
-                    "yes",
-                    ""
+                    "0.1"
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -3392,7 +3743,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player turn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3402,12 +3752,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "StringVariable"
                   },
                   "parameters": [
-                    "Turn",
-                    "False",
-                    ""
+                    "State",
+                    "=",
+                    "\"WaitPlayerChoice\""
                   ]
                 }
               ],
@@ -3429,14 +3779,69 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "SetBooleanVariable"
+                        "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Turn",
-                        "True",
+                        "State",
+                        "=",
+                        "\"PlayPlayerAttack\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "Fugir",
                         ""
                       ]
-                    },
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PopScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "\"PlayPlayerAttack\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
                         "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -3444,7 +3849,7 @@
                       "parameters": [
                         "Player",
                         "Tween",
-                        "\"Backup\"",
+                        "\"BackUp\"",
                         "Player.X() - 67",
                         "Player.Y()",
                         "\"easeOutQuad\"",
@@ -3467,11 +3872,11 @@
                       "parameters": [
                         "Player",
                         "Tween",
-                        "\"Backup\"",
+                        "\"BackUp\"",
                         "Player.X() + 67",
                         "Player.Y()",
-                        "\"easeInOutQuad\"",
-                        "0.5",
+                        "\"easeInQuad\"",
+                        "0.1",
                         ""
                       ]
                     },
@@ -3485,11 +3890,11 @@
                     },
                     {
                       "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::StopShaking"
+                        "value": "ShakeObject::ShakeObject_PositionAngle::StopShaking"
                       },
                       "parameters": [
                         "Enemy",
-                        "ShakeObject_PositionAngleScale",
+                        "ShakeObject_PositionAngle",
                         ""
                       ]
                     },
@@ -3506,7 +3911,7 @@
                         "5",
                         "10",
                         "0.2",
-                        "no",
+                        "",
                         ""
                       ]
                     },
@@ -3542,7 +3947,7 @@
                         "Dialogue",
                         "Text",
                         "=",
-                        "\"Você ataca o inimigo\""
+                        "\"You attacked your enemy.\""
                       ]
                     },
                     {
@@ -3555,120 +3960,28 @@
                     },
                     {
                       "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                        "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
                       },
                       "parameters": [
                         "Enemy",
-                        "ShakeObject_PositionAngleScale",
+                        "ShakeObject_PositionAngle",
                         "0.5",
                         "-2.5",
                         "-2.5",
                         "0",
-                        "0",
                         "2",
-                        "no",
-                        ""
+                        "yes",
+                        "yes"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Wait"
+                        "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "EnemyTurn",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                      },
-                      "parameters": [
-                        "Fugir",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PopScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                      },
-                      "parameters": [
-                        "Defesa",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "Turn",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "EnemyTurn",
-                        "True",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::SetChanceToDodgeOp"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Health",
-                        "+",
-                        "10",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "Text",
+                        "State",
                         "=",
-                        "\"você se defende\""
+                        "\"WaitEnemyChoice\""
                       ]
                     }
                   ]
@@ -3683,7 +3996,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemy Turn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3693,26 +4005,27 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "StringVariable"
                   },
                   "parameters": [
-                    "EnemyTurn",
-                    "False",
-                    ""
+                    "State",
+                    "=",
+                    "\"PlayEnemyAttack\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -3721,7 +4034,7 @@
                       "parameters": [
                         "Enemy",
                         "Tween",
-                        "\"Backup\"",
+                        "\"BackUp\"",
                         "Enemy.X() + 67",
                         "Enemy.Y()",
                         "\"easeOutQuad\"",
@@ -3744,11 +4057,11 @@
                       "parameters": [
                         "Enemy",
                         "Tween",
-                        "\"Backup\"",
+                        "\"BackUp\"",
                         "Enemy.X() - 67",
                         "Enemy.Y()",
-                        "\"easeInOutQuad\"",
-                        "0.5",
+                        "\"easeInQuad\"",
+                        "0.1",
                         ""
                       ]
                     },
@@ -3762,28 +4075,18 @@
                     },
                     {
                       "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::StopShaking"
-                      },
-                      "parameters": [
-                        "Player",
-                        "ShakeObject_PositionAngleScale",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
                       },
                       "parameters": [
                         "Player",
                         "ShakeObject_PositionAngleScale",
-                        "0.5",
+                        "0.6",
                         "7",
                         "7",
                         "5",
                         "10",
                         "0.2",
-                        "no",
+                        "",
                         ""
                       ]
                     },
@@ -3805,7 +4108,7 @@
                       "parameters": [
                         "Player",
                         "Health",
-                        "Random(30)",
+                        "Random(40)",
                         "",
                         "",
                         ""
@@ -3819,7 +4122,7 @@
                         "Dialogue",
                         "Text",
                         "=",
-                        "\"O inimigo ataca\""
+                        "\"Your enemy attacked you.\""
                       ]
                     },
                     {
@@ -3832,52 +4135,87 @@
                     },
                     {
                       "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                        "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
                       },
                       "parameters": [
                         "Player",
-                        "ShakeObject_PositionAngleScale",
+                        "ShakeObject_PositionAngle",
                         "0.5",
-                        "-2.5",
-                        "-2.5",
-                        "0",
+                        "3.5",
+                        "3.5",
                         "0",
                         "2",
-                        "no",
-                        ""
+                        "yes",
+                        "yes"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Wait"
+                        "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "EnemyTurn",
-                        "True",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "Turn",
-                        "False",
-                        ""
+                        "State",
+                        "=",
+                        "\"WaitPlayerChoice\""
                       ]
                     }
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "\"WaitEnemyChoice\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "State",
+                        "=",
+                        "\"PlayEnemyAttack\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -3887,7 +4225,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Battle end",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4371,26 +4708,9 @@
                     "\"0;0;0\"",
                     "1.5",
                     "\"Flash\"",
-                    "\"Forward\"",
+                    "\"Both\"",
                     "255",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"batalha\""
                   ]
                 },
                 {
@@ -4400,6 +4720,23 @@
                   "parameters": [
                     "Enemy",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"batalha\""
                   ]
                 }
               ]
@@ -4571,7 +4908,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0615714305219976,
+        "zoomFactor": 0.4633111824513978,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -5407,7 +5744,168 @@
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Cidade",
+      "name": "Dialogo",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogo"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "Prefeito "
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogo sistema ",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Prefeito_",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogo",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Prefeito\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"text\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ScrollClippedText"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "dialogo_",
+                    "Text",
+                    "=",
+                    "DialogueTree::ClippedLineText()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::GoToNextLine"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "",
