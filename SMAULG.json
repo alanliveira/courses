@@ -360,6 +360,21 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/b6451298a85b275ad943340bd1394f488fa5e07a4fe1f69dd1ebc11220647437_9patch_Bordered Hud Grey_all_32.png",
           "name": "9patch_Bordered Hud Grey_all_32.png"
         }
+      },
+      {
+        "file": "shadow fon.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "shadow fon.fnt",
+        "userAdded": false
+      },
+      {
+        "file": "shadow fon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shadow fon.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -511,7 +526,11 @@
   "objectsGroups": [
     {
       "name": "Npcs",
-      "objects": []
+      "objects": [
+        {
+          "name": "Prefeito_"
+        }
+      ]
     },
     {
       "name": "dialogo",
@@ -2450,7 +2469,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2467258695740638,
+        "zoomFactor": 0.6455105703311514,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -2516,8 +2535,8 @@
           "name": "Caixa_dialogo",
           "persistentUuid": "e14339d7-6f5f-47a9-95d7-0c2e6d1d7c3f",
           "width": 0,
-          "x": 352,
-          "y": 448,
+          "x": 358,
+          "y": 378,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2533,8 +2552,8 @@
           "name": "dialogo_",
           "persistentUuid": "b8caa98e-0daf-4dda-bccf-9da29ae917ec",
           "width": 249,
-          "x": 451,
-          "y": 468,
+          "x": 407,
+          "y": 407,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3032,7 +3051,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000009,
+        "zoomFactor": 0.4950840073748896,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3047,15 +3066,15 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
           "layer": "",
           "name": "Dialogue",
           "persistentUuid": "32ece32b-191a-4ee2-bd5a-8980b7683488",
-          "width": 0,
-          "x": 521,
-          "y": 551,
+          "width": 587,
+          "x": 584,
+          "y": 567,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3183,9 +3202,9 @@
           "layer": "",
           "name": "Bordered_Hud_Grey",
           "persistentUuid": "1b96f4ac-76f7-41b7-9451-7b7fd13969ca",
-          "width": 1280,
-          "x": -1,
-          "y": 478,
+          "width": 1261,
+          "x": 6,
+          "y": 476,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3459,11 +3478,11 @@
           "content": {
             "text": "A luta começa.",
             "opacity": 255,
-            "scale": 3,
+            "scale": 0.5,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "Gd.fnt",
-            "textureAtlasResourceName": "Gd.png",
+            "bitmapFontResourceName": "shadow fon.fnt",
+            "textureAtlasResourceName": "shadow fon.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -3947,7 +3966,7 @@
                         "Dialogue",
                         "Text",
                         "=",
-                        "\"You attacked your enemy.\""
+                        "\"Você ataca o inimigo.\""
                       ]
                     },
                     {
@@ -4122,7 +4141,7 @@
                         "Dialogue",
                         "Text",
                         "=",
-                        "\"Your enemy attacked you.\""
+                        "\"O inimigo te ataca.\""
                       ]
                     },
                     {
