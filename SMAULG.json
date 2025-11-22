@@ -427,6 +427,273 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
           "name": "Square White Slider Thumb.png"
         }
+      },
+      {
+        "file": "assets/DotGothic16-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "561d75b195f4dfcbdf0c38511984c83680574032d6b8c3c6a436a4fd32094320_DotGothic16-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/561d75b195f4dfcbdf0c38511984c83680574032d6b8c3c6a436a4fd32094320_DotGothic16-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Naian .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Down idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Down idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../../../TG/Naian Walk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._.._.._.._TG_Naian Walk.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._.._.._.._TG_Naian Walk.png\"}",
+        "name": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._.._.._.._TG_Naian Walk2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._.._.._.._TG_Naian Walk2.png\"}",
+        "name": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._.._.._.._TG_Naian Walk3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._.._.._.._TG_Naian Walk3.png\"}",
+        "name": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._.._.._.._TG_Naian Walk4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._.._.._.._TG_Naian Walk4.png\"}",
+        "name": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Naian Walk 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian Walk 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk 3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk 3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Naian Walk 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian Walk 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk 2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk 2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Naian Walk 4 .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian Walk 4 .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk 4 .png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk 4 ",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian Walk17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian Walk17",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -513,7 +780,7 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "idle baixo ",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -523,12 +790,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite5",
+                  "image": "Down idle2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 192,
+                    "y": 192
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -539,20 +806,1011 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 106,
+                        "y": 79
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 149,
+                        "y": 79
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 149,
+                        "y": 176
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "direita idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Player",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "esquerda idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Player2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle cima ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Player3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "andando Baixo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "..\\..\\..\\..\\..\\..\\TG\\Naian Walk4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Andando direita ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk 3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Andando esquerda ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk 2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Andando cima ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk 4 ",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian Walk17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 192,
+                    "y": 192
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
                       }
                     ]
                   ]
@@ -2537,7 +3795,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126339,
+        "zoomFactor": 0.7370816317994089,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -2570,8 +3828,8 @@
           "name": "Player",
           "persistentUuid": "050bc562-69e8-4934-ace7-7a74f0ce8787",
           "width": 0,
-          "x": 320,
-          "y": 256,
+          "x": 422,
+          "y": 392,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2813,7 +4071,7 @@
         {
           "assetStoreId": "",
           "bold": false,
-          "italic": false,
+          "italic": true,
           "name": "dialogo_",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -2824,7 +4082,7 @@
           "string": "aaaaa",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 16,
+          "characterSize": 15,
           "color": {
             "b": 0,
             "g": 0,
@@ -2834,7 +4092,7 @@
             "bold": false,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
-            "italic": false,
+            "italic": true,
             "outlineColor": "255;255;255",
             "outlineThickness": 2,
             "shadowAngle": 90,
@@ -2848,7 +4106,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 16,
+            "characterSize": 15,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -2984,6 +4242,13 @@
             "includeConfig": 0
           },
           "target": "Dialogo"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player"
         }
       ],
       "layers": [
@@ -3751,7 +5016,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "LifeBar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4500,7 +5764,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740938,
+        "zoomFactor": 0.3010461197182463,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4827,24 +6091,6 @@
                   ]
                 }
               ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Enemy follow player? (Não comecei ainda)",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
@@ -5975,7 +7221,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.33253870912507905,
+        "zoomFactor": 0.39251611754882454,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -6938,11 +8184,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -7215,6 +8456,456 @@
                       },
                       "parameters": []
                     }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Cidade",
+      "name": "Player",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Animation movement ",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"w\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Andando cima \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Andando cima \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Idle cima \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"w\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Idle cima \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"a\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Andando esquerda \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"a\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"esquerda idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Andando esquerda \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Andando esquerda \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"d\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Andando direita \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"d\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"direita idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Andando direita \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"direita idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"s\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"andando Baixo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"s\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"idle baixo \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Down\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"andando Baixo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Down\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"idle baixo \""
                   ]
                 }
               ]
