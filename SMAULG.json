@@ -1858,6 +1858,12 @@
         },
         {
           "name": "dialogo_"
+        },
+        {
+          "name": "dialogue_title_character"
+        },
+        {
+          "name": "dialogue_keyboard_interact"
         }
       ]
     },
@@ -3794,7 +3800,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -3802,8 +3808,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.3010461197182499,
+        "snap": true,
+        "zoomFactor": 1.7458023987468065,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3880,15 +3886,48 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 60,
+          "height": 46,
           "keepRatio": true,
           "layer": "",
           "name": "dialogo_",
           "persistentUuid": "b8caa98e-0daf-4dda-bccf-9da29ae917ec",
-          "width": 249,
-          "x": 407,
-          "y": 407,
+          "width": 352,
+          "x": 384,
+          "y": 416,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogue_title_character",
+          "persistentUuid": "ad06035a-a897-4cfd-b4fc-2c9f8568f8c3",
+          "width": 352,
+          "x": 384,
+          "y": 401,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogue_keyboard_interact",
+          "persistentUuid": "513c8f8b-03e3-482d-8712-2fceeae9969c",
+          "width": 0,
+          "x": 716,
+          "y": 448,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4118,22 +4157,119 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": true,
+          "name": "dialogue_title_character",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "<<Personagem>>",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 15,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": true,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "<<Personagem>>",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 15,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "dialogue_keyboard_interact",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[E]",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 10,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[E]",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 10,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "dialogos",
+            "children": [
+              {
+                "objectName": "dialogo_"
+              },
+              {
+                "objectName": "Caixa_dialogo"
+              },
+              {
+                "objectName": "dialogue_title_character"
+              },
+              {
+                "objectName": "dialogue_keyboard_interact"
+              }
+            ]
+          },
+          {
             "objectName": "Cidade"
           },
           {
             "objectName": "Prefeito_"
-          },
-          {
-            "objectName": "Caixa_dialogo"
-          },
-          {
-            "objectName": "dialogo_"
           }
         ]
       },
@@ -8983,6 +9119,25 @@
                     "=",
                     "DialogueTree::ClippedLineText()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "dialogue_title_character",
+                    "Text",
+                    "=",
+                    "DialogueTree::BranchTitle()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogue_keyboard_interact"
+                  ]
                 }
               ],
               "events": [
@@ -9017,6 +9172,89 @@
                         "value": "DialogueTree::GoToNextLine"
                       },
                       "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "dialogue_keyboard_interact",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::IsDialogueRunning"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "dialogue_keyboard_interact",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "dialogo"
+                      ]
                     }
                   ]
                 }
