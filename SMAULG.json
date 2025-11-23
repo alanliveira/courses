@@ -702,6 +702,22 @@
         "name": "casa_do_nian.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "personagens.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "personagens.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -802,8 +818,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 128,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -851,8 +867,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 128,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -900,8 +916,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 128,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -949,8 +965,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 128,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -998,8 +1014,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 128,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1034,8 +1050,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 128,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1070,8 +1086,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 128,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1106,8 +1122,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 128,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1757,8 +1773,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 64,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1793,8 +1809,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 192,
-                    "y": 192
+                    "x": 64,
+                    "y": 128
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3809,7 +3825,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.7458023987468065,
+        "zoomFactor": 0.7130377630690506,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3842,8 +3858,8 @@
           "name": "Player",
           "persistentUuid": "050bc562-69e8-4934-ace7-7a74f0ce8787",
           "width": 0,
-          "x": 422,
-          "y": 392,
+          "x": 352,
+          "y": 352,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4528,7 +4544,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104509,
+        "zoomFactor": 0.3216911764705893,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4592,14 +4608,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 229,
+          "depth": 1,
+          "height": 411,
           "layer": "",
           "name": "Enemy",
           "persistentUuid": "8622bfa1-d327-4d04-bef5-66bfd5e0fb86",
-          "width": 164,
-          "x": 848,
-          "y": 113,
+          "width": 566,
+          "x": 647,
+          "y": -16,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -4842,16 +4858,17 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "NewSprite4",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite4.png",
+                      "image": "NewSprite14",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4867,20 +4884,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 18,
-                            "y": 11
+                            "x": 69,
+                            "y": 68
                           },
                           {
-                            "x": 42,
-                            "y": 11
+                            "x": 123,
+                            "y": 68
                           },
                           {
-                            "x": 42,
-                            "y": 56
+                            "x": 123,
+                            "y": 124
                           },
                           {
-                            "x": 18,
-                            "y": 56
+                            "x": 69,
+                            "y": 124
                           }
                         ]
                       ]
@@ -4925,8 +4942,8 @@
             "BarBottomPadding": 6,
             "BarLeftPadding": 4,
             "BarRightPadding": 4,
-            "MaxValue": 100,
-            "InitialValue": 100
+            "MaxValue": 150,
+            "InitialValue": 150
           }
         },
         {
@@ -5161,7 +5178,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "LifeBar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5189,7 +5205,7 @@
                     "Enemy_life",
                     "Resizable",
                     "=",
-                    "100*(Enemy.Health::Health()/Enemy.Health::MaxHealth())"
+                    "150*(Enemy.Health::Health()/Enemy.Health::MaxHealth())"
                   ]
                 },
                 {
@@ -5210,7 +5226,7 @@
                   "parameters": [
                     "Enemy_life",
                     "=",
-                    "100",
+                    "150",
                     ""
                   ]
                 }
@@ -7915,7 +7931,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5290357402156868,
+        "zoomFactor": 0.34375202416123324,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -9274,6 +9290,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Animation movement ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
