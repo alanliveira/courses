@@ -718,6 +718,126 @@
         "name": "NewSprite14",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Naian_sentado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian_sentado.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Naian_sentado_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian_sentado_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Naian_fazendo_anotacoes_(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian_fazendo_anotacoes_(1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Naian_pegando_item_(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian_pegando_item_(1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pegando item direita.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pegando item direita",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pegando item direita2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pegando item direita2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pegando item direita3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pegando item direita3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pegando item direita4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pegando item direita4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pegando item direita5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pegando item direita5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Naian_pegando_item_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Naian_pegando_item_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian_pegando_item_2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian_pegando_item_2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian_pegando_item_3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian_pegando_item_3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian_pegando_item_4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian_pegando_item_4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian_pegando_item_5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian_pegando_item_5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Naian_pegando_item_6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Naian_pegando_item_6",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1811,6 +1931,536 @@
                     "name": "origine",
                     "x": 64,
                     "y": 128
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sentado direita ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian_sentado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sentado esquerda ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian_sentado_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Anotando ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian_fazendo_anotacoes_(1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pegando item direita",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pegando item direita",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pegando item direita2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pegando item direita3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pegando item direita4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pegando item direita5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pegando item esquerda ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian_pegando_item_2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian_pegando_item_3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian_pegando_item_4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian_pegando_item_5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 106,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 79
+                      },
+                      {
+                        "x": 149,
+                        "y": 176
+                      },
+                      {
+                        "x": 106,
+                        "y": 176
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Naian_pegando_item_6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3825,7 +4475,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8700232859857427,
+        "zoomFactor": 0.24672586957406703,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4551,7 +5201,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3216911764705893,
+        "zoomFactor": 0.5117784035210186,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -5185,6 +5835,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "LifeBar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7252,7 +7903,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245139835,
+        "zoomFactor": 0.4481978045410364,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7368,7 +8019,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Animation movement ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7938,7 +8588,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.34375202416123324,
+        "zoomFactor": 0.2912258866911129,
         "windowMask": false,
         "selectedLayer": ""
       },
