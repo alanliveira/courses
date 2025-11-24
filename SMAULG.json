@@ -3825,7 +3825,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7130377630690506,
+        "zoomFactor": 0.8700232859857427,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3884,15 +3884,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "Caixa_dialogo",
           "persistentUuid": "e14339d7-6f5f-47a9-95d7-0c2e6d1d7c3f",
-          "width": 0,
-          "x": 358,
-          "y": 378,
+          "width": 1216,
+          "x": 32,
+          "y": 512,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3902,14 +3903,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 46,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "dialogo_",
           "persistentUuid": "b8caa98e-0daf-4dda-bccf-9da29ae917ec",
-          "width": 352,
-          "x": 384,
-          "y": 416,
+          "width": 1088,
+          "x": 96,
+          "y": 576,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3925,8 +3926,8 @@
           "name": "dialogue_title_character",
           "persistentUuid": "ad06035a-a897-4cfd-b4fc-2c9f8568f8c3",
           "width": 352,
-          "x": 384,
-          "y": 401,
+          "x": 96,
+          "y": 553,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3934,15 +3935,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "dialogue_keyboard_interact",
           "persistentUuid": "513c8f8b-03e3-482d-8712-2fceeae9969c",
-          "width": 0,
-          "x": 716,
-          "y": 448,
+          "width": 32,
+          "x": 1152,
+          "y": 640,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -4265,6 +4267,14 @@
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "NPC'S",
+            "children": [
+              {
+                "objectName": "Prefeito_"
+              }
+            ]
+          },
+          {
             "folderName": "dialogos",
             "children": [
               {
@@ -4283,9 +4293,6 @@
           },
           {
             "objectName": "Cidade"
-          },
-          {
-            "objectName": "Prefeito_"
           }
         ]
       },
