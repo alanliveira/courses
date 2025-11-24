@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
-    "name": "Shadow Trails",
+    "name": "SMAULG",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -28,35 +28,7 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {
-      "android-icon-144": "",
-      "android-icon-192": "",
-      "android-icon-36": "",
-      "android-icon-48": "",
-      "android-icon-72": "",
-      "android-icon-96": "",
-      "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "",
-      "ios-icon-100": "",
-      "ios-icon-1024": "",
-      "ios-icon-114": "",
-      "ios-icon-120": "",
-      "ios-icon-144": "",
-      "ios-icon-152": "",
-      "ios-icon-167": "",
-      "ios-icon-180": "",
-      "ios-icon-20": "",
-      "ios-icon-29": "",
-      "ios-icon-40": "",
-      "ios-icon-50": "",
-      "ios-icon-57": "",
-      "ios-icon-58": "",
-      "ios-icon-60": "",
-      "ios-icon-72": "",
-      "ios-icon-76": "",
-      "ios-icon-80": "",
-      "ios-icon-87": ""
-    },
+    "platformSpecificAssets": {},
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -780,132 +752,18 @@
         "userAdded": false
       },
       {
-        "file": "menu principal.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "menu principal.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "Naian_sentado2.png",
+        "file": "cidade2.png",
         "kind": "image",
         "metadata": "",
-        "name": "Naian_sentado2.png",
+        "name": "cidade2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "Naian_sentado_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Naian_sentado_3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Naian_fazendo_anotacoes_(1)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Naian_fazendo_anotacoes_(1)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Naian_pegando_item_(1)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Naian_pegando_item_(1)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_(1)2.png",
+        "file": "assets/colisao_cidade.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_(1)2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_(1)3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_(1)3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_(1)4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_(1)4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_(1)5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_(1)5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_(1)6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_(1)6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Naian_pegando_item_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Naian_pegando_item_3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_7",
+        "name": "colisao_cidade",
         "smoothed": false,
         "userAdded": false
       }
@@ -2032,536 +1890,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Sentado direita ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_sentado2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 64,
-                    "y": 64
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sentado esquerda ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_sentado_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 64,
-                    "y": 64
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Anotando ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_fazendo_anotacoes_(1)2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 64,
-                    "y": 64
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Pegando item direita ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_(1)2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_(1)3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_(1)4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_(1)5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_(1)6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Pegando item esquerda",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_7",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 128,
-                    "y": 192
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     }
@@ -2614,25 +1942,30 @@
   ],
   "variables": [
     {
+      "name": "Turn",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "EnemyTurn",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "Settings",
       "type": "structure",
       "children": [
         {
           "name": "Music",
           "type": "number",
-          "value": 10
+          "value": 0
         },
         {
           "name": "Sound",
           "type": "number",
-          "value": 10
+          "value": 0
         }
       ]
-    },
-    {
-      "name": "TempSettings",
-      "type": "string",
-      "value": ""
     }
   ],
   "layouts": [
@@ -4531,7 +3864,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -4539,8 +3872,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.19561100536769666,
+        "snap": true,
+        "zoomFactor": 0.9296875000000211,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4558,7 +3891,7 @@
           "width": 0,
           "x": 352,
           "y": 352,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4586,7 +3919,7 @@
           "depth": 1,
           "height": 192,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "Caixa_dialogo",
           "persistentUuid": "e14339d7-6f5f-47a9-95d7-0c2e6d1d7c3f",
           "width": 1216,
@@ -4603,10 +3936,10 @@
           "depth": 1,
           "height": 96,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "dialogo_",
           "persistentUuid": "b8caa98e-0daf-4dda-bccf-9da29ae917ec",
-          "width": 1088,
+          "width": 1024,
           "x": 96,
           "y": 576,
           "zOrder": 5,
@@ -4618,14 +3951,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 17,
+          "height": 32,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "dialogue_title_character",
           "persistentUuid": "ad06035a-a897-4cfd-b4fc-2c9f8568f8c3",
           "width": 352,
           "x": 96,
-          "y": 553,
+          "y": 560,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -4635,14 +3968,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 48,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "dialogue_keyboard_interact",
           "persistentUuid": "513c8f8b-03e3-482d-8712-2fceeae9969c",
-          "width": 32,
-          "x": 1152,
-          "y": 640,
+          "width": 64,
+          "x": 1120,
+          "y": 648,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -4675,7 +4008,7 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 2,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4683,7 +4016,7 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "nozes",
           "type": "Sprite",
@@ -4722,15 +4055,313 @@
                             "y": 0
                           },
                           {
+                            "x": 172,
+                            "y": 0
+                          },
+                          {
+                            "x": 253.5,
+                            "y": 62
+                          },
+                          {
+                            "x": 250,
+                            "y": 164
+                          },
+                          {
+                            "x": 209.5,
+                            "y": 266
+                          },
+                          {
+                            "x": 107,
+                            "y": 347.5
+                          },
+                          {
+                            "x": 0,
+                            "y": 385
+                          }
+                        ],
+                        [
+                          {
+                            "x": 461,
+                            "y": 0
+                          },
+                          {
+                            "x": 2029.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 1948,
+                            "y": 113
+                          },
+                          {
+                            "x": 1026,
+                            "y": 106
+                          },
+                          {
+                            "x": 825,
+                            "y": 126.5
+                          },
+                          {
+                            "x": 600.5,
+                            "y": 215
+                          },
+                          {
+                            "x": 468,
+                            "y": 205
+                          }
+                        ],
+                        [
+                          {
+                            "x": 1995.5,
+                            "y": 402
+                          },
+                          {
+                            "x": 2162.5,
+                            "y": 399
+                          },
+                          {
+                            "x": 2203,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 2298.5,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 2397,
+                            "y": 242.5
+                          },
+                          {
+                            "x": 2424.5,
+                            "y": 0
+                          },
+                          {
                             "x": 2560,
                             "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 507.5
+                          },
+                          {
+                            "x": 2294.75,
+                            "y": 499
+                          },
+                          {
+                            "x": 2029.5,
+                            "y": 490.5
+                          }
+                        ],
+                        [
+                          {
+                            "x": 461,
+                            "y": 575.5
+                          },
+                          {
+                            "x": 674.5,
+                            "y": 579
+                          },
+                          {
+                            "x": 766.5,
+                            "y": 481.5
+                          },
+                          {
+                            "x": 866,
+                            "y": 456.5
+                          },
+                          {
+                            "x": 866.5,
+                            "y": 741.5
+                          },
+                          {
+                            "x": 743,
+                            "y": 807
+                          },
+                          {
+                            "x": 643,
+                            "y": 723
+                          },
+                          {
+                            "x": 470,
+                            "y": 733.5
+                          }
+                        ],
+                        [
+                          {
+                            "x": 0,
+                            "y": 678
+                          },
+                          {
+                            "x": 94,
+                            "y": 590.5
+                          },
+                          {
+                            "x": 226,
+                            "y": 590.5
+                          },
+                          {
+                            "x": 233,
+                            "y": 740
+                          },
+                          {
+                            "x": 120,
+                            "y": 864.5
+                          },
+                          {
+                            "x": 87,
+                            "y": 1076.5
+                          },
+                          {
+                            "x": 101.5,
+                            "y": 1789.5
+                          },
+                          {
+                            "x": 182,
+                            "y": 2034
+                          },
+                          {
+                            "x": 361,
+                            "y": 2261
+                          },
+                          {
+                            "x": 470.5,
+                            "y": 2220.5
+                          },
+                          {
+                            "x": 569.5,
+                            "y": 2250
+                          },
+                          {
+                            "x": 675.5,
+                            "y": 2235.5
+                          },
+                          {
+                            "x": 789,
+                            "y": 2323
+                          },
+                          {
+                            "x": 920.5,
+                            "y": 2319.5
+                          },
+                          {
+                            "x": 1001,
+                            "y": 2363
+                          },
+                          {
+                            "x": 1074,
+                            "y": 2308.5
+                          },
+                          {
+                            "x": 1205.5,
+                            "y": 2323
+                          },
+                          {
+                            "x": 1194.5,
+                            "y": 2418
+                          },
+                          {
+                            "x": 1355.5,
+                            "y": 2506
+                          },
+                          {
+                            "x": 1498,
+                            "y": 2476.5
+                          },
+                          {
+                            "x": 1644,
+                            "y": 2498.5
+                          },
+                          {
+                            "x": 1662.5,
+                            "y": 2560
+                          },
+                          {
+                            "x": 0,
+                            "y": 2560
+                          }
+                        ],
+                        [
+                          {
+                            "x": 1907.5,
+                            "y": 2484
+                          },
+                          {
+                            "x": 2097.5,
+                            "y": 2432.5
+                          },
+                          {
+                            "x": 2141.5,
+                            "y": 2315.5
+                          },
+                          {
+                            "x": 2331.5,
+                            "y": 2136.5
+                          },
+                          {
+                            "x": 2382.5,
+                            "y": 1965
+                          },
+                          {
+                            "x": 2375,
+                            "y": 1727
+                          },
+                          {
+                            "x": 2393.5,
+                            "y": 1431
+                          },
+                          {
+                            "x": 2269,
+                            "y": 1361.5
+                          },
+                          {
+                            "x": 2273,
+                            "y": 1193.5
+                          },
+                          {
+                            "x": 2130.5,
+                            "y": 1124
+                          },
+                          {
+                            "x": 2024.5,
+                            "y": 959.5
+                          },
+                          {
+                            "x": 1845,
+                            "y": 941.5
+                          },
+                          {
+                            "x": 1808.5,
+                            "y": 828
+                          },
+                          {
+                            "x": 1699,
+                            "y": 813.5
+                          },
+                          {
+                            "x": 1673.5,
+                            "y": 711
+                          },
+                          {
+                            "x": 1552.5,
+                            "y": 649
+                          },
+                          {
+                            "x": 1765,
+                            "y": 641.5
+                          },
+                          {
+                            "x": 1878,
+                            "y": 762
+                          },
+                          {
+                            "x": 2550.5,
+                            "y": 773
                           },
                           {
                             "x": 2560,
                             "y": 2560
                           },
                           {
-                            "x": 0,
+                            "x": 1881.5,
                             "y": 2560
                           }
                         ]
@@ -4877,7 +4508,7 @@
           "string": "aaaaa",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 15,
+          "characterSize": 25,
           "color": {
             "b": 0,
             "g": 0,
@@ -4901,7 +4532,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 15,
+            "characterSize": 25,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -4920,7 +4551,7 @@
           "string": "<<Personagem>>",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 15,
+          "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
@@ -4944,7 +4575,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
-            "characterSize": 15,
+            "characterSize": 20,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -4962,8 +4593,8 @@
           "behaviors": [],
           "string": "[E]",
           "font": "",
-          "textAlignment": "left",
-          "characterSize": 10,
+          "textAlignment": "center",
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -4985,9 +4616,9 @@
             "underlined": false,
             "text": "[E]",
             "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 10,
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 30,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -5012,7 +4643,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "cidade.png",
+                      "image": "cidade2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5057,7 +4688,7 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "folderName": "Cidades",
+            "folderName": "Cidade",
             "children": [
               {
                 "objectName": "nozes"
@@ -5214,6 +4845,22 @@
             "includeConfig": 0
           },
           "target": "Player"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "nozes",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -5243,6 +4890,59 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "HUD",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -5488,22 +5188,6 @@
           "x": 10,
           "y": 494,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Transition",
-          "persistentUuid": "bf44a86a-52ce-4d58-afcf-2da3afa5338b",
-          "width": 0,
-          "x": 208,
-          "y": -370,
-          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5900,6 +5584,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "No inicio ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5926,7 +5611,7 @@
                     "FlashTransitionPainter",
                     "\"0;0;0\"",
                     "0.5",
-                    "\"Flash\"",
+                    "\"Circular\"",
                     "\"Backward\"",
                     "255",
                     ""
@@ -6060,6 +5745,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player turn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6313,6 +5999,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Turn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6542,6 +6229,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Battle end",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8062,7 +7750,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156847,
+        "zoomFactor": 0.46331118245139835,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -8748,7 +8436,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.26364576737708145,
+        "zoomFactor": 0.34375202416123324,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -8771,7 +8459,13 @@
           ]
         }
       ],
-      "variables": [],
+      "variables": [
+        {
+          "name": "TempSettings",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -9369,30 +9063,25 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "folderName": "Button",
-            "children": [
-              {
-                "objectName": "Config"
-              },
-              {
-                "objectName": "Voltar"
-              },
-              {
-                "objectName": "Jogar"
-              },
-              {
-                "objectName": "SoundVolume"
-              },
-              {
-                "objectName": "MusicVolume"
-              },
-              {
-                "objectName": "Title"
-              },
-              {
-                "objectName": "Sair"
-              }
-            ]
+            "objectName": "Title"
+          },
+          {
+            "objectName": "Jogar"
+          },
+          {
+            "objectName": "Config"
+          },
+          {
+            "objectName": "Voltar"
+          },
+          {
+            "objectName": "SoundVolume"
+          },
+          {
+            "objectName": "MusicVolume"
+          },
+          {
+            "objectName": "Sair"
           },
           {
             "objectName": "Mark"
@@ -9454,32 +9143,8 @@
                 "value": "JSONToVariableStructure2"
               },
               "parameters": [
-                "\"Variable(TempSettings)\"",
+                "\"VariableString(TempSettings)\"",
                 "Settings"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "menu principal.mp3",
-                "1",
-                "yes",
-                "GlobalVariable(Settings.Music)",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVolumeMusicCanal"
-              },
-              "parameters": [
-                "",
-                "1",
-                "=",
-                "VariableChildCount(Settings.Music)"
               ]
             },
             {
@@ -9554,16 +9219,6 @@
           "actions": [
             {
               "type": {
-                "value": "EcrireFichierTxt"
-              },
-              "parameters": [
-                "\"Settings\"",
-                "\"Settings\"",
-                "GlobalVarToJSON(Settings)"
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::TweenCameraPosition2"
               },
               "parameters": [
@@ -9574,6 +9229,16 @@
                 "",
                 "\"easeInOutQuad\"",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"Settings\"",
+                "\"Settings\"",
+                "GlobalVarToJSON(Settings)"
               ]
             }
           ]
@@ -9675,20 +9340,9 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Settings.Music",
+                "Settings.Sound",
                 "=",
                 "Musica.Value()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVolumeMusicCanal"
-              },
-              "parameters": [
-                "",
-                "1",
-                "=",
-                "VariableChildCount(Settings.Music)"
               ]
             }
           ]
