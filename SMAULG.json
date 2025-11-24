@@ -720,122 +720,34 @@
         "userAdded": false
       },
       {
-        "file": "Naian_sentado.png",
+        "file": "forest.png",
         "kind": "image",
         "metadata": "",
-        "name": "Naian_sentado.png",
+        "name": "forest.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "Naian_sentado_2.png",
+        "file": "forest2.png",
         "kind": "image",
         "metadata": "",
-        "name": "Naian_sentado_2.png",
+        "name": "forest2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "Naian_fazendo_anotacoes_(1).png",
+        "file": "cidade.png",
         "kind": "image",
         "metadata": "",
-        "name": "Naian_fazendo_anotacoes_(1).png",
+        "name": "cidade.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "Naian_pegando_item_(1).png",
+        "file": "forest (1).png",
         "kind": "image",
         "metadata": "",
-        "name": "Naian_pegando_item_(1).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Pegando item direita.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pegando item direita",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Pegando item direita2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pegando item direita2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Pegando item direita3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pegando item direita3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Pegando item direita4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pegando item direita4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Pegando item direita5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pegando item direita5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Naian_pegando_item_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Naian_pegando_item_2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Naian_pegando_item_6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Naian_pegando_item_6",
+        "name": "forest (1).png",
         "smoothed": false,
         "userAdded": false
       }
@@ -1931,536 +1843,6 @@
                     "name": "origine",
                     "x": 64,
                     "y": 128
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sentado direita ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_sentado.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sentado esquerda ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_sentado_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Anotando ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_fazendo_anotacoes_(1).png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Pegando item direita",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Pegando item direita",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Pegando item direita2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Pegando item direita3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Pegando item direita4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Pegando item direita5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Pegando item esquerda ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 106,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 79
-                      },
-                      {
-                        "x": 149,
-                        "y": 176
-                      },
-                      {
-                        "x": 106,
-                        "y": 176
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Naian_pegando_item_6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4466,7 +3848,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -4474,31 +3856,14 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.24672586957406703,
+        "snap": false,
+        "zoomFactor": 0.291225886691117,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 2560,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Cidade",
-          "persistentUuid": "f1049292-3bc2-48b1-91ba-48da141cca87",
-          "width": 2432,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -4599,13 +3964,45 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 2560,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Cidade",
+          "persistentUuid": "8ddf20cf-00a0-4c03-a88d-9814ec68998f",
+          "width": 2560,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "nozes",
+          "persistentUuid": "33e47b15-dceb-43ff-87a7-3254272c991d",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Cidade",
+          "name": "nozes",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4622,7 +4019,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Image.png",
+                      "image": "forest (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4642,16 +4039,16 @@
                             "y": 0
                           },
                           {
-                            "x": 1216,
+                            "x": 2560,
                             "y": 0
                           },
                           {
-                            "x": 1216,
-                            "y": 1280
+                            "x": 2560,
+                            "y": 2560
                           },
                           {
                             "x": 0,
-                            "y": 1280
+                            "y": 2560
                           }
                         ]
                       ]
@@ -4911,11 +4308,82 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Cidade",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "cidade.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 2560
+                          },
+                          {
+                            "x": 0,
+                            "y": 2560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Cidades",
+            "children": [
+              {
+                "objectName": "nozes"
+              },
+              {
+                "objectName": "Cidade"
+              }
+            ]
+          },
           {
             "folderName": "NPC'S",
             "children": [
@@ -4940,9 +4408,6 @@
                 "objectName": "dialogue_keyboard_interact"
               }
             ]
-          },
-          {
-            "objectName": "Cidade"
           }
         ]
       },
@@ -5201,7 +4666,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210186,
+        "zoomFactor": 0.3216911764705893,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -5835,7 +5300,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "LifeBar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7903,7 +7367,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410364,
+        "zoomFactor": 0.46331118245139835,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -8019,6 +7483,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Animation movement ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8588,7 +8053,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2912258866911129,
+        "zoomFactor": 0.34375202416123324,
         "windowMask": false,
         "selectedLayer": ""
       },
