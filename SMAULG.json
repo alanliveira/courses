@@ -1578,6 +1578,14 @@
         "metadata": "",
         "name": "assets\\teste_dialog.json",
         "userAdded": false
+      },
+      {
+        "file": "papper-notes2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "papper-notes2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1636,15 +1644,14 @@
           "Topdown": "TopDownMovement"
         },
         {
-          "isFolded": true,
+          "angularMaxSpeed": 0,
+          "deceleration": 800,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
-          "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
-          "deceleration": 800,
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
@@ -2714,6 +2721,18 @@
       "objects": [
         {
           "name": "Prefeito_"
+        },
+        {
+          "name": "ante_comerciante"
+        },
+        {
+          "name": "eito_prefeito"
+        },
+        {
+          "name": "eiro_fazendeiro"
+        },
+        {
+          "name": "dercy_crianca_irritante"
         }
       ]
     },
@@ -2775,6 +2794,42 @@
       "name": "can_move",
       "type": "boolean",
       "value": true
+    },
+    {
+      "name": "notes",
+      "type": "array",
+      "children": []
+    },
+    {
+      "name": "id_notes",
+      "type": "array",
+      "children": []
+    },
+    {
+      "name": "note_object",
+      "type": "structure",
+      "children": [
+        {
+          "name": "description",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "player_naian_direction_animation",
+      "type": "string",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -4662,9 +4717,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.43357743047025127,
+        "zoomFactor": 0.8700232859857573,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "HUD"
       },
       "objectsGroups": [],
       "variables": [],
@@ -4850,6 +4905,40 @@
           "x": 1536,
           "y": 2336,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "img_note_count",
+          "persistentUuid": "d925055f-7581-4e68-80af-50fdd9abbf12",
+          "width": 64,
+          "x": 32,
+          "y": 32,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "txt_note_count",
+          "persistentUuid": "0106a678-b84d-4b49-9578-ab16c7a97eb5",
+          "width": 32,
+          "x": 64,
+          "y": 112,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5658,11 +5747,130 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "img_note_count",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "papper-notes2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 169
+                          },
+                          {
+                            "x": 0,
+                            "y": 169
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "txt_note_count",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "alagard.ttf",
+          "textAlignment": "center",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "alagard.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "HUD",
+            "children": [
+              {
+                "folderName": "notes_count",
+                "children": [
+                  {
+                    "objectName": "img_note_count"
+                  },
+                  {
+                    "objectName": "txt_note_count"
+                  }
+                ]
+              }
+            ]
+          },
           {
             "folderName": "spawners"
           },
@@ -5821,20 +6029,6 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Dialogo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Player"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -5849,6 +6043,27 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogo"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "HUD"
         }
       ],
       "layers": [
@@ -11132,7 +11347,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Colisoes",
+          "name": "Ações",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -11145,7 +11360,7 @@
                   },
                   "parameters": [
                     "player_naian",
-                    "eito_prefeito",
+                    "Npcs",
                     "",
                     "",
                     ""
@@ -11170,10 +11385,13 @@
                 },
                 {
                   "type": {
-                    "value": "DialogueTree::StartDialogueFromBranch"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "\"Start\""
+                    "player_naian",
+                    "Animation",
+                    "=",
+                    "player_naian_direction_animation"
                   ]
                 },
                 {
@@ -11199,66 +11417,207 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Eito, o Prefeito",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "player_naian",
-                    "ante_comerciante",
-                    "",
-                    "",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "player_naian",
+                        "eito_prefeito",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ArrayTools::HasNumber"
+                          },
+                          "parameters": [
+                            "",
+                            "id_notes",
+                            "1",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DialogueTree::StartDialogueFromBranch"
+                          },
+                          "parameters": [
+                            "\"PrefeitoComAnotacao\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ArrayTools::HasNumber"
+                          },
+                          "parameters": [
+                            "",
+                            "id_notes",
+                            "1",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DialogueTree::StartDialogueFromBranch"
+                          },
+                          "parameters": [
+                            "\"PrefeitoSemAnotacao\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "DialogueTree::IsDialogueRunning"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ArrayTools::HasNumber"
+                          },
+                          "parameters": [
+                            "",
+                            "id_notes",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DialogueTree::WasBranchVisited"
+                          },
+                          "parameters": [
+                            "\"PrefeitoSemAnotacao\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "note_object.id",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "note_object.title",
+                            "=",
+                            "\"Eito, o Prefeito\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "note_object.description",
+                            "=",
+                            "\"Pequenas chamas que andam… Eu não sei ao certo mas certamente é estranho. Espíritos de fogos ou elementais assim… não deveriam existir nessa área, ou pelo menos…deveriam estar próximos do vulcão.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PushVariable"
+                          },
+                          "parameters": [
+                            "notes",
+                            "note_object"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PushVariable"
+                          },
+                          "parameters": [
+                            "id_notes",
+                            "note_object.id"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "note_object.id",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "note_object.title",
+                            "=",
+                            "\"\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "note_object.description",
+                            "=",
+                            "\"\""
+                          ]
+                        }
+                      ]
+                    }
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "dialogo",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::StartDialogueFromBranch"
-                  },
-                  "parameters": [
-                    "\"ComercianteComAnotacao\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "player_naian",
-                    "TopDownMovement",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "can_move",
-                    "False",
-                    ""
-                  ]
-                }
-              ]
+              "parameters": []
             }
           ],
           "parameters": []
@@ -11280,7 +11639,7 @@
                     "value": "DialogueTree::IsCommandCalled"
                   },
                   "parameters": [
-                    "\"dialogue_title_character\""
+                    "\"titleDialog\""
                   ]
                 }
               ],
@@ -11299,6 +11658,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11516,7 +11876,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Walk's",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -11545,6 +11904,16 @@
                             "=",
                             "\"walk-up\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "player_naian_direction_animation",
+                            "=",
+                            "\"idle-up\""
+                          ]
                         }
                       ]
                     },
@@ -11571,6 +11940,16 @@
                             "Animation",
                             "=",
                             "\"walk-up\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "player_naian_direction_animation",
+                            "=",
+                            "\"idle-up\""
                           ]
                         }
                       ]
@@ -11599,6 +11978,16 @@
                             "=",
                             "\"walk-left\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "player_naian_direction_animation",
+                            "=",
+                            "\"idle-left\""
+                          ]
                         }
                       ]
                     },
@@ -11625,6 +12014,16 @@
                             "Animation",
                             "=",
                             "\"walk-left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "player_naian_direction_animation",
+                            "=",
+                            "\"idle-left\""
                           ]
                         }
                       ]
@@ -11653,6 +12052,16 @@
                             "=",
                             "\"walk-right\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "player_naian_direction_animation",
+                            "=",
+                            "\"idle-right\""
+                          ]
                         }
                       ]
                     },
@@ -11679,6 +12088,16 @@
                             "Animation",
                             "=",
                             "\"walk-right\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "player_naian_direction_animation",
+                            "=",
+                            "\"idle-right\""
                           ]
                         }
                       ]
@@ -11707,6 +12126,16 @@
                             "=",
                             "\"walk-down\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "player_naian_direction_animation",
+                            "=",
+                            "\"idle-down\""
+                          ]
                         }
                       ]
                     },
@@ -11733,6 +12162,16 @@
                             "Animation",
                             "=",
                             "\"walk-down\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "player_naian_direction_animation",
+                            "=",
+                            "\"idle-down\""
                           ]
                         }
                       ]
@@ -11972,6 +12411,29 @@
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Cidade",
+      "name": "HUD",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "txt_note_count",
+                "Text",
+                "=",
+                "ToString(VariableChildCount(id_notes))"
+              ]
+            }
+          ]
         }
       ]
     }

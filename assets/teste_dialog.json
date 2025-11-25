@@ -1,11 +1,21 @@
 [
 	{
-		"title": "Start",
+		"title": "PrefeitoSemAnotacao",
 		"tags": "",
-		"body": "<< dialogue_title_character prefeito >>\nAh naian e lohan, bom te ver novamente.\n<< dialogue_title_character naian>>\nBom dia senhor prefeito, como anda você?\n<< dialogue_title_character lohan >>\nwooof!\n<< dialogue_title_character prefeito >>\nEu estou bem, mas me preocupa bastante esses rumores próximos daquela velha mansão…\n<< dialogue_title_character naian >>\nÉ… ultimamente as coisas andavam tão calmas por aqui e agora isso…\nMas não se preocupe, eu pretendo dar uma olhada lá\n<< dialogue_title_character prefeito >>\nHmm? Isso seria ótimo, eu estava para pedir para vocês ir lá mesmo.\n<< dialogue_title_character naian >>\nEu ia te falar sobre isso… mas, o que você ouviu que anda acontecendo lá?\n<< dialogue_title_character prefeito >>\nOuvi dizer que pequenas chamas estavam andando pela floresta… pela mansão… como se fossem espíritos ou algo assim, mas não sei se é verdade pois só foram vistas uma vez.\n<< dialogue_title_character lohan >>\nuuuuu?\n<< dialogue_title_character naian >>\nPequenas chamas… tudo bem, obrigado pela informação.\n<< dialogue_title_character prefeito >>\nQue nada naian, eu que agradeço pela sua ajuda.\n<< dialogue_title_character naian >>\nSe permitir, irei retirar… preciso me preparar para ir para a mansão.\n<< dialogue_title_character prefeito >>\nTudo bem, fique bem naian.\nE lohan também!\n<< dialogue_title_character lohan >>\nwooof!\n<< dialogue_title_character naian >>\nSim prefeito, você também.",
+		"body": "<< titleDialog Eito >>\nAh Naian e Lohan, bom te ver novamente.\n<< titleDialog Naian >>\nBom dia senhor Prefeito Eito, como anda você?\n<< titleDialog Lohan >>\nWooof!\n<< titleDialog Eito >>\nEu estou bem, mas me preocupa bastante esses rumores próximos daquela velha mansão…\n<< titleDialog Naian >>\nÉ… ultimamente as coisas andavam tão calmas por aqui e agora isso…\nMas não se preocupe, eu pretendo dar uma olhada lá.\n<< titleDialog Eito >>\nHmm? Isso seria ótimo, eu estava para pedir para vocês ir lá mesmo.\n<< titleDialog Naian >>\nEu ia te falar sobre isso… mas, o que você ouviu que anda acontecendo lá?\n<< titleDialog Eito >>\nOuvi dizer que pequenas chamas estavam andando pela floresta… pela mansão… como se fossem espíritos ou algo assim, mas não sei se é verdade pois só foram vistas uma vez.\n<< titleDialog Lohan >>\nUuuuu?\n<< titleDialog Naian >>\nPequenas chamas… tudo bem, obrigado pela informação.\n<< titleDialog Eito >>\nQue nada Naian, eu que agradeço pela sua ajuda.\n<< titleDialog Naian >>\nSe permitir, irei retirar… preciso me preparar para ir para a mansão.\n<< titleDialog Eito >>\nTudo bem, fique bem Naian.\nE Lohan também!\n<< titleDialog Lohan >>\nWooof!\n<< titleDialog Naian >>\nSim Prefeito, você também.",
 		"position": {
-			"x": 1176,
-			"y": 378
+			"x": 409,
+			"y": 112
+		},
+		"colorID": 8
+	},
+	{
+		"title": "PrefeitoComAnotacao",
+		"tags": "",
+		"body": "<< titleDialog Eito >>\nEspero que tudo se resolva logo.\n<< titleDialog Naian >>\nNão se preocupe, tenho certeza que vai.",
+		"position": {
+			"x": 665,
+			"y": 113
 		},
 		"colorID": 0
 	}
