@@ -1562,6 +1562,22 @@
         "name": "ChatGPT Image 12 de nov. de 2025, 17_38_31.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/NewFile.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\NewFile.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/teste_dialog.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\teste_dialog.json",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11106,7 +11122,7 @@
               },
               "parameters": [
                 "",
-                "eito_prefeito"
+                "assets\\teste_dialog.json"
               ]
             }
           ]
@@ -11157,7 +11173,7 @@
                     "value": "DialogueTree::StartDialogueFromBranch"
                   },
                   "parameters": [
-                    "\"Eito, o Prefeito\""
+                    "\"Start\""
                   ]
                 },
                 {
@@ -11220,7 +11236,7 @@
                     "dialogue_title_character",
                     "Text",
                     "=",
-                    "DialogueTree::BranchTitle()"
+                    "DialogueTree::CommandParameter(0)"
                   ]
                 },
                 {

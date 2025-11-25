@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "<< dialogue_title_character prefeito >>\nAh naian e lohan, bom te ver novamente.\n<< dialogue_title_character naian>>\nBom dia senhor prefeito, como anda você?\n<< dialogue_title_character lohan >>\nwooof!\n<< dialogue_title_character prefeito >>\nEu estou bem, mas me preocupa bastante esses rumores próximos daquela velha mansão…\n<< dialogue_title_character naian >>\nÉ… ultimamente as coisas andavam tão calmas por aqui e agora isso…\nMas não se preocupe, eu pretendo dar uma olhada lá\n<< dialogue_title_character prefeito >>\nHmm? Isso seria ótimo, eu estava para pedir para vocês ir lá mesmo.\n<< dialogue_title_character naian >>\nEu ia te falar sobre isso… mas, o que você ouviu que anda acontecendo lá?\n<< dialogue_title_character prefeito >>\nOuvi dizer que pequenas chamas estavam andando pela floresta… pela mansão… como se fossem espíritos ou algo assim, mas não sei se é verdade pois só foram vistas uma vez.\n<< dialogue_title_character lohan >>\nuuuuu?\n<< dialogue_title_character naian >>\nPequenas chamas… tudo bem, obrigado pela informação.\n<< dialogue_title_character prefeito >>\nQue nada naian, eu que agradeço pela sua ajuda.\n<< dialogue_title_character naian >>\nSe permitir, irei retirar… preciso me preparar para ir para a mansão.\n<< dialogue_title_character prefeito >>\nTudo bem, fique bem naian.\nE lohan também!\n<< dialogue_title_character lohan >>\nwooof!\n<< dialogue_title_character naian >>\nSim prefeito, você também.",
+		"position": {
+			"x": 1176,
+			"y": 378
+		},
+		"colorID": 0
+	}
+]
