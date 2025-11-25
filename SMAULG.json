@@ -1538,6 +1538,30 @@
         "name": "dercy.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/eito_prefeito.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/eito_prefeito.json\"}",
+        "name": "eito_prefeito",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ChatGPT Image 12 de nov. de 2025, 17_38_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChatGPT Image 12 de nov. de 2025, 17_38_31.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1596,6 +1620,9 @@
           "Topdown": "TopDownMovement"
         },
         {
+          "isFolded": true,
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -1603,12 +1630,9 @@
           "customIsometryAngle": 30,
           "deceleration": 800,
           "ignoreDefaultControls": false,
-          "isFolded": true,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "useLegacyTurnBack": false,
           "viewpoint": "TopDown"
         }
@@ -4622,7 +4646,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3111974942445299,
+        "zoomFactor": 0.43357743047025127,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7374,7 +7398,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3325387091250778,
+        "zoomFactor": 0.6672773998329987,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7399,15 +7423,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 2,
+          "flippedX": true,
+          "height": 136,
           "keepRatio": true,
           "layer": "",
           "name": "Enemy",
           "persistentUuid": "f41477bb-46ce-464a-8598-6e35b44c5b47",
-          "width": 0,
-          "x": 689,
-          "y": 372,
+          "width": 136,
+          "x": 583,
+          "y": 333,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -7458,16 +7484,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "NewSprite2",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite2.png",
+                      "image": "NewSprite19",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7483,20 +7510,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
-                            "x": 64,
-                            "y": 0
+                            "x": 58,
+                            "y": 1
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 58,
+                            "y": 57
                           },
                           {
-                            "x": 0,
-                            "y": 64
+                            "x": 4,
+                            "y": 57
                           }
                         ]
                       ]
@@ -7527,7 +7554,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "tile_02.png",
+                      "image": "ChatGPT Image 12 de nov. de 2025, 17_38_31.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7547,16 +7574,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 1024,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 1024,
+                            "y": 1024
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 1024
                           }
                         ]
                       ]
@@ -7704,6 +7731,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player"
         }
       ],
       "layers": [
@@ -11072,7 +11106,7 @@
               },
               "parameters": [
                 "",
-                "Prefeito "
+                "eito_prefeito"
               ]
             }
           ]
@@ -11123,7 +11157,7 @@
                     "value": "DialogueTree::StartDialogueFromBranch"
                   },
                   "parameters": [
-                    "\"Prefeito\""
+                    "\"Eito, o Prefeito\""
                   ]
                 },
                 {
