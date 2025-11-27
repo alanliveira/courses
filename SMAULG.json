@@ -3174,10 +3174,8 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
-        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
@@ -4180,6 +4178,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player_naian",
+          "persistentUuid": "f0f1336e-8ada-4269-b944-19988602ee36",
+          "width": 0,
+          "x": 128,
+          "y": 128,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4488,7 +4502,7 @@
                 "value": "SeparateFromObjects"
               },
               "parameters": [
-                "Player",
+                "player_naian",
                 "Block",
                 ""
               ]
@@ -4500,9 +4514,9 @@
               "parameters": [
                 "Lamp",
                 "=",
-                "Player.CenterX()",
+                "player_naian.CenterX()",
                 "=",
-                "Player.CenterY()"
+                "player_naian.CenterY()"
               ]
             }
           ]
@@ -4571,7 +4585,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "Papper",
                         "",
                         "",
@@ -4634,7 +4648,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "=",
                         "0"
                       ]
@@ -4660,7 +4674,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "=",
                         "0"
                       ]
@@ -4686,7 +4700,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "=",
                         "180"
                       ]
@@ -4712,7 +4726,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "=",
                         "180"
                       ]
@@ -4738,7 +4752,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "Flippable",
                         "yes"
                       ]
@@ -4748,7 +4762,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "=",
                         "-90"
                       ]
@@ -4774,7 +4788,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "Flippable",
                         "yes"
                       ]
@@ -4784,7 +4798,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "=",
                         "-90"
                       ]
@@ -4810,7 +4824,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "Flippable",
                         ""
                       ]
@@ -4820,7 +4834,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "=",
                         "90"
                       ]
@@ -4846,7 +4860,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "Flippable",
                         ""
                       ]
@@ -4856,7 +4870,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "Player",
+                        "player_naian",
                         "=",
                         "90"
                       ]
@@ -6340,13 +6354,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Configurações no inicio da cena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6613,7 +6625,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Spawners",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6745,7 +6756,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Movimentação da Câmera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7977,13 +7987,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Inicio da cena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8245,7 +8253,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Spawners",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8367,7 +8374,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Movimentação da Câmera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13619,7 +13625,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Inicio da Cena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13664,7 +13669,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ações com NPC'S",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13747,7 +13751,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Eito, o Prefeito",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13957,7 +13960,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Eiro, o fazendeiro",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14167,7 +14169,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Ante, o comerciante ",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14380,7 +14381,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Dialogo sistema - Core",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14630,7 +14630,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Walk's",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -14939,7 +14938,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Idle's",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
