@@ -1611,18 +1611,114 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite20.png",
+        "file": "casa-06.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite20",
+        "metadata": "",
+        "name": "casa-06.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite21.png",
+        "file": "casa-05.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite21",
+        "metadata": "",
+        "name": "casa-05.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "casa-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "casa-04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "casa-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "casa-03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "casa-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "casa-02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "casa-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "casa-01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "casas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "casas.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "tilemap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilemap.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "tilemap2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilemap2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mapa-moradia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa-moradia.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mapa-moradia2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa-moradia2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mapa-moradia3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa-moradia3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mapa-moradia-foreground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa-moradia-foreground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mapa-moradia-foreground-edit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa-moradia-foreground-edit.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -2923,7 +3019,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.49508400737488983,
+        "zoomFactor": 0.604083874998888,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4792,7 +4888,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.20902556228335892,
+        "zoomFactor": 0.8993607583666914,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -6017,59 +6113,12 @@
                   "subInstructions": [
                     {
                       "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "player_naian",
-                        ">",
-                        "640"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "player_naian",
-                        "<",
-                        "1782"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCameraCenterX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "player_naian.X()",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
                         "value": "PosY"
                       },
                       "parameters": [
                         "player_naian",
                         ">",
-                        "360"
+                        "361"
                       ]
                     },
                     {
@@ -6094,6 +6143,53 @@
                     "",
                     "=",
                     "player_naian.Y()",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "player_naian",
+                        ">",
+                        "640"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "player_naian",
+                        "<",
+                        "1782"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "player_naian.X()",
                     "",
                     ""
                   ]
@@ -7721,7 +7817,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329987,
+        "zoomFactor": 0.6672773998329988,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -8994,15 +9090,15 @@
       ]
     },
     {
-      "b": 0,
+      "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "Casa_32do_32naian",
       "name": "Casa do naian",
-      "r": 0,
+      "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 0,
+      "v": 209,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -9015,7 +9111,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210214,
+        "zoomFactor": 0.433577430470238,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -9025,15 +9121,14 @@
         {
           "angle": 0,
           "customSize": false,
-          "flippedY": true,
           "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Casa_Naian",
           "persistentUuid": "62845c7a-6d49-4c2f-bc74-a1b231bb586e",
           "width": 0,
-          "x": 160,
-          "y": -360,
+          "x": 0,
+          "y": 0,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -9048,195 +9143,9 @@
           "name": "player_naian",
           "persistentUuid": "2db64ba3-156d-4797-8bb6-e3c0dba986da",
           "width": 0,
-          "x": 868,
-          "y": -323,
+          "x": 703,
+          "y": 691,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1001,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "d8c32b86-8181-4107-a98c-bd771222dae0",
-          "width": 31,
-          "x": 1129,
-          "y": -358,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1002,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "7213a11d-028d-4bbd-82b6-d4b1aebf5f83",
-          "width": 32,
-          "x": 160,
-          "y": -358,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 939,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "83bddb0b-10d1-4b7e-a491-e8e7f381e07a",
-          "width": 27,
-          "x": 649,
-          "y": -815,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 777,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "6292e1fc-d8cc-4947-b104-ee92746c4ea7",
-          "width": 30,
-          "x": 566,
-          "y": 236,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 349,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "489bc210-5ba5-439f-afd2-d7bb9e1c1c4c",
-          "width": 12,
-          "x": 679,
-          "y": -334,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 176,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "d78b1a3e-0fb4-48b7-b3f5-f2866249d5d6",
-          "width": 11,
-          "x": 679,
-          "y": 115,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 421,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "6be2945c-cb48-4bc4-a5f8-5f44c8fed816",
-          "width": 11,
-          "x": 916,
-          "y": 105,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 316,
-          "customSize": true,
-          "depth": 1,
-          "height": 48,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "27ffa867-63b5-43f6-a6bd-1f88d2f76cbc",
-          "width": 5,
-          "x": 695,
-          "y": 276,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 316,
-          "customSize": true,
-          "depth": 1,
-          "height": 44,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Collision",
-          "persistentUuid": "20b86468-4f17-406f-8f2d-e4db854d66b9",
-          "width": 5,
-          "x": 694,
-          "y": 282,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 17,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Saida",
-          "persistentUuid": "66ea98ef-0cae-44be-958e-5e5f83bfc661",
-          "width": 116,
-          "x": 998,
-          "y": 606,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "transition_scene_easy_in_out",
-          "persistentUuid": "c0f46c20-dd41-423b-a1e1-227ca0768dda",
-          "width": 0,
-          "x": 254,
-          "y": -426,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9302,128 +9211,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Collision",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite20",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Saida",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite21",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9431,12 +9218,6 @@
         "children": [
           {
             "objectName": "Casa_Naian"
-          },
-          {
-            "objectName": "Collision"
-          },
-          {
-            "objectName": "Saida"
           }
         ]
       },
@@ -9447,219 +9228,6 @@
             "includeConfig": 0
           },
           "target": "Player"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Saida"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Collision"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-              },
-              "parameters": [
-                "transition_scene_easy_in_out",
-                "FlashTransitionPainter",
-                "\"0;0;0\"",
-                "1.5",
-                "\"Flash\"",
-                "\"Backward\"",
-                "255",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "player_naian",
-                "Collision",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "player_naian",
-                "Saida",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-              },
-              "parameters": [
-                "transition_scene_easy_in_out",
-                "FlashTransitionPainter",
-                "\"0;0;0\"",
-                "1.5",
-                "\"Flash\"",
-                "\"Forward\"",
-                "255",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"cidade_moradias\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Camera Movement",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "player_naian",
-                        ">",
-                        "640"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "player_naian",
-                        "<",
-                        "1782"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCameraCenterX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "player_naian.X()",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "player_naian",
-                        ">",
-                        "-360"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "player_naian",
-                        "<",
-                        "800"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCameraCenterY"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "player_naian.Y()",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         }
       ],
       "layers": [
@@ -10108,22 +9676,6 @@
           "x": 273,
           "y": 376,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "transition_scene_easy_in_out",
-          "persistentUuid": "1e429948-1631-4da7-8493-ffcfb6338823",
-          "width": 0,
-          "x": 512,
-          "y": -64,
-          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11212,21 +10764,6 @@
             },
             {
               "type": {
-                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-              },
-              "parameters": [
-                "transition_scene_easy_in_out",
-                "FlashTransitionPainter",
-                "\"0;0;0\"",
-                "1.5",
-                "\"Flash\"",
-                "\"Forward\"",
-                "255",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -11508,18 +11045,18 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridDepth": 32,
+        "gridWidth": 64,
+        "gridHeight": 64,
+        "gridDepth": 64,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.3111974942445202,
+        "snap": true,
+        "zoomFactor": 0.21607397323875527,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -11537,15 +11074,694 @@
           "width": 0,
           "x": -185,
           "y": -88,
-          "zOrder": 1,
+          "zOrder": 1000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "casa_04",
+          "persistentUuid": "06bb931b-5d52-4879-821f-1b39b3f33bcf",
+          "width": 0,
+          "x": 1121,
+          "y": 423,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "casa_06",
+          "persistentUuid": "4be1b29f-68d4-4e32-9280-26a2d3f1dc1d",
+          "width": 0,
+          "x": 576,
+          "y": 353,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "casa_03",
+          "persistentUuid": "148c2405-1b90-4685-8b39-87b77bff4c58",
+          "width": 0,
+          "x": 2048,
+          "y": 429,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "casa_05",
+          "persistentUuid": "50005655-714d-4f0d-a29a-3c5ce8653eed",
+          "width": 0,
+          "x": 896,
+          "y": 1600,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "casa_02",
+          "persistentUuid": "0480073e-db62-49c8-8576-0ddbd119e916",
+          "width": 0,
+          "x": 1536,
+          "y": 1070,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "casa_01",
+          "persistentUuid": "780f469c-47c1-476e-9883-023568c3cf4e",
+          "width": 0,
+          "x": 198,
+          "y": 969,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "4ef34e29-83df-4667-849c-df5dacbf5b69",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mapa_foreground",
+          "persistentUuid": "612c35c7-cb9c-485e-a68d-1f237797a555",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player_naian",
+          "persistentUuid": "83337f5b-a960-4293-8bc4-6e456b96f9f3",
+          "width": 0,
+          "x": 384,
+          "y": 192,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "casa_01",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "casa-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 762,
+                            "y": 1
+                          },
+                          {
+                            "x": 762,
+                            "y": 373
+                          },
+                          {
+                            "x": 1,
+                            "y": 373
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "casa_02",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "casa-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 736,
+                            "y": 0
+                          },
+                          {
+                            "x": 736,
+                            "y": 274
+                          },
+                          {
+                            "x": 0,
+                            "y": 274
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "casa_03",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "casa-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 330,
+                            "y": 0
+                          },
+                          {
+                            "x": 330,
+                            "y": 275
+                          },
+                          {
+                            "x": 0,
+                            "y": 275
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "casa_04",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "casa-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 351,
+                            "y": 0
+                          },
+                          {
+                            "x": 351,
+                            "y": 281
+                          },
+                          {
+                            "x": 0,
+                            "y": 281
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "casa_05",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "casa-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 669,
+                            "y": 0
+                          },
+                          {
+                            "x": 669,
+                            "y": 393
+                          },
+                          {
+                            "x": 0,
+                            "y": 393
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "casa_06",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "casa-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 351,
+                            "y": 0
+                          },
+                          {
+                            "x": 351,
+                            "y": 351
+                          },
+                          {
+                            "x": 0,
+                            "y": 351
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "mapa_background",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "tilemap2.png",
+            "rowCount": 40,
+            "columnCount": 40,
+            "tileSize": 64,
+            "tilesWithHitBox": ""
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "mapa-moradia3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 2560
+                          },
+                          {
+                            "x": 0,
+                            "y": 2560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "mapa_foreground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "mapa-moradia-foreground-edit.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 2560
+                          },
+                          {
+                            "x": 0,
+                            "y": 2560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "mapa",
+            "children": [
+              {
+                "objectName": "mapa_background"
+              },
+              {
+                "objectName": "mapa_foreground"
+              }
+            ]
+          },
+          {
+            "folderName": "casas",
+            "children": [
+              {
+                "objectName": "casa_01"
+              },
+              {
+                "objectName": "casa_02"
+              },
+              {
+                "objectName": "casa_03"
+              },
+              {
+                "objectName": "casa_04"
+              },
+              {
+                "objectName": "casa_05"
+              },
+              {
+                "objectName": "casa_06"
+              }
+            ]
+          },
+          {
+            "objectName": "NewSprite"
+          }
+        ]
       },
       "events": [
         {
@@ -11605,6 +11821,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player"
         }
       ],
       "layers": [
