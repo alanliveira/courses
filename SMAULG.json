@@ -6340,6 +6340,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Configurações no inicio da cena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6744,6 +6745,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Movimentação da Câmera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8473,6 +8475,13 @@
             "includeConfig": 0
           },
           "target": "Player"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "HUD"
         }
       ],
       "layers": [
@@ -13606,36 +13615,49 @@
       "name": "Dialogo",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Inicio da Cena",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\teste_dialog.json"
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "dialogo"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
-              },
-              "parameters": [
-                "",
-                "assets\\teste_dialog.json"
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -15170,7 +15192,7 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "txt_note_count",
+                    "HUD_txt_note_count",
                     "Text",
                     "=",
                     "ToString(VariableChildCount(id_notes))"
