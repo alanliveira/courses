@@ -3164,6 +3164,11 @@
       "name": "ultima_cena",
       "type": "string",
       "value": "\"\""
+    },
+    {
+      "name": "SoundVolum",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -5063,7 +5068,7 @@
       "name": "cidade_praca",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -5078,7 +5083,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.216073973238762,
+        "zoomFactor": 0.24672586957407172,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -7065,7 +7070,7 @@
       "name": "cidade_moradias",
       "r": 255,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 255,
       "uiSettings": {
@@ -7080,7 +7085,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.26364576737708206,
+        "zoomFactor": 0.1770859527754403,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -8695,7 +8700,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3216911764705893,
+        "zoomFactor": 0.5653158055126322,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -9230,7 +9235,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "No inicio ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9329,6 +9333,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "LifeBar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9391,7 +9396,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player turn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10499,7 +10503,7 @@
       "name": "mansion",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -10507,12 +10511,14 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513978,
+        "zoomFactor": 0.31119749424452037,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -11377,7 +11383,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690412,
+        "zoomFactor": 0.4335774304702383,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -12184,7 +12190,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5117784035210216,
+        "zoomFactor": 0.3216911764705913,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -12212,6 +12218,11 @@
           "name": "TempSettings",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "Settings",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
