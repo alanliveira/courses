@@ -4941,7 +4941,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6672773998330206,
+        "zoomFactor": 0.26364576737708917,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -6343,6 +6343,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Camera Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6445,6 +6446,7 @@
           "parameters": []
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7009,15 +7011,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "cidade_95moradias",
       "name": "cidade_moradias",
-      "r": 209,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 255,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -7030,7 +7032,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5653158055126345,
+        "zoomFactor": 0.27253598967729487,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7930,7 +7932,19 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "spawners",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7942,7 +7956,7 @@
                   "parameters": [
                     "ultima_cena",
                     "=",
-                    "\"cidade_praca\""
+                    "\"casa_naian\""
                   ]
                 }
               ],
@@ -11189,7 +11203,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.379712100194794,
+        "zoomFactor": 0.604083874998888,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -11433,7 +11447,7 @@
                       "parameters": [
                         "player_naian",
                         "<",
-                        "400"
+                        "384"
                       ]
                     }
                   ]
@@ -13810,7 +13824,7 @@
                           "parameters": [
                             "",
                             "id_notes",
-                            "1",
+                            "2",
                             ""
                           ]
                         }
@@ -13837,7 +13851,7 @@
                           "parameters": [
                             "",
                             "id_notes",
-                            "1",
+                            "2",
                             ""
                           ]
                         }
@@ -13873,7 +13887,7 @@
                       "parameters": [
                         "",
                         "id_notes",
-                        "1",
+                        "2",
                         ""
                       ]
                     },
@@ -14019,7 +14033,7 @@
                           "parameters": [
                             "",
                             "id_notes",
-                            "1",
+                            "3",
                             ""
                           ]
                         }
@@ -14046,7 +14060,7 @@
                           "parameters": [
                             "",
                             "id_notes",
-                            "1",
+                            "3",
                             ""
                           ]
                         }
@@ -14082,7 +14096,7 @@
                       "parameters": [
                         "",
                         "id_notes",
-                        "1",
+                        "3",
                         ""
                       ]
                     },
