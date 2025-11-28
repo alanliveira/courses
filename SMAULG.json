@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu inicial",
   "gdVersion": {
-    "build": 246,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -53,7 +53,6 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1578,7 +1577,7 @@
         "disablePreload": false,
         "file": "assets/teste_dialog.json",
         "kind": "json",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/teste_dialog.json\",\"extension\":\".json\"}",
         "name": "assets\\teste_dialog.json",
         "userAdded": false
       },
@@ -1778,7 +1777,8 @@
         "smoothed": false,
         "userAdded": false
       }
-    ]
+    ],
+    "resourceFolders": []
   },
   "objects": [
     {
@@ -3187,10 +3187,8 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
-        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
@@ -4904,7 +4902,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -4933,7 +4930,6 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -4963,7 +4959,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -5076,14 +5071,12 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
-        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.24672586957407172,
+        "zoomFactor": 0.3111974942445322,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -5280,8 +5273,8 @@
           "name": "dercy_crianca_irritante",
           "persistentUuid": "47e23192-59e3-414f-89a7-80df740b707a",
           "width": 64,
-          "x": 1536,
-          "y": 2336,
+          "x": 224,
+          "y": 320,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -6728,16 +6721,6 @@
                     "\"cidade_moradias\"",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "can_move",
-                    "True",
-                    ""
-                  ]
                 }
               ]
             },
@@ -6904,7 +6887,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -6969,7 +6951,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -8130,17 +8111,6 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "OpacityCapability::OpacityBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "spawners",
-                        "Opacity",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "MettreXY"
                       },
                       "parameters": [
@@ -8519,7 +8489,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -8584,7 +8553,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -9936,7 +9904,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -10391,7 +10358,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -11256,7 +11222,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -12063,7 +12028,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -12183,14 +12147,12 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
-        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3216911764705913,
+        "zoomFactor": 0.39251611754882565,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -13762,7 +13724,6 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -14008,6 +13969,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Eito, o Prefeito",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14217,6 +14179,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Eiro, o fazendeiro",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14426,6 +14389,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Ante, o comerciante ",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14503,6 +14467,212 @@
                           },
                           "parameters": [
                             "\"ComercianteSemAnotacao\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "DialogueTree::IsDialogueRunning"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ArrayTools::HasNumber"
+                      },
+                      "parameters": [
+                        "",
+                        "id_notes",
+                        "3",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::WasBranchVisited"
+                      },
+                      "parameters": [
+                        "\"ComercianteSemAnotacao\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "note_object.id",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "note_object.title",
+                        "=",
+                        "\"Ante, o comerciante\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "note_object.description",
+                        "=",
+                        "\"Esferas de fogo. Será que é algum tipo de magia de fogo…. não, se realmente estão brincando… então não são qualquer tipo de magia… e tudo parece interligado.\n\nIsso com certeza é um fato e não apenas um boato.\"\n"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushVariable"
+                      },
+                      "parameters": [
+                        "notes",
+                        "note_object"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushVariable"
+                      },
+                      "parameters": [
+                        "id_notes",
+                        "note_object.id"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "note_object.id",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "note_object.title",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "note_object.description",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Dercy, a Criança irritante",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "player_naian",
+                        "dercy_crianca_irritante",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "VariableChildCount(id_notes)",
+                            ">=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DialogueTree::StartDialogueFromBranch"
+                          },
+                          "parameters": [
+                            "\"DercyComColetarAnotacoes\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "VariableChildCount(id_notes)",
+                            "<",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DialogueTree::StartDialogueFromBranch"
+                          },
+                          "parameters": [
+                            "\"DercySemColetarAnotacoes\""
                           ]
                         }
                       ]
@@ -14867,6 +15037,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14887,6 +15058,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Walk's",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -15417,6 +15589,72 @@
                     }
                   ],
                   "parameters": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Habilitar o controle do Player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "can_move",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "player_naian",
+                    "TopDownMovement",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "can_move",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "player_naian",
+                    "TopDownMovement",
+                    "yes"
+                  ]
                 }
               ]
             }
@@ -29399,7 +29637,6 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
-              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -31224,7 +31461,6 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
-                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -41061,7 +41297,6 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
-              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -42547,7 +42782,6 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
-                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -55513,7 +55747,6 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
-              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -57580,7 +57813,6 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
-                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,

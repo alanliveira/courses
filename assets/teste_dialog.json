@@ -58,5 +58,25 @@
 			"y": 634
 		},
 		"colorID": 3
+	},
+	{
+		"title": "DercySemColetarAnotacoes",
+		"tags": "",
+		"body": "<< titleDialog Dercy>>\nEi, moço e seu lobo feio, conversa com o NPC'S desse jogo do Baralho!!!!",
+		"position": {
+			"x": 407,
+			"y": 860
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DercyComColetarAnotacoes",
+		"tags": "",
+		"body": "<< titleDialog Dercy >>\nOrra, Cascalho, você coletou a borra das anotações.\nAgora va para a mansão que tem o canavial de baixinhos. Borra",
+		"position": {
+			"x": 604,
+			"y": 822
+		},
+		"colorID": 0
 	}
 ]
