@@ -6372,6 +6372,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6789,7 +6790,7 @@
                       "parameters": [
                         "player_naian",
                         "<",
-                        "2215"
+                        "2200"
                       ]
                     }
                   ]
@@ -8398,7 +8399,7 @@
                       "parameters": [
                         "player_naian",
                         "<",
-                        "1782"
+                        "2200"
                       ]
                     }
                   ]
@@ -15032,6 +15033,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Animações",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15600,6 +15602,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Habilitar o controle do Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
