@@ -5129,7 +5129,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.29122588669112254,
+        "zoomFactor": 0.7876290101674062,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -6529,23 +6529,31 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "StringVariable"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "ultima_cena",
-                        "=",
-                        "\"cidade_moradia\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "ultima_cena",
-                        "=",
-                        "\"mansao\""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "ultima_cena",
+                            "=",
+                            "\"cidade_moradia\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "ultima_cena",
+                            "=",
+                            "\"mansao\""
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -14143,9 +14151,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.26364576737708173,
+        "zoomFactor": 0.7619362677197661,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "HUD"
       },
       "objectsGroups": [
         {
@@ -14237,6 +14245,38 @@
           "x": -125,
           "y": -1661,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "HUD",
+          "name": "HUD_img_note_count",
+          "persistentUuid": "86fa5609-9cff-495e-ba00-13579867a599",
+          "width": 64,
+          "x": 32,
+          "y": 32,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "HUD",
+          "name": "HUD_txt_note_count",
+          "persistentUuid": "7614589f-8b0a-4fb9-9b70-f3dcaf53bd7a",
+          "width": 32,
+          "x": 64,
+          "y": 112,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14809,6 +14849,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Spawners",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14931,6 +14972,13 @@
             "includeConfig": 0
           },
           "target": "Player"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "HUD"
         }
       ],
       "layers": [
