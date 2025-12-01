@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu inicial",
   "gdVersion": {
-    "build": 247,
+    "build": 248,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1943,6 +1943,22 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "si",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "masao-back2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "masao-back2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mansao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mansao.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -15071,7 +15087,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 64,
         "gridHeight": 64,
@@ -15081,8 +15097,8 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4057518905943891,
+        "snap": true,
+        "zoomFactor": 0.3673257545058883,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -15126,7 +15142,7 @@
           "width": 0,
           "x": 0,
           "y": -1843,
-          "zOrder": 10,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15321,12 +15337,12 @@
           "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "Sonna",
+          "name": "enemy_sonna",
           "persistentUuid": "db05c6cd-1c2f-415f-88c0-0030dbda390f",
           "width": 115,
-          "x": 944,
-          "y": -915,
-          "zOrder": 1007,
+          "x": 461,
+          "y": -1248,
+          "zOrder": 20,
           "numberProperties": [
             {
               "name": "animation",
@@ -15342,12 +15358,12 @@
           "depth": 0.9181818181818183,
           "height": 99,
           "layer": "",
-          "name": "Sonna",
+          "name": "enemy_sonna",
           "persistentUuid": "3a965d75-598b-4484-bc9c-d1c4e938e390",
           "width": 101,
-          "x": 1338,
-          "y": -1134,
-          "zOrder": 1008,
+          "x": 320,
+          "y": -547,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15393,13 +15409,52 @@
           "height": 92,
           "keepRatio": true,
           "layer": "",
-          "name": "Sonna",
+          "name": "enemy_sonna",
           "persistentUuid": "f2d2df00-8b34-48c2-a105-8c3eb6e74e14",
           "width": 102,
-          "x": 1355,
-          "y": -599,
-          "zOrder": 1010,
+          "x": 218,
+          "y": 228,
+          "zOrder": 20,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 678,
+          "keepRatio": true,
+          "layer": "",
+          "name": "construcao_mansao",
+          "persistentUuid": "0d7397cb-850e-4bac-991e-d2b3c42eede2",
+          "width": 1139,
+          "x": 576,
+          "y": -1024,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "enemy_sonna",
+          "persistentUuid": "84a6f581-f88b-4b67-8b95-fc440b6f6e9d",
+          "width": 115,
+          "x": 832,
+          "y": -1216,
+          "zOrder": 20,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -15425,7 +15480,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "masao-back.png",
+                      "image": "masao-back2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15661,13 +15716,15 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Sonna",
+          "name": "enemy_sonna",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 200,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -15678,10 +15735,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -15807,16 +15862,89 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "construcao_mansao",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "mansao.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 482,
+                            "y": 0
+                          },
+                          {
+                            "x": 482,
+                            "y": 287
+                          },
+                          {
+                            "x": 0,
+                            "y": 287
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "li"
+            "folderName": "enemies",
+            "children": [
+              {
+                "objectName": "enemy_sonna"
+              }
+            ]
           },
           {
-            "objectName": "Sonna"
+            "folderName": "construcoes",
+            "children": [
+              {
+                "objectName": "li"
+              },
+              {
+                "objectName": "construcao_mansao"
+              }
+            ]
           },
           {
             "folderName": "spawners",
@@ -16127,7 +16255,7 @@
                     "value": "SeparateFromObjects"
                   },
                   "parameters": [
-                    "Sonna",
+                    "enemy_sonna",
                     "li",
                     ""
                   ]
@@ -16399,7 +16527,7 @@
                   },
                   "parameters": [
                     "player_naian",
-                    "Sonna",
+                    "enemy_sonna",
                     "",
                     "",
                     ""
@@ -16427,7 +16555,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Sonna",
+                    "enemy_sonna",
                     ""
                   ]
                 },
@@ -16495,7 +16623,7 @@
                   },
                   "parameters": [
                     "player_naian",
-                    "Sonna",
+                    "enemy_sonna",
                     ""
                   ]
                 }
@@ -16527,7 +16655,7 @@
                   },
                   "parameters": [
                     "player_naian",
-                    "Sonna",
+                    "enemy_sonna",
                     "500",
                     ""
                   ]
@@ -16539,7 +16667,7 @@
                     "value": "PathfindingBehavior::SetDestination"
                   },
                   "parameters": [
-                    "Sonna",
+                    "enemy_sonna",
                     "Pathfinding",
                     "",
                     "player_naian.X()",
