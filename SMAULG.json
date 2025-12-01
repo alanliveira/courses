@@ -10366,7 +10366,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "LifeBar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15083,7 +15082,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535318,
+        "zoomFactor": 0.4057518905943891,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -15219,7 +15218,7 @@
           "depth": 1,
           "height": 1829,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "li",
           "persistentUuid": "50fc641e-f91d-465c-8794-2f62addab37f",
           "width": 14,
@@ -15236,7 +15235,7 @@
           "depth": 1,
           "height": 17,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "li",
           "persistentUuid": "76ee01d5-5e63-48dd-b198-7ee6af4268bf",
           "width": 126,
@@ -15253,7 +15252,7 @@
           "depth": 1,
           "height": 781,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "li",
           "persistentUuid": "14b06d28-75ef-43df-85b1-29d2ca693d21",
           "width": 14,
@@ -15270,7 +15269,7 @@
           "depth": 1,
           "height": 15,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "li",
           "persistentUuid": "883fac28-6fbf-4a90-af3f-753f0c930a89",
           "width": 1761,
@@ -15287,7 +15286,7 @@
           "depth": 1,
           "height": 983,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "li",
           "persistentUuid": "ace443af-674c-4795-b61a-f9e93142bf2c",
           "width": 19,
@@ -15304,7 +15303,7 @@
           "depth": 1,
           "height": 15,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "li",
           "persistentUuid": "4574d1ec-2483-4dc5-8107-d21e30bd45e7",
           "width": 1234,
@@ -15319,16 +15318,21 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 99,
+          "height": 96,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "Sonna",
           "persistentUuid": "db05c6cd-1c2f-415f-88c0-0030dbda390f",
-          "width": 138,
-          "x": 214,
-          "y": -357,
+          "width": 115,
+          "x": 944,
+          "y": -915,
           "zOrder": 1007,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -15337,12 +15341,12 @@
           "customSize": true,
           "depth": 0.9181818181818183,
           "height": 99,
-          "layer": "HUD",
+          "layer": "",
           "name": "Sonna",
           "persistentUuid": "3a965d75-598b-4484-bc9c-d1c4e938e390",
           "width": 101,
-          "x": 949,
-          "y": -1113,
+          "x": 1338,
+          "y": -1134,
           "zOrder": 1008,
           "numberProperties": [],
           "stringProperties": [],
@@ -15354,7 +15358,7 @@
           "depth": 1,
           "height": 1638,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "li",
           "persistentUuid": "2ea391f7-967d-4f02-8fa6-661a9840f9f5",
           "width": 21,
@@ -15371,13 +15375,30 @@
           "depth": 1,
           "height": 17,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "li",
           "persistentUuid": "62eed1df-f71f-4db2-b131-755b52314bf6",
           "width": 164,
           "x": -1,
           "y": -919,
           "zOrder": 1002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 92,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sonna",
+          "persistentUuid": "f2d2df00-8b34-48c2-a105-8c3eb6e74e14",
+          "width": 102,
+          "x": 1355,
+          "y": -599,
+          "zOrder": 1010,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15645,7 +15666,24 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 200,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "NewSprite",
@@ -15775,6 +15813,9 @@
         "folderName": "__ROOT",
         "children": [
           {
+            "objectName": "li"
+          },
+          {
             "objectName": "Sonna"
           },
           {
@@ -15796,9 +15837,6 @@
               },
               {
                 "objectName": "mapa_foreground"
-              },
-              {
-                "objectName": "li"
               }
             ]
           }
@@ -15835,7 +15873,7 @@
                   "parameters": [
                     "",
                     "Caminho de Sombras.mp3",
-                    "1",
+                    "3",
                     "yes",
                     "GlobalVariable(MusicVolum)",
                     ""
@@ -16080,6 +16118,16 @@
                   },
                   "parameters": [
                     "player_naian",
+                    "li",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Sonna",
                     "li",
                     ""
                   ]
@@ -16337,6 +16385,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy contact",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16358,15 +16407,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "PauseMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
@@ -16410,10 +16450,11 @@
                 },
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "PauseMusicCanal"
                   },
                   "parameters": [
-                    "0.5"
+                    "",
+                    "3"
                   ]
                 }
               ],
@@ -16437,7 +16478,7 @@
                       },
                       "parameters": [
                         "",
-                        "1"
+                        "3"
                       ]
                     }
                   ]
@@ -16456,6 +16497,53 @@
                     "player_naian",
                     "Sonna",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Perseguir",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "player_naian",
+                    "Sonna",
+                    "500",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Sonna",
+                    "Pathfinding",
+                    "",
+                    "player_naian.X()",
+                    "player_naian.Y()"
                   ]
                 }
               ]
@@ -16605,6 +16693,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "RemapForTopdown",
@@ -17828,13 +17920,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Animações",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
