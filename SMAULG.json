@@ -1961,6 +1961,22 @@
         "name": "mansao.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "piso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "terra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "terra.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3356,6 +3372,11 @@
       "name": "SoundVolum",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "posicao_chao_inimigo",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
@@ -10226,11 +10247,142 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "piso_background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "piso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 2560
+                          },
+                          {
+                            "x": 0,
+                            "y": 2560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "terra_background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "terra.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 0
+                          },
+                          {
+                            "x": 2560,
+                            "y": 2560
+                          },
+                          {
+                            "x": 0,
+                            "y": 2560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "background",
+            "children": [
+              {
+                "objectName": "piso_background"
+              },
+              {
+                "objectName": "terra_background"
+              }
+            ]
+          },
           {
             "folderName": "UX",
             "children": [
@@ -10275,6 +10427,100 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "posicao_chao_inimigo",
+                        "=",
+                        "\"terra\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "terra_background",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "terra_background",
+                        "=",
+                        "-10"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "posicao_chao_inimigo",
+                        "=",
+                        "\"piso\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "piso_background",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "piso_background",
+                        "=",
+                        "-10"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -10368,11 +10614,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
@@ -15098,7 +15339,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3673257545058883,
+        "zoomFactor": 0.4633111824514055,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -15350,7 +15591,13 @@
             }
           ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "posicao_chao",
+              "type": "string",
+              "value": "piso"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -15366,7 +15613,13 @@
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "posicao_chao",
+              "type": "string",
+              "value": "terra"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -15417,7 +15670,13 @@
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "posicao_chao",
+              "type": "string",
+              "value": "terra"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -15456,7 +15715,13 @@
             }
           ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "posicao_chao",
+              "type": "string",
+              "value": "terra"
+            }
+          ]
         }
       ],
       "objects": [
@@ -15719,7 +15984,13 @@
           "name": "enemy_sonna",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "posicao_chao",
+              "type": "string",
+              "value": ""
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -16513,7 +16784,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemy contact",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16569,6 +16839,15 @@
                 },
                 {
                   "type": {
+                    "value": "PauseMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PushScene"
                   },
                   "parameters": [
@@ -16578,11 +16857,12 @@
                 },
                 {
                   "type": {
-                    "value": "PauseMusicCanal"
+                    "value": "SetStringVariable"
                   },
                   "parameters": [
-                    "",
-                    "3"
+                    "posicao_chao_inimigo",
+                    "=",
+                    "enemy_sonna.posicao_chao"
                   ]
                 }
               ],
