@@ -16,7 +16,7 @@
     "pixelsRounding": true,
     "projectUuid": "4a0ea94d-c701-490d-bcb2-0dc706043bbf",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Shadow Trails",
@@ -71,10 +71,10 @@
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
       "showGDevelopSplash": true,
-      "showProgressBar": true
+      "showProgressBar": false
     },
     "watermark": {
-      "placement": "bottom-left",
+      "placement": "bottom-right",
       "showWatermark": true
     },
     "authorIds": [],
@@ -1933,9 +1933,9 @@
         "kind": "audio",
         "metadata": "",
         "name": "Caminho de Sombras.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadAsMusic": true,
+        "preloadAsSound": true,
+        "preloadInCache": true,
         "userAdded": false
       },
       {
@@ -1983,6 +1983,14 @@
         "kind": "image",
         "metadata": "",
         "name": "ponteiro-mouse.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite29",
         "smoothed": false,
         "userAdded": false
       }
@@ -3237,6 +3245,66 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ponteiro",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ponteiro-mouse.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3256,6 +3324,9 @@
       },
       {
         "objectName": "HUD_txt_note_count"
+      },
+      {
+        "objectName": "ponteiro"
       }
     ]
   },
@@ -3385,6 +3456,11 @@
       "name": "posicao_chao_inimigo",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "tempo_musica_entre_cenas",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -5299,7 +5375,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.18923010380623712,
+        "zoomFactor": 0.5843784410741191,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -6847,6 +6923,14 @@
                   },
                   "parameters": [
                     "NewSprite"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CacheSouris"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ],
@@ -9026,6 +9110,14 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CacheSouris"
+                  },
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -9828,7 +9920,7 @@
           "layer": "",
           "name": "Bordered_Hud_Grey",
           "persistentUuid": "1b96f4ac-76f7-41b7-9451-7b7fd13969ca",
-          "width": 1273,
+          "width": 1331,
           "x": -18,
           "y": 494,
           "zOrder": 0,
@@ -9846,8 +9938,8 @@
           "name": "ponteiro",
           "persistentUuid": "868fb011-86fb-4a75-b2fc-7ca633a72d3b",
           "width": 40,
-          "x": -254,
-          "y": 237,
+          "x": -91,
+          "y": 19,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -10149,8 +10241,9 @@
         {
           "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
           "name": "Playerhealthbar",
+          "persistentUuid": "c6544b3d-d1f3-4b16-9e0d-5be8d57b0afc",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-          "variant": "Red Flat Bar",
+          "variant": "Red Flat Bar2",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -10392,66 +10485,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "ponteiro",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "ponteiro-mouse.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 20
-                          },
-                          {
-                            "x": 0,
-                            "y": 20
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10491,9 +10524,6 @@
               },
               {
                 "objectName": "Dialogue"
-              },
-              {
-                "objectName": "ponteiro"
               }
             ]
           },
@@ -11925,8 +11955,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "mansion",
-      "name": "mansion",
+      "mangledName": "mansao_95tereo",
+      "name": "mansao_tereo",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": false,
@@ -13393,6 +13423,14 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CacheSouris"
+                  },
+                  "parameters": [
+                    ""
+                  ]
                 }
               ]
             },
@@ -13751,7 +13789,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3553434558817014,
+        "zoomFactor": 0.6455105703311537,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -14074,6 +14112,22 @@
           "x": 273,
           "y": 376,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ponteiro",
+          "persistentUuid": "2c55308e-2b95-4679-b345-5444706bf5dc",
+          "width": 0,
+          "x": -128,
+          "y": 64,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15053,6 +15107,14 @@
                 "GlobalVariable(MusicVolum)",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "CacheSouris"
+              },
+              "parameters": [
+                ""
+              ]
             }
           ]
         },
@@ -15321,6 +15383,24 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "ponteiro",
+                "=",
+                "CursorX(\"\", 0) - ponteiro.Width()",
+                "=",
+                "CursorY(\"\", 0) - ponteiro.Height()"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -15459,7 +15539,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3797121001947996,
+        "zoomFactor": 0.529035740215693,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -15498,11 +15578,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "mapa_foreground",
           "persistentUuid": "d40463df-25c9-420e-baf4-5f8889421aff",
           "width": 0,
           "x": 0,
-          "y": -1843,
+          "y": -1836,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -15701,8 +15782,8 @@
           "name": "enemy_sonna",
           "persistentUuid": "db05c6cd-1c2f-415f-88c0-0030dbda390f",
           "width": 115,
-          "x": 461,
-          "y": -1248,
+          "x": 768,
+          "y": -1088,
           "zOrder": 20,
           "numberProperties": [
             {
@@ -15728,8 +15809,8 @@
           "name": "enemy_sonna",
           "persistentUuid": "3a965d75-598b-4484-bc9c-d1c4e938e390",
           "width": 101,
-          "x": 320,
-          "y": -547,
+          "x": 128,
+          "y": -1315,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -15785,8 +15866,8 @@
           "name": "enemy_sonna",
           "persistentUuid": "f2d2df00-8b34-48c2-a105-8c3eb6e74e14",
           "width": 102,
-          "x": 218,
-          "y": 228,
+          "x": 346,
+          "y": -256,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -15825,8 +15906,8 @@
           "name": "enemy_sonna",
           "persistentUuid": "84a6f581-f88b-4b67-8b95-fc440b6f6e9d",
           "width": 115,
-          "x": 832,
-          "y": -1216,
+          "x": 1280,
+          "y": -1184,
           "zOrder": 20,
           "numberProperties": [
             {
@@ -15842,6 +15923,23 @@
               "value": "terra"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "spawner_mansao",
+          "persistentUuid": "1ad8c703-b371-4690-85a4-1ea6562ee7e6",
+          "width": 192,
+          "x": 1024,
+          "y": -1024,
+          "zOrder": 1010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16313,6 +16411,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "spawner_mansao",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite29",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -16345,6 +16504,9 @@
               },
               {
                 "objectName": "NewTiledSprite"
+              },
+              {
+                "objectName": "spawner_mansao"
               }
             ]
           },
@@ -16367,6 +16529,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Configurações no inicio da cena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16415,6 +16578,14 @@
                   },
                   "parameters": [
                     "li"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CacheSouris"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ],
@@ -16867,6 +17038,88 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player_naian",
+                    "spawner_mansao",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "can_move",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                  },
+                  "parameters": [
+                    "transition_scene_easy_in_out",
+                    "FlashTransitionPainter",
+                    "\"0;0;0\"",
+                    "1.5",
+                    "\"Flash\"",
+                    "\"Forward\"",
+                    "255",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ultima_cena",
+                    "=",
+                    "\"cidade_mansao\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"mansao_tereo\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "can_move",
+                    "True",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -16886,28 +17139,43 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Player"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "HUD"
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy contact",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustResumed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Caminho de Sombras.mp3",
+                    "3",
+                    "yes",
+                    "GlobalVariable(MusicVolum)",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -16985,32 +17253,6 @@
                     "enemy_sonna.posicao_chao"
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SceneJustResumed"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "RePlayMusicCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "3"
-                      ]
-                    }
-                  ]
-                }
               ]
             },
             {
@@ -17042,6 +17284,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Perseguir",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17078,6 +17321,20 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "HUD"
         }
       ],
       "layers": [
@@ -34692,6 +34949,285 @@
             }
           ],
           "variants": [
+            {
+              "areaMaxX": 224,
+              "areaMaxY": 34,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "name": "Red Flat Bar2",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "string": "8 / 16",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 16,
+                  "color": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "8 / 16",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 16,
+                    "lineHeight": 0,
+                    "color": "255;255;255"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 0,
+                  "height": 24,
+                  "leftMargin": 0,
+                  "name": "FillBar",
+                  "rightMargin": 0,
+                  "texture": "Flat Bar Red Fill Bar.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 24,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ResourceBar",
+                      "type": "PanelSpriteContinuousBar::ResourceBar",
+                      "Value": 1,
+                      "MaxValue": 3,
+                      "PreviousValue": 0,
+                      "CurrentValue": 1
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior"
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 0,
+                  "height": 24,
+                  "leftMargin": 0,
+                  "name": "Buffer",
+                  "rightMargin": 0,
+                  "texture": "Flat Bar Red Fill Bar.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 24,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior"
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 6,
+                  "height": 34,
+                  "leftMargin": 4,
+                  "name": "Background",
+                  "rightMargin": 4,
+                  "texture": "Flat Bar White Border.png",
+                  "tiled": false,
+                  "topMargin": 6,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 224,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "FillBar"
+                  },
+                  {
+                    "objectName": "Buffer"
+                  },
+                  {
+                    "objectName": "Background"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "Background",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 24,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "FillBar",
+                  "persistentUuid": "5a0d266a-f680-4580-8e30-0a8516815f9a",
+                  "width": 216,
+                  "x": 4,
+                  "y": 4,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 24,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Label",
+                  "persistentUuid": "03472802-6b7f-42d1-bf9b-68bf9d0d399f",
+                  "width": 216,
+                  "x": 4,
+                  "y": 16,
+                  "zOrder": 3,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": {
+                "grid": false,
+                "gridType": "rectangular",
+                "gridWidth": 32,
+                "gridHeight": 32,
+                "gridDepth": 32,
+                "gridOffsetX": 0,
+                "gridOffsetY": 0,
+                "gridOffsetZ": 0,
+                "gridColor": 10401023,
+                "gridAlpha": 0.8,
+                "snap": false,
+                "zoomFactor": 3.125,
+                "windowMask": false,
+                "selectedLayer": ""
+              }
+            },
             {
               "areaMaxX": 224,
               "areaMaxY": 34,
