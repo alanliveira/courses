@@ -1977,6 +1977,14 @@
         "name": "terra.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "ponteiro-mouse.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ponteiro-mouse.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -9827,6 +9835,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ponteiro",
+          "persistentUuid": "868fb011-86fb-4a75-b2fc-7ca633a72d3b",
+          "width": 40,
+          "x": -254,
+          "y": 237,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -10367,6 +10392,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ponteiro",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ponteiro-mouse.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 0,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10406,6 +10491,9 @@
               },
               {
                 "objectName": "Dialogue"
+              },
+              {
+                "objectName": "ponteiro"
               }
             ]
           },
@@ -10518,6 +10606,20 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "CacheSouris"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -10611,6 +10713,24 @@
                   },
                   "parameters": [
                     "0.1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "ponteiro",
+                    "=",
+                    "CursorX(\"\", 0) - ponteiro.Width()",
+                    "=",
+                    "CursorY(\"\", 0) - ponteiro.Height()"
                   ]
                 }
               ]
@@ -15339,7 +15459,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4633111824514055,
+        "zoomFactor": 0.3797121001947996,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
