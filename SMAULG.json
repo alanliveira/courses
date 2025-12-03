@@ -1993,6 +1993,222 @@
         "name": "NewSprite29",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Lobo Lohan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lobo Lohan.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lohan_npc26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lohan_npc26",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3305,11 +3521,1080 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lohan_npc",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Lohan_Dormindo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lohan_Dormindo",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc23",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc24",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc25",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lohan_npc26",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "lohan_npc"
+      },
       {
         "objectName": "player_naian"
       },
@@ -3486,7 +4771,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.604083874998888,
+        "zoomFactor": 0.36732575450588284,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -5332,6 +6617,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -5375,7 +6664,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410741191,
+        "zoomFactor": 0.28172599320796854,
         "windowMask": false,
         "selectedLayer": "HUD"
       },
@@ -7685,6 +8974,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -7728,7 +9021,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410421,
+        "zoomFactor": 0.8141881203710051,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7885,8 +9178,8 @@
           "name": "mapa_foreground",
           "persistentUuid": "612c35c7-cb9c-485e-a68d-1f237797a555",
           "width": 2560,
-          "x": 0,
-          "y": 0,
+          "x": 18,
+          "y": 86,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -8328,6 +9621,125 @@
           "x": 280,
           "y": 1051,
           "zOrder": 1005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "keepRatio": true,
+          "layer": "",
+          "name": "co",
+          "persistentUuid": "1367aac4-83e6-4ef8-9755-193dfeb4effd",
+          "width": 338,
+          "x": 1126,
+          "y": 671,
+          "zOrder": 1006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "keepRatio": true,
+          "layer": "",
+          "name": "co",
+          "persistentUuid": "0a6b3234-4fb3-4e97-984c-4dc383f82533",
+          "width": 338,
+          "x": 578,
+          "y": 670,
+          "zOrder": 1006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 18,
+          "keepRatio": true,
+          "layer": "",
+          "name": "co",
+          "persistentUuid": "d9aafd10-9fc0-4e50-9946-2cd55c0081b6",
+          "width": 306,
+          "x": 2067,
+          "y": 684,
+          "zOrder": 1007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 9,
+          "keepRatio": true,
+          "layer": "",
+          "name": "co",
+          "persistentUuid": "4c273dbf-cc70-4da6-9a10-4f8155380afc",
+          "width": 75,
+          "x": 2330,
+          "y": 733,
+          "zOrder": 1008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 313,
+          "keepRatio": true,
+          "layer": "",
+          "name": "co",
+          "persistentUuid": "e234a436-3640-4229-9bc2-6e22439aad40",
+          "width": 4,
+          "x": 2334,
+          "y": 420,
+          "zOrder": 1009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 11,
+          "keepRatio": true,
+          "layer": "",
+          "name": "co",
+          "persistentUuid": "deedf5a6-4e98-4776-aa2b-e00f3c5f578d",
+          "width": 295,
+          "x": 661,
+          "y": 1328,
+          "zOrder": 1010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 7,
+          "keepRatio": true,
+          "layer": "",
+          "name": "co",
+          "persistentUuid": "f79ad51d-7982-4d5b-83e4-193ac6662b0d",
+          "width": 287,
+          "x": 1108,
+          "y": 1969,
+          "zOrder": 1011,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9740,6 +11152,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "RemapForTopdown",
@@ -11484,6 +12900,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -11931,6 +13351,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -11974,7 +13398,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.27253598967729314,
+        "zoomFactor": 0.24672586957406276,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -12796,6 +14220,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -12839,7 +14267,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702383,
+        "zoomFactor": 0.43357743047023833,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -13247,67 +14675,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "lohan_npc",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Lohan_Dormindo",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Lohan_Dormindo",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 46,
-                            "y": 0
-                          },
-                          {
-                            "x": 46,
-                            "y": 20
-                          },
-                          {
-                            "x": 0,
-                            "y": 20
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13321,9 +14688,6 @@
           },
           {
             "objectName": "collision"
-          },
-          {
-            "objectName": "lohan_npc"
           }
         ]
       },
@@ -13746,6 +15110,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -13789,7 +15157,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6455105703311537,
+        "zoomFactor": 0.34375202416123457,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -15496,6 +16864,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -15539,9 +16911,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.529035740215693,
+        "zoomFactor": 0.34375202416123785,
         "windowMask": false,
-        "selectedLayer": "HUD"
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -19039,6 +20411,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Idle's",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
