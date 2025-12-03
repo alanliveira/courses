@@ -20824,37 +20824,106 @@
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "player_naian",
-                "TopDownMovement"
+                "lohan_npc",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ShadowClones::AnimateShadowClones"
+                "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
-                "",
-                "player_naian",
                 "lohan_npc",
-                "1",
-                "1",
-                "0",
-                "0",
+                "Pathfinding",
                 "",
-                "0",
-                "yes",
-                "yes",
-                "yes",
-                "yes",
-                "yes",
-                "yes",
-                "yes",
-                ""
+                "player_naian.X()",
+                "player_naian.Y()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "lohan_npc",
+                    ">=",
+                    "-45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "lohan_npc",
+                    "<=",
+                    "45"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "lohan_npc",
+                    "Animation",
+                    "=",
+                    "\"Walking Right\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "lohan_npc",
+                    ">=",
+                    "-135"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "lohan_npc",
+                    "<=",
+                    "135"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "lohan_npc",
+                    "Animation",
+                    "=",
+                    "\"Walking Left\""
+                  ]
+                }
               ]
             }
           ]
