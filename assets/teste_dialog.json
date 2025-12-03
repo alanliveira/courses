@@ -74,8 +74,18 @@
 		"tags": "",
 		"body": "<< titleDialog Dercy >>\nOrra, Cascalho, você coletou a borra das anotações.\nAgora va para a mansão que tem o canavial de baixinhos. Borra",
 		"position": {
-			"x": 604,
-			"y": 822
+			"x": 681,
+			"y": 865
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LohanDormindo",
+		"tags": "",
+		"body": "<< titleDialog Naian>>\nAcorde Lohan, temos que ir.\n<< titleDialog Lohan>>\nWoo~~of",
+		"position": {
+			"x": 400,
+			"y": 1107
 		},
 		"colorID": 0
 	}
