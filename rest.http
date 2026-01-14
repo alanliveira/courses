@@ -1,0 +1,48 @@
+GET http://localhost:3001/users
+Content-Type: application/json
+Accept: application/json
+
+###
+
+# TODO: Parei na parte 7
+
+POST http://localhost:3001/users
+Content-Type: application/json
+Accept: application/json
+
+{
+    "first_name": "Alan",
+    "name": "Alan Oliveira",
+    "email": "alan@test2.com"
+}
+
+###
+
+GET http://localhost:3002/customers
+Content-Type: application/json
+Accept: application/json
+
+###
+
+POST http://localhost:3002/customers
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET http://localhost:3002/service_orders
+Content-Type: application/json
+Accept: application/json
+
+###
+
+POST http://localhost:3002/service_orders
+Content-Type: application/json
+Accept: application/json
+
+{
+    "service_order" : {
+        "email": "alan@test2.com",
+        "description": "Apenas um test"
+    }
+}
