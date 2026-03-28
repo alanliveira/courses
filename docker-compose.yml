@@ -1,0 +1,9 @@
+services:
+  game:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    environment:
+      - SDL_VIDEODRIVER=dummy
+      - SDL_AUDIODRIVER=dummy
