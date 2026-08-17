@@ -1,0 +1,52 @@
+  </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogResult.Yes">
+            <summary>
+            "Yes" button was clicked
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogResult.No">
+            <summary>
+            "No" button was clicked
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogResult.Cancel">
+            <summary>
+            "Cancel" button was clicked
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogResult.Retry">
+            <summary>
+            "Retry" button was clicked
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogResult.Close">
+            <summary>
+            "Close" button was clicked
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogResult.CustomButtonClicked">
+            <summary>
+            A custom button was clicked.
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogStandardButtons">
+            <summary>
+            Identifies one of the standard buttons that 
+            can be displayed via TaskDialog.
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogStandardButtons.None">
+            <summary>
+            No buttons on the dialog.
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogStandardButtons.Ok">
+            <summary>
+            An "OK" button.
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAPICodePack.Dialogs.TaskDialogStandardButtons.Yes">
+            <summary>
+            A "Yes" button.
+            </summary>

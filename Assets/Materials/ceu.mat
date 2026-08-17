@@ -1,0 +1,40 @@
+.String,System.String)">
+      <summary>
+        <para>Configures file for building for the given target with specific compiler flags.</para>
+      </summary>
+      <param name="targetGuid">The GUID of the target as returned by TargetGuidByName.</param>
+      <param name="fileGuid">The file guid returned by AddFile.</param>
+      <param name="compileFlags">Compile flags to use.</param>
+    </member>
+    <member name="M:UnityEditor.iOS.Xcode.PBXProject.AddFrameworkToProject(System.String,System.String,System.Boolean)">
+      <summary>
+        <para>Adds a framework dependency for the specified target.</para>
+      </summary>
+      <param name="targetGuid">The GUID of the build configuration as returned by TargetGuidByName.</param>
+      <param name="framework">The name of the framework. The extension must be ".framework".</param>
+      <param name="weak">True if the framework is required, false if optional.</param>
+    </member>
+    <member name="M:UnityEditor.iOS.Xcode.PBXProject.BuildConfigByName(System.String,System.String)">
+      <summary>
+        <para>Returns the GUID of build configuration with the given name for the specific target. null is returned if such configuration does not exist.</para>
+      </summary>
+      <param name="targetGuid">The GUID of the target as returned by TargetGuidByName.</param>
+      <param name="name">The name of the build configuration.</param>
+      <returns>
+        <para>The GUID of the build configuration or null if it does not exist.</para>
+      </returns>
+    </member>
+    <member name="M:UnityEditor.iOS.Xcode.PBXProject.ContainsFileByProjectPath(System.String)">
+      <summary>
+        <para>Checks if the project contains a file with the given project path.</para>
+      </summary>
+      <param name="path">The project path of the file.</param>
+      <returns>
+        <para>Returns true if the project contains the file, false otherwise.</para>
+      </returns>
+    </member>
+    <member name="M:UnityEditor.iOS.Xcode.PBXProject.ContainsFileByRealPath(System.String)">
+      <summary>
+        <para>Checks if the project contains a file with the given physical path.</para>
+      </summary>
+      <param name="path">The physica

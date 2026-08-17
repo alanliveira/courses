@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 9f79788da7743e74cb9ab7e57e4a0d1c
+timeCreated: 1509307622
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Agua
+    100002: Bone
+    100004: Caverna
+    100006: Coluna
+    100008: Coluna_001
+    100010: Coluna_002
+    100012: Coluna_003
+    100014: Coluna_004
+    100016: Coluna_005
+    100018: Coluna_006
+    100020: Coluna_007
+    100022: Coluna_008
+    100024: Coluna_009
+    100026: Coluna_010
+    100028: Coluna_011
+    100030: Coluna_012
+    100032: Coluna_013
+    100034: Coluna_014
+    100036: Colunas
+    100038: Ocean
+    100040: Ponte
+    100042: Ponte_001
+    100044: Ponte_Grande
+    100046: Ponte_Grande_001
+    100048: Ponte_Grande_002
+    100050: Ponte_Grande_003
+    100052: Ponte_Grande_004
+    100054: Pontes
+    100056: Porto
+    100058: Terrain
+    100060: Terrain_001
+    100062: Terrain_002
+    100064: Terrains
+    100066: //RootNode
+    100068: Terrain_000
+    100070: Plataforma
+    100072: Praia_Misteriosa
+    100074: Toco
+    100076: Toco_001
+    400000: Agua
+    400002: Bone
+    400004: Caverna
+    400006: Coluna
+    400008: Coluna_001
+    400010: Coluna_002
+    400012: Coluna_003
+    400014: Coluna_004
+    400016: Coluna_005
+    400018: Coluna_006
+    400020: Coluna_007
+    400022: Coluna_008
+    400024: Coluna_009
+    400026: Coluna_010
+    400028: Coluna_011
+    400030: Coluna_012
+    400032: Coluna_013
+    400034: Coluna_014
+    400036: Colunas
+    400038: Ocean
+    400040: Ponte
+    400042: Ponte_001
+    400044: Ponte_Grande
+    400046: Ponte_Grande_001
+    400048: Ponte_Grande_002
+    400050: Ponte_Grande_003
+    400052: Ponte_Grande_004
+    400054: Pontes
+    400056: Porto
+    400058: Terrain
+    400060: Terrain_001
+    400062: Terrain_002
+    400064: Terrains
+    400066: //RootNode
+    400068: Terrain_000
+    400070: Plataforma
+    400072: Praia_Misteriosa
+    400074: Toco
+    400076: Toco_001
+    2300000: Caverna
+    2300002: Coluna
+    2300004: Coluna_001
+    2300006: Coluna_002
+    2300008: Coluna_003
+    2300010: Coluna_004
+    2300012: Coluna_005
+    2300014: Coluna_006
+    2300016: Coluna_007
+    2300018: Coluna_008
+    2300020: Coluna_009
+    2300022: Coluna_010
+    2300024: Coluna_011
+    2300026: Coluna_012
+    2300028: Coluna_013
+    2300030: Coluna_014
+    2300032: Ponte
+    2300034: Ponte_001
+    2300036: Ponte_Grande
+    2300038: Ponte_Grande_001
+    2300040: Ponte_Grande_002
+    2300042: Ponte_Grande_003
+    2300044: Ponte_Grande_004
+    2300046: Porto
+    2300048: Terrain
+    2300050: Terrain_001
+    2300052: Terrain_002
+    2300054: Terrain_000
+    2300056: Plataforma
+    2300058: Praia_Misteriosa
+    2300060: Toco
+    2300062: Toco_001
+    3300000: Caverna
+    3300002: Coluna
+    3300004: Coluna_001
+    3300006: Coluna_002
+    3300008: Coluna_003
+    3300010: Coluna_004
+    3300012: Coluna_005
+    3300014: Coluna_006
+    3300016: Coluna_007
+    3300018: Coluna_008
+    3300020: Coluna_009
+    3300022: Coluna_010
+    3300024: Coluna_011
+    3300026: Coluna_012
+    3300028: Coluna_013
+    3300030: Coluna_014
+    3300032: Ponte
+    3300034: Ponte_001
+    3300036: Ponte_Grande
+    3300038: Ponte_Grande_001
+    3300040: Ponte_Grande_002
+    3300042: Ponte_Grande_003
+    3300044: Ponte_Grande_004
+    3300046: Porto
+    3300048: Terrain
+    3300050: Terrain_001
+    3300052: Terrain_002
+    3300054: Terrain_000
+    3300056: Plataforma
+    3300058: Praia_Misteriosa
+    3300060: Toco
+    3300062: Toco_001
+    4300000: Porto
+    4300002: Caverna
+    4300004: Agua
+    4300006: Ponte_Grande_004
+    4300008: Ponte_Grande_003
+    4300010: Ponte_Grande_002
+    4300012: Ponte_Grande_001
+    4300014: Ponte_Grande
+    4300016: Ponte_001
+    4300018: Ponte
+    4300020: Terrain_001
+    4300022: Terrain
+    4300024: Terrain_002
+    4300026: Coluna_014
+    4300028: Coluna_013
+    4300030: Coluna_012
+    4300032: Coluna_011
+    4300034: Coluna_010
+    4300036: Coluna_009
+    4300038: Coluna_008
+    4300040: Coluna_007
+    4300042: Coluna_006
+    4300044: Coluna_005
+    4300046: Coluna_004
+    4300048: Coluna_003
+    4300050: Coluna_002
+    4300052: Coluna_001
+    4300054: Coluna
+    4300056: Terrain_000
+    4300058: Praia_Misteriosa
+    4300060: Plataforma
+    4300062: Toco_001
+    4300064: Toco
+    7400000: Default Take
+    7400002: OceanAction
+    9500000: //RootNode
+    13700000: Agua
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: OceanAction
+      takeName: OceanAction
+      firstFrame: 0
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

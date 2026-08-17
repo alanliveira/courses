@@ -1,0 +1,333 @@
+on="Kvalitet på underprøvetagning">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+    </setting>
+    <setting name="Sunlight Rays" translation="Solstråler">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Texture Quality" translation="Teksturkvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+    </setting>
+    <setting name="View Distance" translation="Visningsafstand" />
+    <setting name="Water Reflection Quality" translation="Kvalitet på vandreflektion">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Off" translation="Fra" />
+    </setting>
+  </language>
+  <language name="de_DE" translation="">
+    <setting name="Ambient Occlusion" translation="Umgebungsverdeckung">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Bloom" translation="Überstrahlung">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Depth of Field" translation="Schärfentiefe">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Display Mode" translation="Anzeigemodus">
+      <value name="Full-screen" translation="Ganzer Bildschirm" />
+      <value name="Windowed" translation="Fenster" />
+    </setting>
+    <setting name="Distortion" translation="Verzerrung">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Grass" translation="Gras">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Maximum Particle Systems" translation="Maximale Partikelsysteme" />
+    <setting name="Particle Suppression Distance" translation="Entfernung für Partikelunterdrückung" />
+    <setting name="Resolution" translation="Auflösung" />
+    <setting name="Shadow Quality" translation="Schattenqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Off" translation="Aus" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="SubSampling Quality" translation="SubSampling-Qualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+    </setting>
+    <setting name="Sunlight Rays" translation="Sonnenstrahlen">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Texture Quality" translation="Texturqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+    </setting>
+    <setting name="View Distance" translation="Betrachtungsabstand" />
+    <setting name="Water Reflection Quality" translation="Qualität Wasserreflexionen">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Off" translation="Aus" />
+    </setting>
+  </language>
+  <language name="el_GR" translation="">
+    <setting name="Ambient Occlusion" translation="Περιβαλλοντική έμφραξη">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Εξομάλυνση ορίων">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Bloom" translation="Άνθισμα">
+      <value name="Off" translation="Ανενεργό" />
+      <value name="On" translation="Ενεργό" />
+    </setting>
+    <setting name="Depth of Field" translation="Βάθος πεδίου">
+      <value name="Off" translation="Ανενεργό" />
+      <value name="On" translation="Ενεργό" />
+    </setting>
+    <setting name="Display Mode" translation="Λειτουργία οθόνης">
+      <value name="Full-screen" translation="Πλήρης οθόνη" />
+      <value name="Windowed" translation="Με παράθυρα" />
+    </setting>
+    <setting name="Distortion" translation="Παραμόρφωση">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Grass" translation="Γρασίδι">
+      <value name="Off" translation="Ανενεργό" />
+      <value name="On" translation="Ενεργό" />
+    </setting>
+    <setting name="Maximum Particle Systems" translation="Συστήματα μέγιστων σωματιδίων" />
+    <setting name="Particle Suppression Distance" translation="Απόσταση καταστολής σωματιδίων" />
+    <setting name="Resolution" translation="Ανάλυση" />
+    <setting name="Shadow Quality" translation="Ποιότητα σκιάς">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Off" translation="Ανενεργή" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+    <setting name="SubSampling Quality" translation="Ποιότητα υποδειγματοληψίας">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+    </setting>
+    <setting name="Sunlight Rays" translation="Αχτίδες ήλιου">
+      <value name="Off" translation="Ανενεργές" />
+      <value name="On" translation="Ενεργές" />
+    </setting>
+    <setting name="Texture Quality" translation="Ποιότητα υφής">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+    </setting>
+    <setting name="View Distance" translation="Απόσταση προβολής" />
+    <setting name="Water Reflection Quality" translation="Ποιότητα αντανάκλασης νερού">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Off" translation="Ανενεργή" />
+    </setting>
+  </language>
+  <language name="en_GB" translation="">
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Bloom" translation="Bloom">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Depth of Field" translation="Depth of Field">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Windowed" translation="Windowed" />
+    </setting>
+    <setting name="Distortion" translation="Distortion">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Grass" translation="Grass">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Maximum Particle Systems" translation="Maximum Particle Systems" />
+    <setting name="Particle Suppression Distance" translation="Particle Suppression Distance" />
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Shadow Quality" translation="Shadow Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Off" translation="Off" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="SubSampling Quality" translation="SubSampling Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="Sunlight Rays" translation="Sunlight Rays">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Texture Quality" translation="Texture Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="View Distance" translation="View Distance" />
+    <setting name="Water Reflection Quality" translation="Water Reflection Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Off" translation="Off" />
+    </setting>
+  </language>
+  <language name="en_US" translation="">
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Bloom" translation="Bloom">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Depth of Field" translation="Depth of Field">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Windowed" translation="Windowed" />
+    </setting>
+    <setting name="Distortion" translation="Distortion">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Grass" translation="Grass">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Maximum Particle Systems" translation="Maximum Particle Systems" />
+    <setting name="Particle Suppression Distance" translation="Particle Suppression Distance" />
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Shadow Quality" translation="Shadow Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Off" translation="Off" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="SubSampling Quality" translation="SubSampling Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="Sunlight Rays" translation="Sunlight Rays">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Texture Quality" translation="Texture Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="View Distance" translation="View Distance" />
+    <setting name="Water Reflection Quality" translation="Water Reflection Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Off" translation="Off" />
+    </setting>
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Bloom" translation="Bloom">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidad de campo">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+    </setting>
+    <setting name="Distortion" translation="Distorsión">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Grass" translation="Hierba">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activada" />
+    </setting>
+    <setting name="Maximum Particle Systems" translation="Máximo de sistemas de partículas" />
+    <setting name="Particle Suppression Distance" translation="Distancia de supresión de partículas" />
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Shadow Quality" translation="Calidad de sombras">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Off" translation="Desactivado" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="SubSampling Quality" translation="Calidad de submuestreo">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+    </setting>
+    <setting name="Sunlight Rays" translation="Rayos del sol">
+      <value name="Off" translation="Desactivados" />
+      <value name="On" translation="Activados" />
+    </setting>
+    <setting name="Texture Quality" translation="Calidad de textura">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="View Distance" translation="Ver distancia" />
+    <setting name="Water Reflection Quality" translation="Calidad de reflejos del agua">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Off" translation="Desactivada" />
+    </setting>
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting nam

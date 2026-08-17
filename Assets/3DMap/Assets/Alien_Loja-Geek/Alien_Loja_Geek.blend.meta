@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 0242f28cdd3623d478fa648e682ea90f
+timeCreated: 1510421602
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Alien_Model
+    100004: Alien_Rig
+    100006: AnteBra_o_Direito
+    100008: AnteBra_o_Esquerdo
+    100010: Biceps_Direito
+    100012: Biceps_Esquerdo
+    100014: Cabeca
+    100016: Cabeca_Back
+    100018: Cintura
+    100020: Cocha_Direita
+    100022: Cocha_Esquerda
+    100024: Dedos_Direito
+    100026: Dedos_Esquerdo
+    100028: Mao_Direita
+    100030: Mao_Esquerda
+    100032: Panturrilha_Direita
+    100034: Panturrilha_Esquerda
+    100036: Pe_Direito
+    100038: Pe_Esquerdo
+    100040: Pescoco
+    100042: Placa_Alien
+    100044: Plataforma_Alien
+    100046: Torso
+    400000: //RootNode
+    400002: Alien_Model
+    400004: Alien_Rig
+    400006: AnteBra_o_Direito
+    400008: AnteBra_o_Esquerdo
+    400010: Biceps_Direito
+    400012: Biceps_Esquerdo
+    400014: Cabeca
+    400016: Cabeca_Back
+    400018: Cintura
+    400020: Cocha_Direita
+    400022: Cocha_Esquerda
+    400024: Dedos_Direito
+    400026: Dedos_Esquerdo
+    400028: Mao_Direita
+    400030: Mao_Esquerda
+    400032: Panturrilha_Direita
+    400034: Panturrilha_Esquerda
+    400036: Pe_Direito
+    400038: Pe_Esquerdo
+    400040: Pescoco
+    400042: Placa_Alien
+    400044: Plataforma_Alien
+    400046: Torso
+    2300000: Placa_Alien
+    2300002: Plataforma_Alien
+    3300000: Placa_Alien
+    3300002: Plataforma_Alien
+    4300000: Plataforma_Alien
+    4300002: Placa_Alien
+    4300004: Alien_Model
+    7400000: Default Take
+    7400002: Alien_Dance
+    7400004: Alien_Idle
+    9500000: //RootNode
+    13700000: Alien_Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

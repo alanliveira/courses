@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5f87a48fbe73c4f9e8b978c6bc6710, type: 3}
+  m_Name: Bia
+  m_EditorClassIdentifier: 
+  nome: Bia
+  avatar: {fileID: 0}
+  classe: Arqueiro
+  speed: 800
+  speedMax: 1000
+  turnSpeed: 10
+  jump: 15
+  vidaMax: 10
+  vidaAtual: 15
+  energiaMax: 16
+  energiaAtual: 20
+  ataque: 10
+  defesa: 10
+  equipamento: {fileID: 11400000, guid: 8233fe4ffa462304887e43e2e06dc098, type: 2}

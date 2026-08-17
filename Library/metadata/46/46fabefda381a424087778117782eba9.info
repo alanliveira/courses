@@ -1,0 +1,336 @@
+abled" translation="Disabled" />
+      <value name="Enabled" translation="Enabled" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Shadow Quality" translation="Shadow Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="SSAO" translation="SSAO">
+      <value name="Disabled" translation="Disabled" />
+      <value name="Enabled" translation="Enabled" />
+    </setting>
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="Disabled" translation="Desactivado" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+    </setting>
+    <setting name="Reflections" translation="Reflejos">
+      <value name="Disabled" translation="Desactivados" />
+      <value name="Enabled" translation="Activados" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Shadow Quality" translation="Calidad de sombras">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="SSAO" translation="SSAO">
+      <value name="Disabled" translation="Desactivado" />
+      <value name="Enabled" translation="Activado" />
+    </setting>
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Anti-aliasing" translation="Suavizado de líneas">
+      <value name="Disabled" translation="Desactivado" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+    </setting>
+    <setting name="Reflections" translation="Reflejos">
+      <value name="Disabled" translation="Desactivados" />
+      <value name="Enabled" translation="Activados" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Shadow Quality" translation="Calidad de sombras">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="SSAO" translation="Oclusión ambiental del espacio de pantalla (SSAO)">
+      <value name="Disabled" translation="Desactivado" />
+      <value name="Enabled" translation="Activado" />
+    </setting>
+  </language>
+  <language name="fi_FI" translation="">
+    <setting name="Anti-aliasing" translation="Reunanpehmennys">
+      <value name="Disabled" translation="Ei käytössä" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Näyttötila">
+      <value name="Full-screen" translation="Kokonäyttö" />
+      <value name="Windowed" translation="Ikkuna" />
+    </setting>
+    <setting name="Reflections" translation="Heijastukset">
+      <value name="Disabled" translation="Poistettu käytöstä" />
+      <value name="Enabled" translation="Käytössä" />
+    </setting>
+    <setting name="Resolution" translation="Tarkkuus" />
+    <setting name="Shadow Quality" translation="Varjon laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+    </setting>
+    <setting name="SSAO" translation="Näyttötilan ympäristön varjostus (SSAO)">
+      <value name="Disabled" translation="Ei käytössä" />
+      <value name="Enabled" translation="Käytössä" />
+    </setting>
+  </language>
+  <language name="fr_FR" translation="">
+    <setting name="Anti-aliasing" translation="Anticrénelage">
+      <value name="Disabled" translation="Désactivé" />
+      <value name="FXAA" translation="Anticrénelage rapide approximatif (FXAA)" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Mode d'affichage">
+      <value name="Full-screen" translation="Plein écran" />
+      <value name="Windowed" translation="Fenêtré" />
+    </setting>
+    <setting name="Reflections" translation="Réflexions">
+      <value name="Disabled" translation="Désactivées" />
+      <value name="Enabled" translation="Activées" />
+    </setting>
+    <setting name="Resolution" translation="Résolution" />
+    <setting name="Shadow Quality" translation="Qualité de l’ombre">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+    </setting>
+    <setting name="SSAO" translation="Occultation ambiante dans l'espace écran">
+      <value name="Disabled" translation="Désactivé" />
+      <value name="Enabled" translation="Activé" />
+    </setting>
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Anti-aliasing" translation="החלקת שינון">
+      <value name="Disabled" translation="לא זמינה" />
+      <value name="FXAA" translation="החלקת שינון באמצעות קירוב מהיר" />
+      <value name="MLAA" translation="מורפולוגית" />
+      <value name="SMAA" translation="החלקת שינון מורפולוגית משופרת (SMAA)" />
+    </setting>
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="Full-screen" translation="במלוא שטח הצג" />
+      <value name="Windowed" translation="תצוגה בחלון" />
+    </setting>
+    <setting name="Reflections" translation="השתקפויות">
+      <value name="Disabled" translation="לא זמינות" />
+      <value name="Enabled" translation="זמינות" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+    <setting name="Shadow Quality" translation="איכות ההצללה">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+    </setting>
+    <setting name="SSAO" translation="הסתרה סביבתית של שטח התצוגה">
+      <value name="Disabled" translation="לא זמינה" />
+      <value name="Enabled" translation="זמינה" />
+    </setting>
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Anti-aliasing" translation="Élsimítás">
+      <value name="Disabled" translation="Letiltva" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Full-screen" translation="Teljes képernyős" />
+      <value name="Windowed" translation="Ablakos" />
+    </setting>
+    <setting name="Reflections" translation="Visszatükröződések">
+      <value name="Disabled" translation="Letiltva" />
+      <value name="Enabled" translation="Engedélyezve" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+    <setting name="Shadow Quality" translation="Árnyékminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+    </setting>
+    <setting name="SSAO" translation="Képernyőtéri környezeti kitakarás">
+      <value name="Disabled" translation="Letiltva" />
+      <value name="Enabled" translation="Engedélyezve" />
+    </setting>
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Anti-aliasing" translation="Antialias">
+      <value name="Disabled" translation="Disabilitato" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="Full-screen" translation="Schermo intero" />
+      <value name="Windowed" translation="A finestra" />
+    </setting>
+    <setting name="Reflections" translation="Riflessioni">
+      <value name="Disabled" translation="Disabilitate" />
+      <value name="Enabled" translation="Abilitate" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+    <setting name="Shadow Quality" translation="Qualità ombre">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="SSAO" translation="SSAO">
+      <value name="Disabled" translation="Disabilitato" />
+      <value name="Enabled" translation="Abilitato" />
+    </setting>
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Anti-aliasing" translation="アンチエイリアシング">
+      <value name="Disabled" translation="無効" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="Full-screen" translation="フルスクリーン" />
+      <value name="Windowed" translation="ウィンドウ表示" />
+    </setting>
+    <setting name="Reflections" translation="反射">
+      <value name="Disabled" translation="無効" />
+      <value name="Enabled" translation="有効" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+    <setting name="Shadow Quality" translation="シャドウのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="SSAO" translation="SSAO">
+      <value name="Disabled" translation="無効" />
+      <value name="Enabled" translation="有効" />
+    </setting>
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Anti-aliasing" translation="앤티엘리어싱">
+      <value name="Disabled" translation="비활성화" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="Full-screen" translation="전체 화면" />
+      <value name="Windowed" translation="창" />
+    </setting>
+    <setting name="Reflections" translation="반사">
+      <value name="Disabled" translation="비활성화" />
+      <value name="Enabled" translation="활성화" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+    <setting name="Shadow Quality" translation="그림자 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+    </setting>
+    <setting name="SSAO" translation="SSAO">
+      <value name="Disabled" translation="비활성화" />
+      <value name="Enabled" translation="활성화" />
+    </setting>
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Disabled" translation="Deaktivert" />
+      <value name="FXAA" translation="Skyggebasert anti-aliasing" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="Full-screen" translation="Full skjerm" />
+      <value name="Windowed" translation="Vindusmodus" />
+    </setting>
+    <setting name="Reflections" translation="Gjenspeilinger">
+      <value name="Disabled" translation="Deaktivert" />
+      <value name="Enabled" translation="Aktivert" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+    <setting name="Shadow Quality" translation="Skyggekvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+    </setting>
+    <setting name="SSAO" translation="SSAO">
+      <value name="Disabled" translation="Deaktivert" />
+      <value name="Enabled" translation="Aktivert" />
+    </setting>
+  </language>
+  <language name="nl_NL" translation="">
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Disabled" translation="Uitgeschakeld" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="Full-screen" translation="Volledig scherm" />
+      <value name="Windowed" translation="In venster" />
+    </setting>
+    <setting name="Reflections" translation="Reflecties">
+      <value name="Disabled" translation="Uitgeschakeld" />
+      <value name="Enabled" translation="Ingeschakeld" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+    <setting name="Shadow Quality" translation="Schaduwkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+    </setting>
+    <setting name="SSAO" translation="SSAO">
+      <value name="Disabled" translation="Uitgeschakeld" />
+      <value name="Enabled" translation="Ingeschakeld" />
+    </setting>
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Anti-aliasing" translation="Wygładzanie krawędzi">
+      <value name="Disabled" translation="Wyłączone" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="Full-screen" translation="Pełny ekran" />
+      <value name="Windowed" translation="Okienkowy" />
+    </setting>
+    <setting name="Reflections" translation="Odbicia">
+      <value name="Disabled" translation="Wyłącz" />
+      <value name="Enabled" translation="Włącz" />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+    <setting name="Shadow Quality" translation="Jakość cieni">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+    </setting>
+    <setting name="SSAO" translation="SSAO">
+      <value name="Disabled" translation="Wyłącz" />
+      <value name="Enabled" translation="Włącz" />
+    </setting>
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Disabled" translation="Desabilitado" />
+      <value name="FXAA" translation="FXAA" />
+      <value name="MLAA" translation="MLAA" />
+      <value name="SMAA" translation="SMAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="Full-screen" translation="Tela inteira" />
+      <value name="
