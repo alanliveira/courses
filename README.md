@@ -1,9 +1,6 @@
 # 📚 Courses
 
-Sumário dos repositórios de **cursos** migrados para este monorepo,
-organizados por subcategoria (`cursos/<subcategoria>/<repositório>`).
-Cada repositório foi importado com **histórico completo de commits**
-via `git subtree` — acesse pela coluna **Acesso ao repositório** (link relativo).
+Este repositório tem a finalidade de **centralizar todos os cursos que fiz**.
 
 **17 repositórios** em **7 subcategorias**.
 
