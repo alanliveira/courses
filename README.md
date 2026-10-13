@@ -2,7 +2,7 @@
 
 Este repositório tem a finalidade de **centralizar todos os cursos que fiz**.
 
-**17 repositórios** em **7 subcategorias**.
+**18 repositórios** em **7 subcategorias**.
 
 ## Sumário
 
@@ -11,7 +11,7 @@ Este repositório tem a finalidade de **centralizar todos os cursos que fiz**.
 - [Django](#django) (1)
 - [ETEC — Desenvolvimento](#etec-desenvolvimento) (1)
 - [ETEC — Jogos](#etec-jogos) (2)
-- [FATEC — Jogos](#fatec-jogos) (1)
+- [FATEC — Jogos](#fatec-jogos) (2)
 - [Udemy](#udemy) (2)
 
 ## Alura
@@ -57,6 +57,7 @@ Este repositório tem a finalidade de **centralizar todos os cursos que fiz**.
 
 | Repositório | Linguagens | Acesso ao repositório |
 |---|---|---|
+| `JG_pygames_docker` | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=ffd43b) ![CSS](https://img.shields.io/badge/CSS-663399?logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Dockerfile](https://img.shields.io/badge/Dockerfile-2496ED?logo=docker&logoColor=white) | [cursos/fatec-jogos/JG_pygames_docker](cursos/fatec-jogos/JG_pygames_docker) |
 | `smaug-precioso-shadow-trails` | — | [cursos/fatec-jogos/smaug-precioso-shadow-trails](cursos/fatec-jogos/smaug-precioso-shadow-trails) |
 
 ## Udemy
