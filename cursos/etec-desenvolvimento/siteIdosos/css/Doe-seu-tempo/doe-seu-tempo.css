@@ -1,0 +1,37 @@
+p {
+    text-align: justify;
+    margin: 30px 0px;
+}
+
+p {
+    text-align: justify;
+    text-align: left;
+}
+
+
+body {
+    background-color: rgb(235, 235, 253);
+
+}
+
+#article-presentation article {
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.primary {
+    clear: both;
+}
+
+#article-presentation img {
+    width: 40%;
+    float: right;
+}
+
+.img1 {
+
+float: left;
+
+}
