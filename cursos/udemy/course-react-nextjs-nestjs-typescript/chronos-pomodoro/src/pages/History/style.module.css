@@ -1,0 +1,40 @@
+.responsiveTable {
+  border-radius: 0.8rem;
+  overflow-x: auto;
+
+  & table {
+    width: 100%;
+    min-width: 64rem;
+    font-size: 1.6rem;
+    border-collapse: collapse;
+
+    & th {
+      background-color: var(--gray-600);
+    }
+    & .thSort {
+      cursor: pointer;
+    }
+
+    & td {
+      background-color: var(--gray-800);
+    }
+
+    & th,
+    td {
+      border-bottom: 0.2rem solid var(--gray-700);
+      text-align: left;
+      padding: 1.6rem;
+    }
+  }
+}
+
+.buttonContainer button {
+  min-width: auto;
+  margin: 0;
+  padding: 1rem;
+
+  & svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
