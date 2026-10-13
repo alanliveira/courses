@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: a80086834981cac41893654ededd2adb
+timeCreated: 1511034316
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Abajur
+    100002: Abajur_001
+    100004: Balcao
+    100006: Balcao_001
+    100008: Balcao_002
+    100010: Cama_000
+    100012: Cama_001
+    100014: Chave_Solta
+    100016: Chaves
+    100018: Details_Terreo
+    100020: Fonte
+    100022: Fonte_001
+    100024: Fonte_002
+    100026: Fonte_003
+    100028: //RootNode
+    100030: Hotel_Piso2
+    100032: Hotel_PisoTerreo
+    100034: Porta_Qualquer
+    100036: Porta_Qualquer_001
+    100038: Porta_Qualquer_002
+    100040: Porta_Qualquer_003
+    100042: Porta_Quarto
+    100044: Portas_Avulsas
+    100046: Quarto-Bia
+    100048: Suporte_Chaves
+    100050: Travesseiro
+    100052: Tv_Quarto
+    100054: Cama
+    100056: Travesseiro_001
+    100058: Colchao
+    400000: Abajur
+    400002: Abajur_001
+    400004: Balcao
+    400006: Balcao_001
+    400008: Balcao_002
+    400010: Cama_000
+    400012: Cama_001
+    400014: Chave_Solta
+    400016: Chaves
+    400018: Details_Terreo
+    400020: Fonte
+    400022: Fonte_001
+    400024: Fonte_002
+    400026: Fonte_003
+    400028: //RootNode
+    400030: Hotel_Piso2
+    400032: Hotel_PisoTerreo
+    400034: Porta_Qualquer
+    400036: Porta_Qualquer_001
+    400038: Porta_Qualquer_002
+    400040: Porta_Qualquer_003
+    400042: Porta_Quarto
+    400044: Portas_Avulsas
+    400046: Quarto-Bia
+    400048: Suporte_Chaves
+    400050: Travesseiro
+    400052: Tv_Quarto
+    400054: Cama
+    400056: Travesseiro_001
+    400058: Colchao
+    2300000: Abajur
+    2300002: Abajur_001
+    2300004: Balcao
+    2300006: Balcao_001
+    2300008: Balcao_002
+    2300010: Cama_000
+    2300012: Cama_001
+    2300014: Chave_Solta
+    2300016: Chaves
+    2300018: Fonte
+    2300020: Fonte_001
+    2300022: Fonte_002
+    2300024: Fonte_003
+    2300026: //RootNode
+    2300028: Hotel_Piso2
+    2300030: Hotel_PisoTerreo
+    2300032: Porta_Qualquer
+    2300034: Porta_Qualquer_001
+    2300036: Porta_Qualquer_002
+    2300038: Porta_Qualquer_003
+    2300040: Porta_Quarto
+    2300042: Suporte_Chaves
+    2300044: Travesseiro
+    2300046: Tv_Quarto
+    2300048: Cama
+    2300050: Travesseiro_001
+    2300052: Colchao
+    3300000: Abajur
+    3300002: Abajur_001
+    3300004: Balcao
+    3300006: Balcao_001
+    3300008: Balcao_002
+    3300010: Cama_000
+    3300012: Cama_001
+    3300014: Chave_Solta
+    3300016: Chaves
+    3300018: Fonte
+    3300020: Fonte_001
+    3300022: Fonte_002
+    3300024: Fonte_003
+    3300026: //RootNode
+    3300028: Hotel_Piso2
+    3300030: Hotel_PisoTerreo
+    3300032: Porta_Qualquer
+    3300034: Porta_Qualquer_001
+    3300036: Porta_Qualquer_002
+    3300038: Porta_Qualquer_003
+    3300040: Porta_Quarto
+    3300042: Suporte_Chaves
+    3300044: Travesseiro
+    3300046: Tv_Quarto
+    3300048: Cama
+    3300050: Travesseiro_001
+    3300052: Colchao
+    4300000: Hotel-de-Luxo
+    4300002: Hotel_PisoTerreo
+    4300004: Hotel_Piso2
+    4300006: Balcao_002
+    4300008: Suporte_Chaves
+    4300010: Chave_Solta
+    4300012: Chaves
+    4300014: Fonte
+    4300016: Fonte_001
+    4300018: Fonte_002
+    4300020: Fonte_003
+    4300022: Travesseiro
+    4300024: Tv_Quarto
+    4300026: Porta_Quarto
+    4300028: Cama_001
+    4300030: Cama_000
+    4300032: Balcao_001
+    4300034: Abajur_001
+    4300036: Balcao
+    4300038: Abajur
+    4300040: Porta_Qualquer_003
+    4300042: Porta_Qualquer_002
+    4300044: Porta_Qualquer_001
+    4300046: Porta_Qualquer
+    4300048: Travesseiro_001
+    4300050: Cama
+    4300052: Colchao
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

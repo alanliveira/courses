@@ -1,0 +1,354 @@
+Ombres">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyen" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultra faible" />
+    </setting>
+    <setting name="Skidmarks" translation="Traces de pneus">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="Smoke Shadows" translation="Ombres de la fumée">
+      <value name="Off" translation="Désactivées" />
+      <value name="On" translation="Activées" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="Occlusion ambiante douce">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualité des textures">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+    </setting>
+    <setting name="Track" translation="Circuit">
+      <value name="High" translation="Élevé" />
+      <value name="Medium" translation="Moyen" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Trees" translation="Arbres">
+      <value name="High" translation="Élevé" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultra faible" />
+    </setting>
+    <setting name="Vehicle Details" translation="Détails des véhicules">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyen" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultra faibles" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="Réflexions des véhicules">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Water" translation="Eau">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Advanced Fog" translation="ערפל מתקדם">
+      <value name="Off" translation="מושבת" />
+      <value name="On" translation="פעיל" />
+    </setting>
+    <setting name="Advanced Lighting" translation="תאורה מתקדמת">
+      <value name="Off" translation="מושבתת" />
+      <value name="On" translation="פעילה" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="הצללה בשיטה 'הסתרה סביבתית'">
+      <value name="High" translation="חזקה" />
+      <value name="Low" translation="חלשה" />
+      <value name="Ultra" translation="אולטרה" />
+      <value name="Ultra Low" translation="אולטרה נמוכה" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="סינון אנאיזוטרופי">
+      <value name="High" translation="איכות גבוהה" />
+      <value name="Low" translation="איכות נמוכה" />
+      <value name="Off" translation="מושבת" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Cloth" translation="בד">
+      <value name="High" translation="איכות גבוהה" />
+      <value name="Off" translation="מושבת" />
+    </setting>
+    <setting name="Crowd" translation="המון">
+      <value name="High" translation="איכות גבוהה" />
+      <value name="Low" translation="איכות נמוכה" />
+      <value name="Medium" translation="איכות בינונית" />
+      <value name="Off" translation="מושבתת" />
+      <value name="Ultra" translation="אולטרה" />
+      <value name="Ultra Low" translation="אולטרה נמוכה" />
+    </setting>
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="Full-screen" translation="במלוא שטח הצג" />
+      <value name="Windowed" translation="תצוגה בחלון" />
+    </setting>
+    <setting name="Global Illumination" translation="תאורה גלובלית">
+      <value name="Off" translation="מושבתת" />
+      <value name="On" translation="פעילה" />
+    </setting>
+    <setting name="Ground Cover" translation="צמחייה על-פני השטח">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Off" translation="מושבת" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Multisampling" translation="מולטיסמפלינג">
+      <value name="16xCSAA" translation="דגימת סיקור 16x" />
+      <value name="16xQCSAA" translation="16xQ דגימת סיקור" />
+      <value name="2xMSAA" translation="מולטיסמפלינג 2x" />
+      <value name="4xMSAA" translation="מולטיסמפלינג 4x" />
+      <value name="8xCSAA" translation="דגימת סיקור 8x" />
+      <value name="8xMSAA" translation="מולטיסמפלינג 8x" />
+      <value name="8xQCSAA" translation="דגימת סיקור 8xQ" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="מושבתת" />
+    </setting>
+    <setting name="Night Lighting" translation="תאורת לילה">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="החלקת שינון באמצעות דגימה מרובת מסגרות של NVIDIA">
+      <value name="Off" translation="כבוי" />
+      <value name="On" translation="מופעל" />
+    </setting>
+    <setting name="Objects" translation="אובייקטים">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Particles" translation="חלקיקים">
+      <value name="High" translation="רמה גבוהה" />
+      <value name="Low" translation="רמה נמוכה" />
+      <value name="Medium" translation="איכות בינונית" />
+      <value name="Off" translation="מושבתת" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+    <setting name="Shader Quality" translation="איכות תכנית ההצללה">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra Low" translation="אולטרה נמוכה" />
+    </setting>
+    <setting name="Shadows" translation="צללים">
+      <value name="High" translation="רמה גבוהה" />
+      <value name="Low" translation="רמה נמוכה" />
+      <value name="Medium" translation="רמה בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+      <value name="Ultra Low" translation="רמה אולטרה נמוכה" />
+    </setting>
+    <setting name="Skidmarks" translation="סימני בלימה">
+      <value name="Off" translation="מושבתת" />
+      <value name="On" translation="פועלת" />
+    </setting>
+    <setting name="Smoke Shadows" translation="צללי עשן">
+      <value name="Off" translation="מושבת" />
+      <value name="On" translation="פעיל" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="הסתרה סביבתית רכה">
+      <value name="Off" translation="מושבת" />
+      <value name="On" translation="פעיל" />
+    </setting>
+    <setting name="Texture Quality" translation="סינון מרקמים - איכות">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+    </setting>
+    <setting name="Track" translation="מסלול">
+      <value name="High" translation="גבוהה" />
+      <value name="Medium" translation="איכות בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Trees" translation="עצים">
+      <value name="High" translation="גבוהה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+      <value name="Ultra Low" translation="אולטרה נמוכה" />
+    </setting>
+    <setting name="Vehicle Details" translation="פרטים של כלי רכב">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+      <value name="Ultra Low" translation="אולטרה נמוכה" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="השתקפות כלי רכב">
+      <value name="High" translation="רמה גבוהה" />
+      <value name="Low" translation="רמה נמוכה" />
+      <value name="Medium" translation="רמה בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Water" translation="מים">
+      <value name="High" translation="רמה גבוהה" />
+      <value name="Low" translation="רמה נמוכה" />
+      <value name="Medium" translation="רמה בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Advanced Fog" translation="Továbbfejlesztett köd">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Advanced Lighting" translation="Speciális megvilágítás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Környezeti kitakarás">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Ultra Low" translation="Ultraalacsony" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anizotróp szűrés">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Off" translation="Ki" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Cloth" translation="Szövet">
+      <value name="High" translation="Magas" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Crowd" translation="Tömeg">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Off" translation="Ki" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Ultra Low" translation="Ultraalacsony" />
+    </setting>
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Full-screen" translation="Teljes képernyős" />
+      <value name="Windowed" translation="Ablakos" />
+    </setting>
+    <setting name="Global Illumination" translation="Globális megvilágítás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Ground Cover" translation="Talajtakaró">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Off" translation="Ki" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Multisampling" translation="Többszörös mintavétel">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Night Lighting" translation="Éjjeli megvilágítás">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA többképkockás mintavételes élsimítás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Objects" translation="Objektumok">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Particles" translation="Részecskék">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Off" translation="Ki" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+    <setting name="Shader Quality" translation="Árnyékolóminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra Low" translation="Ultraalacsony" />
+    </setting>
+    <setting name="Shadows" translation="Árnyékok">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Ultra Low" translation="Ultraalacsony" />
+    </setting>
+    <setting name="Skidmarks" translation="Keréknyomok">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Smoke Shadows" translation="Füstárnyékok">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="Lágy környezeti kitakarás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Texture Quality" translation="Textúraminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+    </setting>
+    <setting name="Track" translation="Pálya">
+      <value name="High" translation="Magas" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Trees" translation="Fák">
+      <value name="High" translation="Magas" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Ultra Low" translation="Ultraalacsony" />
+    </setting>
+    <setting name="Vehicle Details" translation="Járműrészletek">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Ultra Low" translation="Ultraalacsony" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="Járműtükröződések">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Water" translation="Víz">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Advanced Fog" translation="Nebbia avanzata">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Advanced Lighting" translation="Illuminazione avanzata">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Occlusione ambientale">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Ultra" 

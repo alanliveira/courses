@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 8932dfb71253f7c4fb4528ab8a95f20e
+timeCreated: 1510055334
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: AntiBraco_Direito
+    100002: AntiBraco_Esquerdo
+    100004: Biceps_Direito
+    100006: Biceps_Esquerdo
+    100008: Cabe_a
+    100010: Cajado
+    100012: Cajado-Lanca
+    100014: Cintura
+    100016: Cocha_Direita
+    100018: Cocha_Esquerda
+    100020: Dedao_Direito
+    100022: Dedao_Esquerda
+    100024: Dedos_Direito
+    100026: Dedos_Esquerdo
+    100028: Mao_Direito
+    100030: Mao_Esquerda
+    100032: Olho_Esquerdo
+    100034: Panturrilha_Direita
+    100036: Panturrilha_Esquerda
+    100038: Pe_Direita
+    100040: Pe_Esquerda
+    100042: Torso
+    100044: //RootNode
+    100046: Xama
+    100048: Xama_Model
+    400000: AntiBraco_Direito
+    400002: AntiBraco_Esquerdo
+    400004: Biceps_Direito
+    400006: Biceps_Esquerdo
+    400008: Cabe_a
+    400010: Cajado
+    400012: Cajado-Lanca
+    400014: Cintura
+    400016: Cocha_Direita
+    400018: Cocha_Esquerda
+    400020: Dedao_Direito
+    400022: Dedao_Esquerda
+    400024: Dedos_Direito
+    400026: Dedos_Esquerdo
+    400028: Mao_Direito
+    400030: Mao_Esquerda
+    400032: Olho_Esquerdo
+    400034: Panturrilha_Direita
+    400036: Panturrilha_Esquerda
+    400038: Pe_Direita
+    400040: Pe_Esquerda
+    400042: Torso
+    400044: //RootNode
+    400046: Xama
+    400048: Xama_Model
+    4300000: Xama_Model
+    4300002: Cajado
+    7400000: Default Take
+    7400002: CutScene_Xama
+    7400004: Defesa
+    7400006: Idle
+    7400008: Idle_Xama
+    7400010: Run
+    7400012: Walk_Xama
+    9500000: //RootNode
+    13700000: Cajado
+    13700002: Xama_Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

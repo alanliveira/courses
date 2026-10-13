@@ -1,0 +1,322 @@
+anslation="ウルトラ低" />
+    </setting>
+    <setting name="Skidmarks" translation="スキッドマーク">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Smoke Shadows" translation="スモークシャドウ">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="ソフトなアンビエント オクルージョン">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Texture Quality" translation="テクスチャのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="Track" translation="トラック">
+      <value name="High" translation="高" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Trees" translation="木">
+      <value name="High" translation="高" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+      <value name="Ultra Low" translation="非常に低" />
+    </setting>
+    <setting name="Vehicle Details" translation="車両ディテール">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+      <value name="Ultra Low" translation="非常に低" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="車両からの反射">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Water" translation="水">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Advanced Fog" translation="고급 포그">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Advanced Lighting" translation="고급 조명">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="앰비언트 오클루젼">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Ultra" translation="최고" />
+      <value name="Ultra Low" translation="매우 낮음" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="이방성 필터링">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Off" translation="끄기" />
+      <value name="Ultra" translation="울트라" />
+    </setting>
+    <setting name="Cloth" translation="천">
+      <value name="High" translation="높음" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Crowd" translation="군중">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="보통" />
+      <value name="Off" translation="끄기" />
+      <value name="Ultra" translation="최고" />
+      <value name="Ultra Low" translation="매우 낮음" />
+    </setting>
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="Full-screen" translation="전체 화면" />
+      <value name="Windowed" translation="창" />
+    </setting>
+    <setting name="Global Illumination" translation="글로벌 일루미네이션">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Ground Cover" translation="지면 커버">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Off" translation="끄기" />
+      <value name="Ultra" translation="울트라" />
+    </setting>
+    <setting name="Multisampling" translation="멀티샘플링">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Night Lighting" translation="야간 조명">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="울트라" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA 멀티프레임 샘플드 앤티엘리어싱(MFAA)">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Objects" translation="개체">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="초" />
+    </setting>
+    <setting name="Particles" translation="입자">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Off" translation="끄기" />
+      <value name="Ultra" translation="초" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+    <setting name="Shader Quality" translation="쉐이더 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra Low" translation="매우 낮음" />
+    </setting>
+    <setting name="Shadows" translation="그림자">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="최고" />
+      <value name="Ultra Low" translation="최고 낮음" />
+    </setting>
+    <setting name="Skidmarks" translation="스키드마크">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Smoke Shadows" translation="연기 그림자">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="소프트 앰비언트 오클루전">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Texture Quality" translation="텍스처 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+    </setting>
+    <setting name="Track" translation="트랙">
+      <value name="High" translation="높음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="울트라" />
+    </setting>
+    <setting name="Trees" translation="나무">
+      <value name="High" translation="높음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="초" />
+      <value name="Ultra Low" translation="매우 낮음" />
+    </setting>
+    <setting name="Vehicle Details" translation="차량 세부사항">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="보통" />
+      <value name="Ultra" translation="울트라" />
+      <value name="Ultra Low" translation="매우 낮음" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="차량 반사">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="최고" />
+    </setting>
+    <setting name="Water" translation="물">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="최고" />
+    </setting>
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Advanced Fog" translation="Avansert tåke">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Advanced Lighting" translation="Avansert belysning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Omgivelsesbetinget lys">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultralav" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropisk filtrering">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Off" translation="Av" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Cloth" translation="Tøy">
+      <value name="High" translation="Høy" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Crowd" translation="Folkemengde">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Off" translation="Av" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultralav" />
+    </setting>
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="Full-screen" translation="Full skjerm" />
+      <value name="Windowed" translation="Vindusmodus" />
+    </setting>
+    <setting name="Global Illumination" translation="Global belysning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Ground Cover" translation="Elementer på bakken">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Off" translation="Av" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Multisampling" translation="Anti-aliasing med multisampling">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Night Lighting" translation="Nattlys">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Avsøkt flerramme-kantutjevning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Objects" translation="Objekter">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Particles" translation="Partikler">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Off" translation="Av" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+    <setting name="Shader Quality" translation="Skyggekvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra Low" translation="Ultralav" />
+    </setting>
+    <setting name="Shadows" translation="Skygger">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultralav" />
+    </setting>
+    <setting name="Skidmarks" translation="Bremsespor">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Smoke Shadows" translation="Røykskygger">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="Mykt, omgivelsesbetinget lys">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Texture Quality" translation="Teksturkvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+    </setting>
+    <setting name="Track" translation="Spor">
+      <value name="High" translation="Høy" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Trees" translation="Trær">
+      <value name="High" translation="Høy" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultralav" />
+    </setting>
+    <setting name="Vehicle Details" translation="Kjøretøydetaljer">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultra

@@ -1,0 +1,286 @@
+nguage>
+  <language name="nl_NL" translation="">
+    <setting name="Adaptive Resolution" translation="Adaptieve resolutie">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="FXAA High" translation="FXAA hoog" />
+      <value name="FXAA Low" translation="FXAA laag" />
+      <value name="Off" translation="Uit" />
+      <value name="TXAA 1x" translation="TXAA 1x" />
+    </setting>
+    <setting name="Bloodfly Shadows" translation="Bloedvliegschaduwen">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Bloom" translation="Bloom">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Character Detail" translation="Detail figuur">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+    <setting name="Decal Quality" translation="Kwaliteit decal">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+    <setting name="Depth of Field" translation="Velddiepte">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="Full-screen" translation="Volledig scherm" />
+      <value name="Full-screen Borderless" translation="Volledig scherm randloos" />
+      <value name="Windowed" translation="In venster" />
+    </setting>
+    <setting name="Environment Details" translation="Omgevingsdetails">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+    <setting name="FPS Limiter" translation="FPS-begrenzer">
+      <value name="105" translation="105" />
+      <value name="120" translation="120" />
+      <value name="30" translation="30" />
+      <value name="45" translation="45" />
+      <value name="60" translation="60" />
+      <value name="75" translation="75" />
+      <value name="90" translation="90" />
+    </setting>
+    <setting name="Lens Flare" translation="Lensflares">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Light Shafts" translation="Lichtbundels">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="NVIDIA HBAO+" translation="NVIDIA HBAO+">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame Sampled Anti-Aliasing">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Rat Shadows" translation="Ratschaduwen">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+    <setting name="Shadow Quality" translation="Schaduwkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+    <setting name="Texture Details" translation="Patroondetails">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+    <setting name="Volumetric Lighting" translation="Volumetrische belichting">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Water Quality" translation="Waterkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Adaptive Resolution" translation="Rozdzielczość adaptacyjna">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Wygładzanie krawędzi">
+      <value name="FXAA High" translation="FXAA wysokie" />
+      <value name="FXAA Low" translation="FXAA niskie" />
+      <value name="Off" translation="Wyłącz" />
+      <value name="TXAA 1x" translation="TXAA 1x" />
+    </setting>
+    <setting name="Bloodfly Shadows" translation="Cienie krwawych much">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Bloom" translation="Rozświetlenie">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Character Detail" translation="Szczegóły postaci">
+      <value name="High" translation="Wysoki" />
+      <value name="Low" translation="Niski" />
+      <value name="Medium" translation="Średni" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Bardzo wysoki" />
+      <value name="Very Low" translation="Bardzo niski" />
+    </setting>
+    <setting name="Decal Quality" translation="Jakość śladów">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+    <setting name="Depth of Field" translation="Głębia ostrości">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="Full-screen" translation="Pełny ekran" />
+      <value name="Full-screen Borderless" translation="Pełny ekran, bez ramki" />
+      <value name="Windowed" translation="Okienkowy" />
+    </setting>
+    <setting name="Environment Details" translation="Szczegóły środowiska">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+    <setting name="FPS Limiter" translation="Limit FPS">
+      <value name="105" translation="105" />
+      <value name="120" translation="120" />
+      <value name="30" translation="30" />
+      <value name="45" translation="45" />
+      <value name="60" translation="60" />
+      <value name="75" translation="75" />
+      <value name="90" translation="90" />
+    </setting>
+    <setting name="Lens Flare" translation="Flara obiektywu">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Light Shafts" translation="Promienie światła">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="NVIDIA HBAO+" translation="NVIDIA HBAO+">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Wygładzanie krawędzi z próbkowaniem wielu klatek NVIDIA">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Rat Shadows" translation="Cienie szczurów">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+    <setting name="Shadow Quality" translation="Jakość cieni">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra wysoka" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+    <setting name="Texture Details" translation="Szczegółowość tekstur">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+    <setting name="Volumetric Lighting" translation="Oświetlenie wolumetryczne">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Water Quality" translation="Jakość wody">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Adaptive Resolution" translation="Resolução adaptável">
+      <value name="Off" translation="Desligada" />
+      <value name="On" translation="Ligada" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="FXAA High" translation="FXAA Alto" />
+      <value name="FXAA Low" translation="FXAA Baixo" />
+      <value name="Off" translation="Desligado" />
+      <value name="TXAA 1x" translation="TXAA 1x" />
+    </setting>
+    <setting name="Bloodfly Shadows" translation="Sombras de mosquitos suga sangue">
+      <value name="Off" translation="Desligada" />
+      <value name="On" translation="Ligada" />
+    </setting>
+    <setting name="Bloom" translation="Bloom">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="Character Detail" translation="Detalhe do personagem">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Médio" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Muito alto" />
+      <value name="Very Low" translation="Muito baixo" />
+    </setting>
+    <setting name="Decal Quality" translation="Qualidade do decalque">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Muito alta" />
+      <value name="Very Low" translation="Muito baixa" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidade do Campo">
+      <value name="Off" translation="Desligada" />
+      <value name="On" translation="Ligada" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="Full-screen" translation="Tela inteira" />
+      <value name="Full-screen Borderless" translation="Tela cheia sem borda" />
+      <value name="Windowed" translation="Em Janelas" />
+    </setting>
+    <setting name="Environment Details" translation="Detalhes do ambiente">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Muito alta" />
+      <value name="Very Low" translation="Muito baixa" />
+    </setting>
+    <setting name="FPS Limiter" translation="Limitador de FPS">
+      <value name="105" translation="105" />
+      <value name="120" translation="120" />
+      <value name="30" translation="30" />
+      <value name="45" translation="45" />
+      <value name="60" translation="60" />
+      <value name="75" translation="75" />
+      <value name="90" translation="90" />
+    </setting>
+    <setting name="Lens Flare" translation="Clarão da Lente">
+      <value name="O

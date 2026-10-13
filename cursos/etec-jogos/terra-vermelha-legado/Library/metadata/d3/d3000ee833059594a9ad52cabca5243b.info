@@ -1,0 +1,303 @@
+ation="Полный экран" />
+      <value name="Windowed" translation="В окне" />
+      <value name="Windowed Borderless" translation="В окне без рамки" />
+    </setting>
+    <setting name="Effects" translation="Эффекты">
+      <value name="High" translation="Высоко" />
+      <value name="Low" translation="Низко" />
+      <value name="Medium" translation="Средне" />
+      <value name="Ultra" translation="Очень высоко" />
+    </setting>
+    <setting name="Indirect Shadows" translation="Вторичные тени">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Lighting" translation="Освещение">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra" translation="Ультра" />
+    </setting>
+    <setting name="Maximum Pre-rendered Frames" translation="Максимальное количество заранее подготовленных кадров">
+      <value name="1" translation="1" />
+      <value name="2" translation="2" />
+      <value name="3" translation="3" />
+      <value name="4" translation="4" />
+      <value name="5" translation="5" />
+      <value name="6" translation="6" />
+      <value name="7" translation="7" />
+      <value name="8" translation="8" />
+      <value name="Use the 3D Application Setting" translation="Использовать настройку 3D-приложения" />
+    </setting>
+    <setting name="Models" translation="Модели">
+      <value name="High" translation="Высоко" />
+      <value name="Low" translation="Низко" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Многокадровое сглаживание NVIDIA">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Physics" translation="Физика">
+      <value name="Extreme" translation="Максимально" />
+      <value name="High" translation="Высоко" />
+      <value name="Medium" translation="Средне" />
+      <value name="Off" translation="Выкл." />
+      <value name="Ultra" translation="Очень высоко" />
+    </setting>
+    <setting name="Post-processing" translation="Постобработка">
+      <value name="Low" translation="Низко" />
+      <value name="Medium" translation="Средне" />
+      <value name="Ultra" translation="Ультра" />
+    </setting>
+    <setting name="Reflections" translation="Отражения">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Refresh Rate" translation="Частота обновления">
+      <value name="1 Hz" translation="1 Гц" />
+      <value name="10 Hz" translation="10 Гц" />
+      <value name="100 Hz" translation="100 Гц" />
+      <value name="101 Hz" translation="101 Гц" />
+      <value name="102 Hz" translation="102 Гц" />
+      <value name="103 Hz" translation="103 Гц" />
+      <value name="104 Hz" translation="104 Гц" />
+      <value name="105 Hz" translation="105 Гц" />
+      <value name="106 Hz" translation="106 Гц" />
+      <value name="107 Hz" translation="107 Гц" />
+      <value name="108 Hz" translation="108 Гц" />
+      <value name="109 Hz" translation="109 Гц" />
+      <value name="11 Hz" translation="11 Гц" />
+      <value name="110 Hz" translation="110 Гц" />
+      <value name="111 Hz" translation="111 Гц" />
+      <value name="112 Hz" translation="112 Гц" />
+      <value name="113 Hz" translation="113 Гц" />
+      <value name="114 Hz" translation="114 Гц" />
+      <value name="115 Hz" translation="115 Гц" />
+      <value name="116 Hz" translation="116 Гц" />
+      <value name="117 Hz" translation="117 Гц" />
+      <value name="118 Hz" translation="118 Гц" />
+      <value name="119 Hz" translation="119 Гц" />
+      <value name="12 Hz" translation="12 Гц" />
+      <value name="120 Hz" translation="120 Гц" />
+      <value name="121 Hz" translation="121 Гц" />
+      <value name="122 Hz" translation="122 Гц" />
+      <value name="123 Hz" translation="123 Гц" />
+      <value name="124 Hz" translation="124 Гц" />
+      <value name="125 Hz" translation="125 Гц" />
+      <value name="126 Hz" translation="126 Гц" />
+      <value name="127 Hz" translation="127 Гц" />
+      <value name="128 Hz" translation="128 Гц" />
+      <value name="129 Hz" translation="129 Гц" />
+      <value name="13 Hz" translation="13 Гц" />
+      <value name="130 Hz" translation="130 Гц" />
+      <value name="131 Hz" translation="131 Гц" />
+      <value name="132 Hz" translation="132 Гц" />
+      <value name="133 Hz" translation="133 Гц" />
+      <value name="134 Hz" translation="134 Гц" />
+      <value name="135 Hz" translation="135 Гц" />
+      <value name="136 Hz" translation="136 Гц" />
+      <value name="137 Hz" translation="137 Гц" />
+      <value name="138 Hz" translation="138 Гц" />
+      <value name="139 Hz" translation="139 Гц" />
+      <value name="14 Hz" translation="14 Гц" />
+      <value name="140 Hz" translation="140 Гц" />
+      <value name="141 Hz" translation="141 Гц" />
+      <value name="142 Hz" translation="142 Гц" />
+      <value name="143 Hz" translation="143 Гц" />
+      <value name="144 Hz" translation="144 Гц" />
+      <value name="145 Hz" translation="145 Гц" />
+      <value name="146 Hz" translation="146 Гц" />
+      <value name="147 Hz" translation="147 Гц" />
+      <value name="148 Hz" translation="148 Гц" />
+      <value name="149 Hz" translation="149 Гц" />
+      <value name="15 Hz" translation="15 Гц" />
+      <value name="150 Hz" translation="150 Гц" />
+      <value name="151 Hz" translation="151 Гц" />
+      <value name="152 Hz" translation="152 Гц" />
+      <value name="153 Hz" translation="153 Гц" />
+      <value name="154 Hz" translation="154 Гц" />
+      <value name="155 Hz" translation="155 Гц" />
+      <value name="156 Hz" translation="156 Гц" />
+      <value name="157 Hz" translation="157 Гц" />
+      <value name="158 Hz" translation="158 Гц" />
+      <value name="159 Hz" translation="159 Гц" />
+      <value name="16 Hz" translation="16 Гц" />
+      <value name="160 Hz" translation="160 Гц" />
+      <value name="161 Hz" translation="161 Гц" />
+      <value name="162 Hz" translation="162 Гц" />
+      <value name="163 Hz" translation="163 Гц" />
+      <value name="164 Hz" translation="164 Гц" />
+      <value name="165 Hz" translation="165 Гц" />
+      <value name="166 Hz" translation="166 Гц" />
+      <value name="167 Hz" translation="167 Гц" />
+      <value name="168 Hz" translation="168 Гц" />
+      <value name="169 Hz" translation="169 Гц" />
+      <value name="17 Hz" translation="17 Гц" />
+      <value name="170 Hz" translation="170 Гц" />
+      <value name="171 Hz" translation="171 Гц" />
+      <value name="172 Hz" translation="172 Гц" />
+      <value name="173 Hz" translation="173 Гц" />
+      <value name="174 Hz" translation="174 Гц" />
+      <value name="175 Hz" translation="175 Гц" />
+      <value name="176 Hz" translation="176 Гц" />
+      <value name="177 Hz" translation="177 Гц" />
+      <value name="178 Hz" translation="178 Гц" />
+      <value name="179 Hz" translation="179 Гц" />
+      <value name="18 Hz" translation="18 Гц" />
+      <value name="180 Hz" translation="180 Гц" />
+      <value name="181 Hz" translation="181 Гц" />
+      <value name="182 Hz" translation="182 Гц" />
+      <value name="183 Hz" translation="183 Гц" />
+      <value name="184 Hz" translation="184 Гц" />
+      <value name="185 Hz" translation="185 Гц" />
+      <value name="186 Hz" translation="186 Гц" />
+      <value name="187 Hz" translation="187 Гц" />
+      <value name="188 Hz" translation="188 Гц" />
+      <value name="189 Hz" translation="189 Гц" />
+      <value name="19 Hz" translation="19 Гц" />
+      <value name="190 Hz" translation="190 Гц" />
+      <value name="191 Hz" translation="191 Гц" />
+      <value name="192 Hz" translation="192 Гц" />
+      <value name="193 Hz" translation="193 Гц" />
+      <value name="194 Hz" translation="194 Гц" />
+      <value name="195 Hz" translation="195 Гц" />
+      <value name="196 Hz" translation="196 Гц" />
+      <value name="197 Hz" translation="197 Гц" />
+      <value name="198 Hz" translation="198 Гц" />
+      <value name="199 Hz" translation="199 Гц" />
+      <value name="2 Hz" translation="2 Гц" />
+      <value name="20 Hz" translation="20 Гц" />
+      <value name="200 Hz" translation="200 Гц" />
+      <value name="201 Hz" translation="201 Гц" />
+      <value name="202 Hz" translation="202 Гц" />
+      <value name="203 Hz" translation="203 Гц" />
+      <value name="204 Hz" translation="204 Гц" />
+      <value name="205 Hz" translation="205 Гц" />
+      <value name="206 Hz" translation="206 Гц" />
+      <value name="207 Hz" translation="207 Гц" />
+      <value name="208 Hz" translation="208 Гц" />
+      <value name="209 Hz" translation="209 Гц" />
+      <value name="21 Hz" translation="21 Гц" />
+      <value name="210 Hz" translation="210 Гц" />
+      <value name="211 Hz" translation="211 Гц" />
+      <value name="212 Hz" translation="212 Гц" />
+      <value name="213 Hz" translation="213 Гц" />
+      <value name="214 Hz" translation="214 Гц" />
+      <value name="215 Hz" translation="215 Гц" />
+      <value name="216 Hz" translation="216 Гц" />
+      <value name="217 Hz" translation="217 Гц" />
+      <value name="218 Hz" translation="218 Гц" />
+      <value name="219 Hz" translation="219 Гц" />
+      <value name="22 Hz" translation="22 Гц" />
+      <value name="220 Hz" translation="220 Гц" />
+      <value name="221 Hz" translation="221 Гц" />
+      <value name="222 Hz" translation="222 Гц" />
+      <value name="223 Hz" translation="223 Гц" />
+      <value name="224 Hz" translation="224 Гц" />
+      <value name="225 Hz" translation="225 Гц" />
+      <value name="226 Hz" translation="226 Гц" />
+      <value name="227 Hz" translation="227 Гц" />
+      <value name="228 Hz" translation="228 Гц" />
+      <value name="229 Hz" translation="229 Гц" />
+      <value name="23 Hz" translation="23 Гц" />
+      <value name="230 Hz" translation="230 Гц" />
+      <value name="231 Hz" translation="231 Гц" />
+      <value name="232 Hz" translation="232 Гц" />
+      <value name="233 Hz" translation="233 Гц" />
+      <value name="234 Hz" translation="234 Гц" />
+      <value name="235 Hz" translation="235 Гц" />
+      <value name="236 Hz" translation="236 Гц" />
+      <value name="237 Hz" translation="237 Гц" />
+      <value name="238 Hz" translation="238 Гц" />
+      <value name="239 Hz" translation="239 Гц" />
+      <value name="24 Hz" translation="24 Гц" />
+      <value name="240 Hz" translation="240 Гц" />
+      <value name="241 Hz" translation="241 Гц" />
+      <value name="242 Hz" translation="242 Гц" />
+      <value name="243 Hz" translation="243 Гц" />
+      <value name="244 Hz" translation="244 Гц" />
+      <value name="245 Hz" translation="245 Гц" />
+      <value name="246 Hz" translation="246 Гц" />
+      <value name="247 Hz" translation="247 Гц" />
+      <value name="248 Hz" translation="248 Гц" />
+      <value name="249 Hz" translation="249 Гц" />
+      <value name="25 Hz" translation="25 Гц" />
+      <value name="250 Hz" translation="250 Гц" />
+      <value name="251 Hz" translation="251 Гц" />
+      <value name="252 Hz" translation="252 Гц" />
+      <value name="253 Hz" translation="253 Гц" />
+      <value name="254 Hz" translation="254 Гц" />
+      <value name="255 Hz" translation="255 Гц" />
+      <value name="26 Hz" translation="26 Гц" />
+      <value name="27 Hz" translation="27 Гц" />
+      <value name="28 Hz" translation="28 Гц" />
+      <value name="29 Hz" translation="29 Гц" />
+      <value name="3 Hz" translation="3 Гц" />
+      <value name="30 Hz" translation="30 Гц" />
+      <value name="31 Hz" translation="31 Гц" />
+      <value name="32 Hz" translation="32 Гц" />
+      <value name="33 Hz" translation="33 Гц" />
+      <value name="34 Hz" translation="34 Гц" />
+      <value name="35 Hz" translation="35 Гц" />
+      <value name="36 Hz" translation="36 Гц" />
+      <value name="37 Hz" translation="37 Гц" />
+      <value name="38 Hz" translation="38 Гц" />
+      <value name="39 Hz" translation="39 Гц" />
+      <value name="4 Hz" translation="4 Гц" />
+      <value name="40 Hz" translation="40 Гц" />
+      <value name="41 Hz" translation="41 Гц" />
+      <value name="42 Hz" translation="42 Гц" />
+      <value name="43 Hz" translation="43 Гц" />
+      <value name="44 Hz" translation="44 Гц" />
+      <value name="45 Hz" translation="45 Гц" />
+      <value name="46 Hz" translation="46 Гц" />
+      <value name="47 Hz" translation="47 Гц" />
+      <value name="48 Hz" translation="48 Гц" />
+      <value name="49 Hz" translation="49 Гц" />
+      <value name="5 Hz" translation="5 Гц" />
+      <value name="50 Hz" translation="50 Гц" />
+      <value name="51 Hz" translation="51 Гц" />
+      <value name="52 Hz" translation="52 Гц" />
+      <value name="53 Hz" translation="53 Гц" />
+      <value name="54 Hz" translation="54 Гц" />
+      <value name="55 Hz" translation="55 Гц" />
+      <value name="56 Hz" translation="56 Гц" />
+      <value name="57 Hz" translation="57 Гц" />
+      <value name="58 Hz" translation="58 Гц" />
+      <value name="59 Hz" translation="59 Гц" />
+      <value name="6 Hz" translation="6 Гц" />
+      <value name="60 Hz" translation="60 Гц" />
+      <value name="61 Hz" translation="61 Гц" />
+      <value name="62 Hz" translation="62 Гц" />
+      <value name="63 Hz" translation="63 Гц" />
+      <value name="64 Hz" translation="64 Гц" />
+      <value name="65 Hz" translation="65 Гц" />
+      <value name="66 Hz" translation="66 Гц" />
+      <value name="67 Hz" translation="67 Гц" />
+      <value name="68 Hz" translation="68 Гц" />
+      <value name="69 Hz" translation="69 Гц" />
+      <value name="7 Hz" translation="7 Гц" />
+      <value name="70 Hz" translation="70 Гц" />
+      <value name="71 Hz" translation="71 Гц" />
+      <value name="72 Hz" translation="72 Гц" />
+      <value name="73 Hz" translation="73 Гц" />
+      <value name="74 Hz" translation="74 Гц" />
+      <value name="75 Hz" translation="75 Гц" />
+      <value name="76 Hz" translation="76 Гц" />
+      <value name="77 Hz" translation="77 Гц" />
+      <value name="78 Hz" translation="78 Гц" />
+      <value name="79 Hz" translation="79 Гц" />
+      <value name="8 Hz" translation="8 Гц" />
+      <value name="80 Hz" translation="80 Гц" />
+      <value name="81 Hz" translation="81 Гц" />
+      <value name="82 Hz" translation="82 Гц" />
+      <value name="83 Hz" translation="83 Гц" />
+      <value name="84 Hz" translation="84 Гц" />
+      <value name="85 Hz" translation="85 Гц" />
+      <value name="86 Hz" translation="86 Гц" />
+      <value name="87 Hz" translation="87 Гц" />
+      <value name="88 Hz" translation="88 Гц" />
+      <value name="89 Hz" translation="89 Гц" />
+      <value name="9 Hz" translation="9 Гц" />
+      <value name="90 Hz" translation="90 Гц" />
+      <value name="91 Hz" trans

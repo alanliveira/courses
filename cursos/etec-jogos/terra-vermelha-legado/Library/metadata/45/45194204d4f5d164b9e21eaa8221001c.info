@@ -1,0 +1,22 @@
+ </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropisk filtrering">
+      <value name="High" translation="Högt" />
+      <value name="Low" translation="Låg" />
+      <value name="Off" translation="Av" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Cloth" translation="Tyg">
+      <value name="High" translation="Hög" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Crowd" translation="Publik">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Off" translation="Av" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultralåg" />
+    </setting>
+    <setting name="Display Mode" translation="Visningsläge">
+      <value name="Full-screen" translation="Helskärm" />
+      <value name="Windowe

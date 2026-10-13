@@ -1,0 +1,317 @@
+" />
+      <value name="Windowed" translation="Pencere içinde" />
+      <value name="Windowed Borderless" translation="Pencere İçinde Kenarlıksız" />
+    </setting>
+    <setting name="Dynamic Lights Quality" translation="Dinamik Işık Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Standard" translation="Standart" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Çok Yüksek" />
+    </setting>
+    <setting name="FSAA" translation="FSAA">
+      <value name="2x" translation="2x" />
+      <value name="4x" translation="4x" />
+      <value name="8x" translation="8x" />
+      <value name="Disabled" translation="Devre Dışı" />
+    </setting>
+    <setting name="HDR Quality" translation="HDR Kalitesi">
+      <value name="Low" translation="Düşük" />
+      <value name="Standard" translation="Standart" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Birden Çok Çerçeveli Örneklemeli Kenar Yumuşatma">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Objects Quality" translation="Nesne Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Standard" translation="Standart" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Çok Yüksek" />
+    </setting>
+    <setting name="Particles Quality" translation="Parçacık Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Standard" translation="Standart" />
+    </setting>
+    <setting name="PIP Quality" translation="PIP Kalitesi">
+      <value name="Disabled" translation="Devre Dışı" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Standard" translation="Standart" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Çok Yüksek" />
+    </setting>
+    <setting name="PPAA" translation="PPAA">
+      <value name="CMAA" translation="CMAA" />
+      <value name="Disabled" translation="Devre Dışı" />
+      <value name="FXAA High" translation="FXAA Yüksek" />
+      <value name="FXAA Standard" translation="FXAA Standart" />
+      <value name="FXAA Ultra" translation="FXAA Ultra" />
+      <value name="FXAA Very High" translation="FXAA Çok Yüksek" />
+      <value name="SMAA High" translation="SMAA Yüksek" />
+      <value name="SMAA Standard" translation="SMAA Standart" />
+      <value name="SMAA Ultra" translation="SMAA Ultra" />
+      <value name="SMAA Very High" translation="SMAA Çok Yüksek" />
+    </setting>
+    <setting name="Resolution" translation="Çözünürlük" />
+    <setting name="Sampling Quality" translation="Örnekleme Kalitesi">
+      <value name="100%" translation="%100" />
+      <value name="114%" translation="%114" />
+      <value name="120%" translation="%120" />
+      <value name="125%" translation="%125" />
+      <value name="133%" translation="%133" />
+      <value name="150%" translation="%150" />
+      <value name="200%" translation="%200" />
+      <value name="300%" translation="%300" />
+      <value name="400%" translation="%400" />
+      <value name="50%" translation="%50" />
+      <value name="500%" translation="%500" />
+      <value name="67%" translation="%67" />
+      <value name="75%" translation="%75" />
+      <value name="80%" translation="%80" />
+      <value name="83%" translation="%83" />
+      <value name="88%" translation="%88" />
+    </setting>
+    <setting name="Shadow Quality" translation="Gölge Kalitesi">
+      <value name="Disabled" translation="Devre Dışı" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Standard" translation="Standart" />
+      <value name="Ultra" translation="En Yüksek" />
+      <value name="Very High" translation="Çok Yüksek" />
+    </setting>
+    <setting name="Terrain Quality" translation="Arazi Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Standard" translation="Standart" />
+      <value name="Ultra" translation="En Yüksek" />
+      <value name="Very High" translation="Çok Yüksek" />
+    </setting>
+    <setting name="Texture Quality" translation="Doku Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Standard" translation="Standart" />
+      <value name="Ultra" translation="En Yüksek" />
+      <value name="Very High" translation="Çok Yüksek" />
+    </setting>
+    <setting name="Visibility (Object)" translation="Görünürlük (Nesne)" />
+    <setting name="Visibility (Overall)" translation="Görünürlük (Genel)" />
+    <setting name="Visibility (Shadow)" translation="Görünürlük (Gölge)" />
+    <setting name="Water Reflections Quality" translation="Sudaki Yansımaların Kalitesi">
+      <value name="Disabled" translation="Devre Dışı" />
+      <value name="High" translation="Yüksek" />
+      <value name="Standard" translation="Standart" />
+      <value name="Very High" translation="Çok Yüksek" />
+    </setting>
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Anisotropic Filtering" translation="各向异性过滤">
+      <value name="Disabled" translation="已禁用" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+      <value name="Ultra" translation="超高" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="AO" translation="环境光吸收">
+      <value name="Disabled" translation="已禁用" />
+      <value name="HDAO High" translation="HDAO 高" />
+      <value name="HDAO Low" translation="HDAO 低" />
+      <value name="HDAO Standard" translation="HDAO 标准" />
+      <value name="NVIDIA HBAO+ High" translation="NVIDIA HBAO+ 高" />
+      <value name="NVIDIA HBAO+ Standard" translation="NVIDIA HBAO+ 标准" />
+      <value name="SSAO High" translation="SSAO 高" />
+      <value name="SSAO Low" translation="SSAO 低" />
+      <value name="SSAO Standard" translation="SSAO 标准" />
+    </setting>
+    <setting name="ATOC" translation="ATOC">
+      <value name="All Trees" translation="所有树木" />
+      <value name="All Trees + Grass" translation="所有树木+草皮" />
+      <value name="Arma 2 Trees" translation="Arma 2 树木" />
+      <value name="Arma 2 Trees + Grass" translation="Arma 2 树木+草皮" />
+      <value name="Arrowhead Trees" translation="Arrowhead 树木" />
+      <value name="Arrowhead Trees + Grass" translation="Arrowhead 树木+草皮" />
+      <value name="Disabled" translation="已禁用" />
+      <value name="Grass" translation="草皮" />
+    </setting>
+    <setting name="Bloom" translation="泛光" />
+    <setting name="Caustics" translation="焦散线">
+      <value name="Disabled" translation="已禁用" />
+      <value name="Enabled" translation="已启用" />
+    </setting>
+    <setting name="Cloud Quality" translation="云朵质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+      <value name="Ultra" translation="超高" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="Depth of Field" translation="景深" />
+    <setting name="Display Mode" translation="显示模式">
+      <value name="Full-screen" translation="全屏幕" />
+      <value name="Windowed" translation="窗口化" />
+      <value name="Windowed Borderless" translation="无边框窗口化" />
+    </setting>
+    <setting name="Dynamic Lights Quality" translation="动态照明质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+      <value name="Ultra" translation="超高" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="FSAA" translation="FSAA">
+      <value name="2x" translation="2x" />
+      <value name="4x" translation="4x" />
+      <value name="8x" translation="8x" />
+      <value name="Disabled" translation="已禁用" />
+    </setting>
+    <setting name="HDR Quality" translation="HDR 质量">
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA 多帧取样反失真">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Objects Quality" translation="物体质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+      <value name="Ultra" translation="超高" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="Particles Quality" translation="颗粒质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+    </setting>
+    <setting name="PIP Quality" translation="PIP 质量">
+      <value name="Disabled" translation="已禁用" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+      <value name="Ultra" translation="超高" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="PPAA" translation="后处理反失真">
+      <value name="CMAA" translation="CMAA" />
+      <value name="Disabled" translation="已禁用" />
+      <value name="FXAA High" translation="FXAA 高" />
+      <value name="FXAA Standard" translation="FXAA 标准" />
+      <value name="FXAA Ultra" translation="FXAA 超高" />
+      <value name="FXAA Very High" translation="FXAA 非常高" />
+      <value name="SMAA High" translation="SMAA 高" />
+      <value name="SMAA Standard" translation="SMAA 标准" />
+      <value name="SMAA Ultra" translation="SMAA 超高" />
+      <value name="SMAA Very High" translation="SMAA 非常高" />
+    </setting>
+    <setting name="Resolution" translation="分辨率" />
+    <setting name="Sampling Quality" translation="采样质量">
+      <value name="100%" translation="100%" />
+      <value name="114%" translation="114%" />
+      <value name="120%" translation="120%" />
+      <value name="125%" translation="125%" />
+      <value name="133%" translation="133%" />
+      <value name="150%" translation="150%" />
+      <value name="200%" translation="200%" />
+      <value name="300%" translation="300%" />
+      <value name="400%" translation="400%" />
+      <value name="50%" translation="50%" />
+      <value name="500%" translation="500%" />
+      <value name="67%" translation="67%" />
+      <value name="75%" translation="75%" />
+      <value name="80%" translation="80%" />
+      <value name="83%" translation="83%" />
+      <value name="88%" translation="88%" />
+    </setting>
+    <setting name="Shadow Quality" translation="阴影质量">
+      <value name="Disabled" translation="已禁用" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+      <value name="Ultra" translation="超高" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="Terrain Quality" translation="地形质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+      <value name="Ultra" translation="超高" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="Texture Quality" translation="纹理质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="标准" />
+      <value name="Ultra" translation="超高" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="Visibility (Object)" translation="可见性（物体）" />
+    <setting name="Visibility (Overall)" translation="可见性（总体）" />
+    <setting name="Visibility (Shadow)" translation="可见性（阴影）" />
+    <setting name="Water Reflections Quality" translation="水反射质量">
+      <value name="Disabled" translation="禁用" />
+      <value name="High" translation="高" />
+      <value name="Standard" translation="标准" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Anisotropic Filtering" translation="非均質篩選">
+      <value name="Disabled" translation="已停用" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="標準" />
+      <value name="Ultra" translation="超級" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="AO" translation="漫射陰影環場遮擋">
+      <value name="Disabled" translation="已停用" />
+      <value name="HDAO High" translation="HDAO 高" />
+      <value name="HDAO Low" translation="HDAO 低" />
+      <value name="HDAO Standard" translation="HDAO 標準" />
+      <value name="NVIDIA HBAO+ High" translation="NVIDIA HBAO+ 高" />
+      <value name="NVIDIA HBAO+ Standard" translation="NVIDIA HBAO+ 標準" />
+      <value name="SSAO High" translation="SSAO 高" />
+      <value name="SSAO Low" translation="SSAO 低" />
+      <value name="SSAO Standard" translation="SSAO 標準" />
+    </setting>
+    <setting name="ATOC" translation="ATOC">
+      <value name="All Trees" translation="全部的樹" />
+      <value name="All Trees + Grass" translation="全部的樹 + 草" />
+      <value name="Arma 2 Trees" translation="Arma 2 樹" />
+      <value name="Arma 2 Trees + Grass" translation="Arma 2 樹 + 草" />
+      <value name="Arrowhead Trees" translation="Arrowhead 樹" />
+      <value name="Arrowhead Trees + Grass" translation="Arrowhead 樹 + 草" />
+      <value name="Disabled" translation="已停用" />
+      <value name="Grass" translation="草" />
+    </setting>
+    <setting name="Bloom" translation="光暈" />
+    <setting name="Caustics" translation="散焦">
+      <value name="Disabled" translation="已停用" />
+      <value name="Enabled" translation="已啟動" />
+    </setting>
+    <setting name="Cloud Quality" translation="雲的品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="標準" />
+      <value name="Ultra" translation="超級" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="Depth of Field" translation="景深" />
+    <setting name="Display Mode" translation="顯示模式">
+      <value name="Full-screen" translation="全螢幕" />
+      <value name="Windowed" translation="視窗型" />
+      <value name="Windowed Borderless" translation="無框視窗" />
+    </setting>
+    <setting name="Dynamic Lights Quality" translation="動態光線品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Standard" translation="標準" />
+      <value name="Ultra" translation="超級" />
+      <value name="Very High" translation="非常高" />
+    </setting>
+    <setting name="FSAA" translation="FSAA">
+      <value name="2x" translatio

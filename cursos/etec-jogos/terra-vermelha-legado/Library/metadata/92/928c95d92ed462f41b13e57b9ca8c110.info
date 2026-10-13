@@ -1,0 +1,361 @@
+anslation="איכות ההצללה">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+      <value name="Very High" translation="גבוהה מאד" />
+      <value name="Very Low" translation="נמוכה מאד" />
+    </setting>
+    <setting name="Texture Details" translation="פירוט של מרקמים">
+      <value name="High" translation="רמת פירוט גבוהה" />
+      <value name="Low" translation="רמת פירוט נמוכה" />
+      <value name="Medium" translation="רמת פירוט בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+      <value name="Very High" translation="גבוה מאד" />
+      <value name="Very Low" translation="נמוך מאד" />
+    </setting>
+    <setting name="Volumetric Lighting" translation="תאורת נפח">
+      <value name="Off" translation="מושבתת" />
+      <value name="On" translation="פעילה" />
+    </setting>
+    <setting name="Water Quality" translation="איכות מים">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+      <value name="Very High" translation="גבוהה מאד" />
+      <value name="Very Low" translation="נמוכה מאד" />
+    </setting>
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Adaptive Resolution" translation="Adaptív felbontás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Élsimítás">
+      <value name="FXAA High" translation="FXAA magas" />
+      <value name="FXAA Low" translation="FXAA alacsony" />
+      <value name="Off" translation="Ki" />
+      <value name="TXAA 1x" translation="TXAA 1x" />
+    </setting>
+    <setting name="Bloodfly Shadows" translation="Vérlegyek árnyékai">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Bloom" translation="Ellenfény">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Character Detail" translation="Szereplőrészletek">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+    <setting name="Decal Quality" translation="Nyomminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+    <setting name="Depth of Field" translation="Mélységélesség">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Full-screen" translation="Teljes képernyős" />
+      <value name="Full-screen Borderless" translation="Teljes képernyős keret nélküli" />
+      <value name="Windowed" translation="Ablakos" />
+    </setting>
+    <setting name="Environment Details" translation="Környezetrészletesség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+    <setting name="FPS Limiter" translation="FPS-korlát">
+      <value name="105" translation="105" />
+      <value name="120" translation="120" />
+      <value name="30" translation="30" />
+      <value name="45" translation="45" />
+      <value name="60" translation="60" />
+      <value name="75" translation="75" />
+      <value name="90" translation="90" />
+    </setting>
+    <setting name="Lens Flare" translation="Becsillanás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Light Shafts" translation="Fénynyalábok">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="NVIDIA HBAO+" translation="NVIDIA HBAO+">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA többképkockás mintavételes élsimítás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Rat Shadows" translation="Patkányárnyékok">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+    <setting name="Shadow Quality" translation="Árnyékminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+    <setting name="Texture Details" translation="Textúrarészletesség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+    <setting name="Volumetric Lighting" translation="Térfogati megvilágítás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Water Quality" translation="Vízminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Adaptive Resolution" translation="Risoluzione adattiva">
+      <value name="Off" translation="Disattivata" />
+      <value name="On" translation="Attivata" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialias">
+      <value name="FXAA High" translation="FXAA alto" />
+      <value name="FXAA Low" translation="FXAA basso" />
+      <value name="Off" translation="Disattivato" />
+      <value name="TXAA 1x" translation="TXAA 1x" />
+    </setting>
+    <setting name="Bloodfly Shadows" translation="Ombre mosche del sangue">
+      <value name="Off" translation="Disattivate" />
+      <value name="On" translation="Attivate" />
+    </setting>
+    <setting name="Bloom" translation="Blooming">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Character Detail" translation="Dettaglio del personaggio">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Molto alto" />
+      <value name="Very Low" translation="Molto basso" />
+    </setting>
+    <setting name="Decal Quality" translation="Qualità decalcomanie">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Bassa" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Molto alta" />
+      <value name="Very Low" translation="Molto bassa" />
+    </setting>
+    <setting name="Depth of Field" translation="Profondità di campo">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="Full-screen" translation="Schermo intero" />
+      <value name="Full-screen Borderless" translation="Schermo intero senza bordi" />
+      <value name="Windowed" translation="A finestra" />
+    </setting>
+    <setting name="Environment Details" translation="Dettagli ambiente">
+      <value name="High" translation="Alti" />
+      <value name="Low" translation="Bassi" />
+      <value name="Medium" translation="Medi" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Molto alti" />
+      <value name="Very Low" translation="Molto bassi" />
+    </setting>
+    <setting name="FPS Limiter" translation="Limitatore FPS">
+      <value name="105" translation="105" />
+      <value name="120" translation="120" />
+      <value name="30" translation="30" />
+      <value name="45" translation="45" />
+      <value name="60" translation="60" />
+      <value name="75" translation="75" />
+      <value name="90" translation="90" />
+    </setting>
+    <setting name="Lens Flare" translation="Flare obiettivo">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Light Shafts" translation="Raggi di luce">
+      <value name="Off" translation="Disattivata" />
+      <value name="On" translation="Attivata" />
+    </setting>
+    <setting name="NVIDIA HBAO+" translation="HBAO+ NVIDIA">
+      <value name="Off" translation="Disattivata" />
+      <value name="On" translation="Attivata" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antialias con campionamento multi-frame NVIDIA">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivo" />
+    </setting>
+    <setting name="Rat Shadows" translation="Ombre dei ratti">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+    <setting name="Shadow Quality" translation="Qualità ombre">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Molto alto" />
+      <value name="Very Low" translation="Molto basso" />
+    </setting>
+    <setting name="Texture Details" translation="Dettagli texture">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Molto alti" />
+      <value name="Very Low" translation="Molto bassi" />
+    </setting>
+    <setting name="Volumetric Lighting" translation="Illuminazione volumetrica">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Water Quality" translation="Qualità acqua">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Very High" translation="Molto alto" />
+      <value name="Very Low" translation="Molto basso" />
+    </setting>
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Adaptive Resolution" translation="適応解像度">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Anti-aliasing" translation="アンチエイリアシング">
+      <value name="FXAA High" translation="FXAA 高" />
+      <value name="FXAA Low" translation="FXAA 低" />
+      <value name="Off" translation="オフ" />
+      <value name="TXAA 1x" translation="TXAA 1x" />
+    </setting>
+    <setting name="Bloodfly Shadows" translation="ブラッドフライシャドウ">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Bloom" translation="ブルーム">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Character Detail" translation="文字ディテール">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting>
+    <setting name="Decal Quality" translation="デカール クオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting>
+    <setting name="Depth of Field" translation="被写界深度">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="Full-screen" translation="フルスクリーン" />
+      <value name="Full-screen Borderless" translation="フル スクリーン ボーダーなし" />
+      <value name="Windowed" translation="ウィンドウ表示" />
+    </setting>
+    <setting name="Environment Details" translation="環境のディテール">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting>
+    <setting name="FPS Limiter" translation="FPS 制限">
+      <value name="105" translation="105" />
+      <value name="120" translation="120" />
+      <value name="30" translation="30" />
+      <value name="45" translation="45" />
+      <value name="60" translation="60" />
+      <value name="75" translation="75" />
+      <value name="90" translation="90" />
+    </setting>
+    <setting name="Lens Flare" translation="レンズ フレア">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Light Shafts" translation="ライト シャフト">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="NVIDIA HBAO+" translation="NVIDIA HBAO+">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA マルチフレーム サンプリング アンチエリアシング">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Rat Shadows" translation="ラットシャドウ">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+    <setting name="Shadow Quality" translation="シャドウのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting>
+    <setting name="Texture Details" translation="テクスチャのディテール">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting>
+    <setting name="Volumetric Lighting" translation="立体ライト">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Water Quality" translation="水のクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting
