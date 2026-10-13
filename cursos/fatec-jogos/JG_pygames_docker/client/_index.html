@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pong Multiplayer</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: #0d0d1a;
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        h1 { font-size: 1.6rem; letter-spacing: 2px; color: #7eb8ff; margin-bottom: 4px; }
+        .subtitle { font-size: 0.75rem; color: #555; margin-bottom: 16px; }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 640px;
+            margin-bottom: 10px;
+        }
+        .session-badge {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            color: #0f0;
+            font-family: monospace;
+        }
+        .hint {
+            font-size: 0.72rem;
+            color: #555;
+        }
+
+        #gameCanvas {
+            display: block;
+            cursor: crosshair;
+            border: 2px solid #2a2a4a;
+            border-radius: 6px;
+            background: #000;
+            width: 640px;
+            height: 480px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 14px;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        input[type="text"] {
+            padding: 9px 14px;
+            border-radius: 6px;
+            border: 1px solid #333;
+            background: #1a1a2e;
+            color: white;
+            font-size: 0.9rem;
+            width: 140px;
+        }
+        select {
+            padding: 9px 14px;
+            border-radius: 6px;
+            border: 1px solid #333;
+            background: #1a1a2e;
+            color: white;
+            font-size: 0.9rem;
+        }
+        button {
+            padding: 9px 20px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        #startBtn  { background: #2e7d32; color: white; }
+        #startBtn:hover { background: #388e3c; }
+        #listBtn   { background: #1a1a2e; color: #aaa; border: 1px solid #333; }
+        #listBtn:hover { background: #222; }
+
+        .user-list {
+            display: none;
+            background: #12121f;
+            border: 1px solid #2a2a4a;
+            padding: 14px;
+            border-radius: 8px;
+            margin-top: 12px;
+            width: 640px;
+        }
+        .user-list h3 { font-size: 0.85rem; color: #888; margin-bottom: 10px; }
+        .user-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 10px;
+            background: #1a1a2e;
+            border-radius: 6px;
+            margin-bottom: 6px;
+        }
+        .dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+        .user-info { display: flex; flex-direction: column; flex: 1; }
+        .user-id { font-size: 0.72rem; color: #0f0; font-family: monospace; }
+        .user-hits { font-size: 0.78rem; color: #ff6060; margin-left: auto; }
+
+        .keys-hint {
+            margin-top: 14px;
+            font-size: 0.72rem;
+            color: #444;
+            text-align: center;
+            line-height: 1.8;
+        }
+        .keys-hint span { color: #666; }
+    </style>
+</head>
+<body>
+    <h1>🎮 Multiplayer Arena</h1>
+    <p class="subtitle">Mova-se, mire e atire nos inimigos</p>
+
+    <div class="top-bar">
+        <div class="session-badge">ID: <span id="sessionID">---</span></div>
+        <div class="hint">Clique no jogo para capturar controles</div>
+    </div>
+
+    <!-- O vídeo WebRTC é desenhado neste canvas -->
+    <canvas id="gameCanvas" width="640" height="480" tabindex="0"></canvas>
+
+    <div class="controls">
+        <input  type="text" id="nick" placeholder="Nickname" maxlength="16">
+        <select id="color">
+            <option value="red">🔴 Red</option>
+            <option value="green">🟢 Green</option>
+            <option value="blue">🔵 Blue</option>
+            <option value="yellow">🟡 Yellow</option>
+            <option value="purple">🟣 Purple</option>
+            <option value="orange">🟠 Orange</option>
+        </select>
+        <button id="startBtn">Entrar no Jogo</button>
+        <button id="listBtn">Jogadores Online</button>
+    </div>
+
+    <div id="userList" class="user-list"></div>
+
+    <div class="keys-hint">
+        <span>WASD</span> ou <span>↑ ↓ ← →</span> para mover &nbsp;|&nbsp;
+        <span>Mouse</span> para mirar &nbsp;|&nbsp;
+        <span>Botão esquerdo</span> para atirar
+    </div>
+
+    <script>
+        // ── Sessão ──────────────────────────────────────────────────────────
+        const sessionID = Math.random().toString(36).substr(2, 6).toUpperCase();
+        document.getElementById('sessionID').textContent = sessionID;
+
+        // ── Estado local dos controles ───────────────────────────────────────
+        const keys   = { up: false, down: false, left: false, right: false };
+        let   mouseAngle  = 0;   // ângulo em radianos do centro do canvas até o cursor
+        let   mouseDown   = false;
+        let   inputLoop   = null;
+        let   videoEl     = null;
+        let   inGame      = false;
+
+        // ── Canvas + vídeo oculto ────────────────────────────────────────────
+        const canvas = document.getElementById('gameCanvas');
+        const ctx    = canvas.getContext('2d');
+
+        // Vídeo oculto para receber o stream e pintar no canvas
+        const video = document.createElement('video');
+        video.autoplay    = true;
+        video.muted       = true;
+        video.playsInline = true;
+        video.style.display = 'none';
+        document.body.appendChild(video);
+        videoEl = video;
+
+        function paintLoop() {
+            if (videoEl.readyState >= 2) {
+                ctx.drawImage(videoEl, 0, 0, canvas.width, canvas.height);
+            }
+            requestAnimationFrame(paintLoop);
+        }
+        paintLoop();
+
+        // ── Teclado ─────────────────────────────────────────────────────────
+        const KEY_MAP = {
+            ArrowUp:    'up',   KeyW: 'up',
+            ArrowDown:  'down', KeyS: 'down',
+            ArrowLeft:  'left', KeyA: 'left',
+            ArrowRight: 'right',KeyD: 'right',
+        };
+
+        // ── Envio de input ───────────────────────────────────────────────────
+        function sendInput() {
+            if (!inGame) return;
+            fetch('/input', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    client_id: sessionID,
+                    keys:  { ...keys },
+                    angle: mouseAngle,
+                    shoot: mouseDown
+                })
+            }).catch(() => {});
+        }
+
+        // ── Teclado — só ativo após entrar no jogo ───────────────────────────
+        window.addEventListener('keydown', e => {
+            if (!inGame) return;
+            const k = KEY_MAP[e.code];
+            if (k) { keys[k] = true; e.preventDefault(); sendInput(); }
+        });
+        window.addEventListener('keyup', e => {
+            if (!inGame) return;
+            const k = KEY_MAP[e.code];
+            if (k) { keys[k] = false; sendInput(); }
+        });
+
+        // ── Mouse ────────────────────────────────────────────────────────────
+        canvas.addEventListener('mousemove', e => {
+            if (!inGame) return;
+            const r  = canvas.getBoundingClientRect();
+            const mx = (e.clientX - r.left) * (canvas.width  / r.width);
+            const my = (e.clientY - r.top)  * (canvas.height / r.height);
+            mouseAngle = Math.atan2(my - canvas.height / 2, mx - canvas.width / 2);
+            sendInput();
+        });
+        canvas.addEventListener('mousedown', e => {
+            if (!inGame || e.button !== 0) return;
+            mouseDown = true;
+            sendInput();
+        });
+        canvas.addEventListener('mouseup', e => {
+            if (e.button !== 0) return;
+            mouseDown = false;
+            sendInput();
+        });
+        window.addEventListener('mouseup', () => {
+            if (!mouseDown) return;
+            mouseDown = false;
+            sendInput();
+        });
+        canvas.addEventListener('contextmenu', e => e.preventDefault());
+
+        function startInputLoop() {} // mantido para compatibilidade com o fluxo de start()
+
+        // ── WebRTC ───────────────────────────────────────────────────────────
+        let pc = null;
+
+        async function start() {
+            if (pc) { pc.close(); pc = null; }
+            if (inputLoop) { clearInterval(inputLoop); inputLoop = null; }
+
+            // Reseta estado de teclas ao reconectar
+            inGame = false;
+            Object.keys(keys).forEach(k => keys[k] = false);
+            mouseDown = false;
+
+            document.getElementById('nick').disabled  = false;
+            document.getElementById('color').disabled = false;
+
+            pc = new RTCPeerConnection({
+                iceServers: [{ urls: 'stun:stun.l.google.com:19302' }]
+            });
+
+            pc.ontrack = (e) => {
+                videoEl.srcObject = e.streams[0];
+            };
+
+            pc.addTransceiver('video', { direction: 'recvonly' });
+
+            const offer = await pc.createOffer();
+            await pc.setLocalDescription(offer);
+
+            const res = await fetch('/offer', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    sdp:       pc.localDescription.sdp,
+                    type:      pc.localDescription.type,
+                    client_id: sessionID,
+                    nickname:  document.getElementById('nick').value.trim() || 'Player',
+                    color:     document.getElementById('color').value
+                })
+            });
+
+            const answer = await res.json();
+            await pc.setRemoteDescription(new RTCSessionDescription(answer));
+
+            inGame = true;
+            // Desabilita campos para o foco não voltar pra eles
+            document.getElementById('nick').disabled  = true;
+            document.getElementById('color').disabled = true;
+            document.getElementById('startBtn').textContent = 'Reconectar';
+
+            startInputLoop();
+            canvas.focus();
+        }
+
+        document.getElementById('startBtn').onclick = start;
+
+        // ── Lista de jogadores ───────────────────────────────────────────────
+        document.getElementById('listBtn').onclick = async () => {
+            const listDiv = document.getElementById('userList');
+            if (listDiv.style.display === 'block') {
+                listDiv.style.display = 'none';
+                return;
+            }
+            const res     = await fetch('/players');
+            const players = await res.json();
+            listDiv.innerHTML = '<h3>Jogadores Online</h3>';
+            if (players.length === 0) {
+                listDiv.innerHTML += '<p style="color:#555;font-size:0.85rem">Nenhum jogador conectado.</p>';
+            }
+            players.forEach(p => {
+                const colorMap = {
+                    red:'#dc3c3c', green:'#3cdc3c', blue:'#3c78ff',
+                    yellow:'#dccc28', purple:'#b43cdc', orange:'#ff8c1e'
+                };
+                listDiv.innerHTML += `
+                    <div class="user-item">
+                        <div class="dot" style="background:${colorMap[p.color] || '#ccc'}"></div>
+                        <div class="user-info">
+                            <span style="font-weight:bold">${p.nickname}</span>
+                            <span class="user-id">ID: ${p.client_id}</span>
+                        </div>
+                        <span class="user-hits">💀 ${p.hits ?? 0}</span>
+                    </div>`;
+            });
+            listDiv.style.display = 'block';
+        };
+    </script>
+</body>
+</html>

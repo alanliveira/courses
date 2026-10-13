@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pong Multiplayer</title>
+  <link rel="stylesheet" href="/client/style.css" />
+</head>
+<body>
+  <h1>🎮 Multiplayer Arena</h1>
+  <p class="subtitle">Mova-se, mire e atire nos inimigos</p>
+
+  <div class="top-bar">
+    <div class="session-badge">ID: <span id="sessionID">---</span></div>
+    <div class="hint">Clique no jogo para capturar controles</div>
+  </div>
+
+  <div class="video-wrapper">
+    <video id="video" autoplay playsinline disablePictureInPicture></video>
+    <div id="loader" class="loader hidden">
+      <div class="spinner"></div>
+      <span>Conectando ao jogo…</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="nick" placeholder="Nickname" maxlength="16" />
+    <select id="color">
+      <option value="red">🔴 Red</option>
+      <option value="green">🟢 Green</option>
+      <option value="blue">🔵 Blue</option>
+      <option value="yellow">🟡 Yellow</option>
+      <option value="purple">🟣 Purple</option>
+      <option value="orange">🟠 Orange</option>
+    </select>
+    <button id="startBtn">Entrar no Jogo</button>
+    <button id="listBtn">Jogadores Online</button>
+  </div>
+
+  <div id="userList" class="user-list hidden"></div>
+
+  <div class="keys-hint">
+    <span>WASD</span> ou <span>↑ ↓ ← →</span> para mover &nbsp;|&nbsp;
+    <span>Mouse</span> para mirar &nbsp;|&nbsp;
+    <span>Botão esquerdo</span> para atirar
+  </div>
+
+  <script type="module" src="/client/main.js"></script>
+</body>
+</html>
