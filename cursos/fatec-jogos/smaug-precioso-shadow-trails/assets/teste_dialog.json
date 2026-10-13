@@ -1,0 +1,92 @@
+[
+	{
+		"title": "PrefeitoSemAnotacao",
+		"tags": "",
+		"body": "<< titleDialog Eito >>\nAh Naian e Lohan, bom te ver novamente.\n<< titleDialog Naian >>\nBom dia senhor Prefeito Eito, como anda você?\n<< titleDialog Lohan >>\nWooof!\n<< titleDialog Eito >>\nEu estou bem, mas me preocupa bastante esses rumores próximos daquela velha mansão…\n<< titleDialog Naian >>\nÉ… ultimamente as coisas andavam tão calmas por aqui e agora isso…\nMas não se preocupe, eu pretendo dar uma olhada lá.\n<< titleDialog Eito >>\nHmm? Isso seria ótimo, eu estava para pedir para vocês ir lá mesmo.\n<< titleDialog Naian >>\nEu ia te falar sobre isso… mas, o que você ouviu que anda acontecendo lá?\n<< titleDialog Eito >>\nOuvi dizer que pequenas chamas estavam andando pela floresta… pela mansão… como se fossem espíritos ou algo assim, mas não sei se é verdade pois só foram vistas uma vez.\n<< titleDialog Lohan >>\nUuuuu?\n<< titleDialog Naian >>\nPequenas chamas… tudo bem, obrigado pela informação.\n<< titleDialog Eito >>\nQue nada Naian, eu que agradeço pela sua ajuda.\n<< titleDialog Naian >>\nSe permitir, irei retirar… preciso me preparar para ir para a mansão.\n<< titleDialog Eito >>\nTudo bem, fique bem Naian.\nE Lohan também!\n<< titleDialog Lohan >>\nWooof!\n<< titleDialog Naian >>\nSim Prefeito, você também.",
+		"position": {
+			"x": 409,
+			"y": 112
+		},
+		"colorID": 8
+	},
+	{
+		"title": "PrefeitoComAnotacao",
+		"tags": "",
+		"body": "<< titleDialog Eito >>\nEspero que tudo se resolva logo.\n<< titleDialog Naian >>\nNão se preocupe, tenho certeza que vai.",
+		"position": {
+			"x": 665,
+			"y": 113
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FazendeiroSemAnotacao",
+		"tags": "",
+		"body": "<< titleDialog Eiro>>\nAh, Lohan e Naian huh?\n<< titleDialog Lohan>>\nWOOOF!\n<< titleDialog Eiro>>\nVocê está bastante animado hein.\n<< titleDialog Naian>>\nMe perdoe por isso Fazendeiro… ele realmente gosta dos petiscos que você faz para ele.\n<< titleDialog Lohan>>\nWoooof…\n<< titleDialog Eiro>>\nAh não é nada não Naian, eu gosto de vocês e ele protege os meus animais… é bastante surpreendente um lobo proteger as ovelhas hahaha.\n<< titleDialog Lohan>>\nWoooof…\n<< titleDialog Naian>>\nConsigo imaginar, mas como andam as coisas com você?\n<< titleDialog Eiro>>\nEu vou bem, as colheitas desse ano prometem grande fatura, entretanto… (O Fazendeiro parece estar perdido em pensamentos.)\n<< titleDialog Naian>>\nEntretanto….?\n<< titleDialog Eiro>>\nMeus animais parecem estar assustados, vendo fantasmas brilhantes e coisas assim.\n<< titleDialog Naian>>\nFantasmas…?\n<< titleDialog Lohan>>\nOooooo?\n<< titleDialog Eiro>>\nIsso mesmo! Fantasmas brilhantes, não sei ao certo mas vi alguns desses “fantasmas”... por mais que parecia mais um brilho flutuando pelos campos.\n<< titleDialog Naian>>\nEntendi, bem, não precisa se preocupar muito sobre isso. Eu pretendo investigar o que está acontecendo lá na mansão\n<< titleDialog Eiro>>\nÉ verdade, aquela mansão… eu continuo ouvindo barulhos estranhos vindo de lá. Tome cuidado Naian, os pássaros pararam de ficar voando perto da mansão… evitando algo provavelmente.\n<< titleDialog Naian>>\nSim, não se preocupe mas obrigado.\n<< titleDialog Eiro>>\nNão é nada e para você Lohan \n<< titleDialog Lohan>>\n…?\n<< titleDialog Eiro>>\nO Fazendeiro dá um pequeno petisco para o Lohan, que come alegremente.\n<< titleDialog Lohan>>\nWooof!\n<< titleDialog Naian>>\nVamos logo Lohan!",
+		"position": {
+			"x": 409,
+			"y": 383
+		},
+		"colorID": 7
+	},
+	{
+		"title": "FazendeiroComAnotacao",
+		"tags": "",
+		"body": "<< titleDialog Eiro>>\nO grande vulcão ~ sempre nós protegendo ~ Louvado seja o vulcão! (Olhando para em direção ao vulcão e levantando as mãos).\n<< titleDialog Naian>>\nVocê realmente gosta do vulcão hein.\n<< titleDialog Eiro>>\nClaro! As colheitas sempre ficam boas com nosso querido vulcão do lado.",
+		"position": {
+			"x": 665,
+			"y": 386
+		},
+		"colorID": 5
+	},
+	{
+		"title": "ComercianteSemAnotacao",
+		"tags": "",
+		"body": "<< titleDialog Naian>>\nO comerciante, parece estar frustrado com alguma coisa.\n<< titleDialog Naian>>\nAlgum problema senhor Comerciante?\n<< titleDialog Ante>>\nAh… é você heroi Naian.\n<< titleDialog Naian>>\nNão precisa disso tudo, sabe?\n<< titleDialog Ante>>\nMas você me ajudou tanto no passado!!\n<< titleDialog Lohan>>\nWooof!\n<< titleDialog Naian>>\nTudo bem, tudo bem, eu gostaria de te perguntar umas coisas se não for um problema.\n<< titleDialog Ante>>\nPode perguntar, tentarei responder o que eu souber…. ao menos que esteja interessado em minhas mercadorias hahaha.\n<< titleDialog Naian>>\nQuem sabe mais tarde… mas eu gostaria de perguntar sobre os rumores que andam acontecendo.\n<< titleDialog Ante>>\nAH… esses rumores…\n<< titleDialog Ante>>\nO Comerciante parece irritado porém ao mesmo tempo assustado.\n<< titleDialog Ante>>\nEu sei muito bem o que é…\n<< titleDialog Ante>>\nPor sempre passar próximo da mansão, eu sempre ouço gritos e às vezes, dias que eu passo de noite lá… Esferas de fogo parecem brincar entre si.\n<< titleDialog Ante>>\nSem contar as fofocas, as fofocas haha..\n<< titleDialog Ante>>\nParece que tem alguma coisa rolando no vulcão de acordo com algumas pessoas, mas eu espero que seja besteira se não…\n<< titleDialog Naian>>\ncom certeza, deve ser apenas um exagero. \n<< titleDialog Ante>>\nNão é?\n<< titleDialog Naian>>\nMas obrigado mesmo assim, isso ajudou bastante.\n<< titleDialog Naian>>\nPretendo dar uma olhada na mansão mesmo a pedido do Prefeito.\n<< titleDialog Ante>>\nIsso é ótimo! Por sinal você gostaria de...\n<< titleDialog Naian>>\nMuito obrigado pela ajuda\n<< titleDialog Lohan>>\nWooof! Wooof!\n<< titleDialog Naian>>\n(Naian se retira rapidamente, pois se ele ficasse por mais um minuto lá…)",
+		"position": {
+			"x": 407,
+			"y": 635
+		},
+		"colorID": 1
+	},
+	{
+		"title": "ComercianteComAnotacao",
+		"tags": "",
+		"body": "<< titleDialog Ante>>\nDroga, esses malditos rumores… estragando o comércio, como posso vender esses preciosos aneis com todos esses problemas?\n<< titleDialog Naian>>\nTenho certeza que você conseguirá vender todos.\n<< titleDialog Ante>>\nSe está falando isso talvez esteja interessado? Hein? Ei, não vá!",
+		"position": {
+			"x": 669,
+			"y": 634
+		},
+		"colorID": 3
+	},
+	{
+		"title": "DercySemColetarAnotacoes",
+		"tags": "",
+		"body": "<< titleDialog Dercy>>\nEi, moço e seu lobo feio, conversa com o NPC'S desse jogo do Baralho!!!!",
+		"position": {
+			"x": 407,
+			"y": 860
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DercyComColetarAnotacoes",
+		"tags": "",
+		"body": "<< titleDialog Dercy >>\nOrra, Cascalho, você coletou a borra das anotações.\nAgora va para a mansão que tem o canavial de baixinhos. Borra",
+		"position": {
+			"x": 681,
+			"y": 865
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LohanDormindo",
+		"tags": "",
+		"body": "<< titleDialog Naian>>\nAcorde Lohan, temos que ir.\n<< titleDialog Lohan>>\nWoo~~of",
+		"position": {
+			"x": 400,
+			"y": 1107
+		},
+		"colorID": 0
+	}
+]

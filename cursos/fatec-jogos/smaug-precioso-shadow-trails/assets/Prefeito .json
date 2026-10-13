@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Prefeito",
+		"tags": "",
+		"body": "Ah Naian e Lohan, bom te ver novamente. [[Answer:Naian|Naian]]\n\n<< [[ answer:Lohan |]] |]]>> Eu estou bem, mas me preocupa bastante esses rumores próximos daquela velha mansão…",
+		"position": {
+			"x": -1061,
+			"y": -344
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Naian",
+		"tags": "",
+		"body": "Bom dia senhor Prefeito, como anda você? [[Answer:Lohan|Lohan]]",
+		"position": {
+			"x": -687,
+			"y": -332
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lohan",
+		"tags": "",
+		"body": "Woof!",
+		"position": {
+			"x": -680,
+			"y": -50
+		},
+		"colorID": 0
+	}
+]

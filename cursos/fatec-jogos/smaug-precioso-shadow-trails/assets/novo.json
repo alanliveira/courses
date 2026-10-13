@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": ">><< nameTag Prefeito >>\nAh Naian e Lohan, bom te ver novamente.\n<< nameTag Naian>>\nBom dia senhor Prefeito, como anda você?\n<< nameTag Lohan >>\nwooof!\n<< nameTag Prefeito >>\nEu estou bem, mas me preocupa bastante esses rumores próximos daquela velha mansão…\n<< nameTag Naian >>\nÉ… ultimamente as coisas andavam tão calmas por aqui e agora isso…\nMas não se preocupe, eu pretendo dar uma olhada lá\n<< nameTag Prefeito >>\nHmm? Isso seria ótimo, eu estava para pedir para vocês ir lá mesmo.\n<< nameTag Naian >>\nEu ia te falar sobre isso… mas, o que você ouviu que anda acontecendo lá?\n<< nameTag Prefeito >>\nOuvi dizer que pequenas chamas estavam andando pela floresta… pela mansão… como se fossem espíritos ou algo assim, mas não sei se é verdade pois só foram vistas uma vez.\n<< nameTag Lohan >>\nuuuuu?\n<< nameTag Naian >>\nPequenas chamas… tudo bem, obrigado pela informação.\n<< nameTag Prefeito >>\nQue nada Naian, eu que agradeço pela sua ajuda.\n<< nameTag Naian >>\nSe permitir, irei retirar… preciso me preparar para ir para a mansão.\n<< nameTag Prefeito >>\nTudo bem, fique bem Naian.\nE Lohan também!\n<< nameTag Lohan >>\nwooof!\n<< nameTag Naian >>\nSim Prefeito, você também.",
+		"position": {
+			"x": 1176,
+			"y": 378
+		},
+		"colorID": 0
+	}
+]
