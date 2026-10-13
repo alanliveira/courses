@@ -1,0 +1,21 @@
+<nav class="navbar bg-dark">
+  <div class="container-fluid">
+    <%= link_to 'Bloquinho', root_path, class: "navbar-brand text-light" %>
+    <div class="d-flex">
+        <%= link_to "Novo Livro", new_book_path, class: 'btn btn-success' %>
+    </div>
+  </div>
+</nav>
+
+<% if notice %>
+<div class="container-fluid mt-3">
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <%= notice %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+</div>
+<% end %>
+
+<div class="container-fluid mt-3">
+    <%= render @books %>
+</div>

@@ -1,0 +1,14 @@
+<% content_for :title, "Bloquinho - novo livro" %>
+<nav class="navbar bg-dark">
+  <div class="container-fluid">
+    <%= link_to 'Bloquinho', root_path, class: "navbar-brand text-light" %>
+    <div class="d-flex">
+        <%= link_to "Cancelar", root_path, class: 'btn btn-danger' %>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <h1>Novo livro</h1>
+  <%= render "form", book: @book %>
+</div>
