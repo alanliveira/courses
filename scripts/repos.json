@@ -256,5 +256,23 @@
       "HLSL",
       "ShaderLab"
     ]
+  },
+  {
+    "name": "alanliveira/JG_pygames_docker",
+    "owner": "alanliveira",
+    "repo": "JG_pygames_docker",
+    "category": "cursos|FATEC",
+    "sub": "fatec-jogos",
+    "prefix": "cursos/fatec-jogos/JG_pygames_docker",
+    "url": "https://github.com/alanliveira/JG_pygames_docker",
+    "ssh_url": "git@github.com:alanliveira/JG_pygames_docker.git",
+    "access": "public",
+    "languages": [
+      "HTML",
+      "Python",
+      "CSS",
+      "JavaScript",
+      "Dockerfile"
+    ]
   }
 ]

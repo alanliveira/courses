@@ -30,6 +30,7 @@ LANG_BADGES = {
     "C#":                ("178600", "csharp",      "white"),
     "CSS":               ("663399", "css",         "white"),
     "Dart":              ("0175C2", "dart",        "white"),
+    "Dockerfile":        ("2496ED", "docker",      "white"),
     "HLSL":              ("555555", None,          None),
     "HTML":              ("E34F26", "html5",       "white"),
     "JavaScript":        ("F7DF1E", "javascript",  "black"),
