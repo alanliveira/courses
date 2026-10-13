@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#152e28">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" type="image/svg+xml" href="assets/pwa/icon.svg">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="assets/pwa/icon.svg">
+    <title>Flash Exterminator</title>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            base: "assets/",
+            scale: "exactfit",
+            urlRewriteRules: [[
+                "http://cdn.ruffle.rs/pub/swz/tlf/2.0.0.232/textLayout_2.0.0.232.swz",
+                "assets/textLayout_2.0.0.232.swz"
+            ]]
+        };
+    </script>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle" crossorigin="anonymous"></script>
+    <style>
+        :root {
+            --cabinet: #d8caaa;
+            --cabinet-shadow: #87775d;
+            --screen: #152e28;
+            --ink: #29231c;
+            --orange: #ef6c35;
+            --yellow: #f7c843;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            overflow-x: hidden;
+            color: var(--ink);
+            font-family: "Courier New", monospace;
+            background-color: #e9d8b7;
+            background-image: radial-gradient(#c8b28c 1px, transparent 1px);
+            background-size: 5px 5px;
+        }
+
+        .arcade {
+            width: min(92vw, 790px);
+            min-width: 0;
+            padding: clamp(20px, 4vw, 42px) 0 32px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 18px;
+            color: #b63e29;
+            font-size: clamp(1.4rem, 4vw, 2.4rem);
+            letter-spacing: .1em;
+            text-shadow: 2px 2px 0 var(--yellow);
+        }
+
+        .title-with-logo {
+            display: inline-flex;
+            align-items: center;
+            gap: .35em;
+        }
+
+        .project-logo { width: 1em; height: 1em; }
+
+        .monitor {
+            position: relative;
+            padding: clamp(18px, 3.5vw, 31px);
+            border: 8px solid var(--cabinet);
+            border-radius: 34px 34px 18px 18px;
+            background: linear-gradient(135deg, #f4e8c9, var(--cabinet) 48%, #b5a586);
+            box-shadow: inset 5px 5px 0 #fff3d6, inset -6px -7px 0 var(--cabinet-shadow), 10px 12px 0 #735f49;
+        }
+
+        .gameboy-toggle {
+            position: absolute;
+            top: 15px;
+            right: 19px;
+            z-index: 3;
+            border: 3px solid #473c31;
+            border-radius: 6px;
+            padding: 7px 12px;
+            color: #fff6d7;
+            font: bold .58rem "Courier New", monospace;
+            cursor: pointer;
+            background: #4f6655;
+            box-shadow: inset 1px 1px #a3b69d, 2px 3px #493c2e;
+        }
+
+        .gameboy-controls { display: none; }
+
+        .screen {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 11 / 8;
+            border: 12px solid #29251e;
+            border-radius: 20px;
+            background: var(--screen);
+            box-shadow: inset 0 0 26px #000, 0 0 0 4px #655c4a;
+        }
+
+        .screen::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: 2;
+            pointer-events: none;
+            opacity: .2;
+            background: repeating-linear-gradient(0deg, transparent 0 3px, #c4ffe6 3px 4px);
+        }
+
+        .screen > #game-player,
+        .screen ruffle-player {
+            position: absolute;
+            inset: 0;
+            display: block !important;
+            width: 100% !important;
+            height: 100% !important;
+            max-width: none !important;
+            max-height: none !important;
+        }
+
+        .monitor:fullscreen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: clamp(18px, 4vw, 32px);
+            width: 100vw;
+            height: 100dvh;
+            padding: clamp(18px, 4vw, 48px);
+            border: 0;
+            border-radius: 0;
+            background: #a7ba80;
+            box-shadow: inset 0 0 0 8px #556345;
+        }
+
+        .monitor:fullscreen .screen {
+            width: min(88vw, 680px);
+            min-height: 0;
+            aspect-ratio: 680 / 500;
+            border-color: #364331;
+            border-radius: 8px;
+        }
+
+        .monitor:fullscreen .gameboy-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: min(88vw, 680px);
+        }
+
+        .gameboy-controls .arrow-keys { grid-template-columns: repeat(3, clamp(42px, 11vw, 68px)); gap: 6px; }
+        .gameboy-controls .key { height: clamp(42px, 11vw, 68px); border-radius: 50%; font-size: 1rem; background: #566748; }
+        .gameboy-controls .key:active { background: #e85f73; }
+        .gameboy-start {
+            align-self: flex-end;
+            border: 3px solid #443f3b;
+            border-radius: 12px;
+            padding: 8px 14px;
+            color: #fff6d7;
+            font: bold .7rem "Courier New", monospace;
+            cursor: pointer;
+            touch-action: manipulation;
+            background: #596b4c;
+            box-shadow: inset 2px 2px #91a17b, 2px 3px #4c4540;
+        }
+        .gameboy-start:active { transform: translateY(2px); box-shadow: inset 2px 2px #435137, 1px 2px #4c4540; }
+        .gameboy-actions { display: flex; gap: 16px; align-items: center; }
+        .gameboy-action {
+            width: clamp(54px, 14vw, 80px);
+            height: clamp(54px, 14vw, 80px);
+            border: 4px solid #443f3b;
+            border-radius: 50%;
+            color: #fff6d7;
+            font: bold 1.3rem "Courier New", monospace;
+            cursor: pointer;
+            touch-action: manipulation;
+            background: #c94d64;
+            box-shadow: inset 3px 3px #f28091, 3px 4px #4c4540;
+        }
+
+        .gameboy-action:active { transform: translateY(2px); box-shadow: inset 3px 3px #a93b50, 1px 2px #4c4540; }
+
+        .controls-title {
+            margin: 24px 0 12px;
+            font-size: .8rem;
+            font-weight: bold;
+            letter-spacing: .12em;
+        }
+
+        .keyboard {
+            position: relative;
+            display: inline-flex;
+            gap: 18px;
+            align-items: end;
+            padding: 15px 19px;
+            border: 5px solid #4a4035;
+            border-radius: 10px;
+            background: #87775f;
+            box-shadow: inset 3px 3px #b9a98c, 7px 8px 0 #5c4c3c;
+        }
+
+        .control-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .arrow-keys {
+            display: grid;
+            grid-template-columns: repeat(3, 42px);
+            gap: 5px;
+        }
+
+        .key {
+            display: grid;
+            place-items: center;
+            height: 38px;
+            border: 3px solid #473c31;
+            border-radius: 5px;
+            color: #fff6d7;
+            font-size: .72rem;
+            font-weight: bold;
+            font-family: inherit;
+            cursor: pointer;
+            touch-action: manipulation;
+            user-select: none;
+            background: linear-gradient(135deg, #716453, #3f362d);
+            box-shadow: inset 2px 2px #9c8c72, 2px 3px #30271f;
+        }
+
+        .key.active, .key:active { color: #3b281a; background: linear-gradient(135deg, #ffe174, var(--orange)); }
+        .up { grid-column: 2; }
+        .left { grid-column: 1; }
+        .down { grid-column: 2; }
+        .right { grid-column: 3; }
+        .space { width: min(210px, 35vw); margin-bottom: 0; }
+
+        .mouse-tip {
+            width: 92px;
+            font-size: .58rem;
+            font-weight: bold;
+            line-height: 1.35;
+        }
+
+        .mouse {
+            position: relative;
+            width: 32px;
+            height: 49px;
+            margin: 0 auto 5px;
+            border: 3px solid #473c31;
+            border-radius: 16px 16px 12px 12px;
+            background: #eee0bf;
+            box-shadow: 3px 3px 0 #655646;
+        }
+
+        .mouse::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 24px;
+            border-radius: 12px 0 6px 0;
+            background: var(--orange);
+        }
+
+        .mouse::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 3px;
+            height: 27px;
+            background: #473c31;
+            transform: translateX(-50%);
+        }
+
+        .info-button {
+            width: 37px;
+            height: 37px;
+            border: 3px solid #473c31;
+            border-radius: 50%;
+            color: #3b281a;
+            font: bold 1.2rem Georgia, serif;
+            cursor: pointer;
+            background: var(--yellow);
+            box-shadow: inset 2px 2px #fff1a4, 3px 3px #493c2e;
+        }
+
+        .info-button:hover, .info-button:focus-visible { background: var(--orange); outline: 3px solid #fff6d7; outline-offset: 2px; }
+
+        dialog {
+            width: min(90vw, 510px);
+            border: 7px solid #4a4035;
+            border-radius: 12px;
+            padding: 0;
+            color: var(--ink);
+            font-family: "Courier New", monospace;
+            background: #ead8b4;
+            box-shadow: 9px 10px 0 #45382c;
+        }
+
+        dialog::backdrop { background: rgba(26, 20, 14, .72); }
+        .modal-content { padding: 24px; text-align: left; }
+        .modal-content h2 { margin: 0 0 14px; color: #b63e29; font-size: 1.2rem; }
+        .modal-content .modal-title { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+        .modal-title .project-logo { order: 2; width: 4em; height: 4em; }
+        .modal-content p { font-size: .82rem; line-height: 1.55; }
+        .modal-content ul { padding-left: 20px; font-size: .78rem; line-height: 1.6; }
+        .close-button { float: right; border: 0; color: #fff6d7; padding: 7px 11px; font: bold .7rem "Courier New", monospace; cursor: pointer; background: #b63e29; }
+
+        @media (max-width: 576px) {
+            .arcade { width: 100%; padding: 16px 10px 24px; }
+            h1 { margin-bottom: 12px; }
+            .monitor { padding: 10px 10px 38px; border-width: 6px; border-radius: 22px 22px 12px 12px; box-shadow: inset 3px 3px 0 #fff3d6, inset -4px -5px 0 var(--cabinet-shadow), 6px 7px 0 #735f49; }
+            .screen { aspect-ratio: 680 / 500; border-width: 7px; border-radius: 12px; }
+            .gameboy-toggle { top: 12px; right: 12px; }
+            .keyboard { gap: 10px; padding: 12px; }
+            .control-bar { display: grid; grid-template-columns: auto auto; justify-content: center; justify-items: center; gap: 18px; align-items: center; }
+            .keyboard { grid-column: 1 / -1; grid-row: 1; justify-self: center; }
+            .info-button { grid-column: 1; grid-row: 2; align-self: center; justify-self: center; }
+            .mouse-tip { grid-column: 2; grid-row: 2; align-self: center; justify-self: center; }
+            .arrow-keys { grid-template-columns: repeat(3, 34px); }
+            .key { height: 34px; font-size: .62rem; }
+            .mouse-tip { width: 65px; font-size: .5rem; }
+        }
+
+        @media (max-width: 380px) {
+            .space { width: 116px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="arcade">
+        <h1 class="title-with-logo"><img class="project-logo" src="assets/pwa/icon.svg" alt="">Flash Exterminator</h1>
+        <section class="monitor" aria-label="Tela do jogo">
+            <div class="screen">
+                <div id="game-player" aria-label="Jogo Flash Exterminator"></div>
+            </div>
+            <div class="gameboy-controls" aria-label="Controles do modo Game Boy">
+                <div class="arrow-keys">
+                    <button class="key up" type="button" data-key="ArrowUp" aria-label="Mover para cima">↑</button>
+                    <button class="key left" type="button" data-key="ArrowLeft" aria-label="Mover para a esquerda">←</button>
+                    <button class="key down" type="button" data-key="ArrowDown" aria-label="Mover para baixo">↓</button>
+                    <button class="key right" type="button" data-key="ArrowRight" aria-label="Mover para a direita">→</button>
+                </div>
+                <!-- <button class="gameboy-start" type="button" aria-label="Voltar ao modo Monitor">Modo Monitor</button> -->
+                <div class="gameboy-actions">
+                    <button class="gameboy-action" type="button" data-key="Space" aria-label="Pular">A</button>
+                    <button class="gameboy-action gameboy-exit" type="button" aria-label="Sair do modo Game Boy" title="Voltar para o Game mode">B</button>
+                </div>
+            </div>
+        </section>
+
+        <p class="controls-title">CONTROLES</p>
+        <div class="control-bar">
+            <button class="info-button" type="button" aria-label="Informações sobre o projeto" aria-controls="project-info">i</button>
+            <section class="keyboard" aria-label="Controles do jogo">
+                <div class="arrow-keys">
+                    <button class="key active up" type="button" data-key="ArrowUp" aria-label="Mover para cima">↑</button>
+                    <button class="key active left" type="button" data-key="ArrowLeft" aria-label="Mover para a esquerda">←</button>
+                    <button class="key active down" type="button" data-key="ArrowDown" aria-label="Mover para baixo">↓</button>
+                    <button class="key active right" type="button" data-key="ArrowRight" aria-label="Mover para a direita">→</button>
+                </div>
+                <button class="key active space" type="button" data-key="Space" aria-label="Atirar">ESPAÇO</button>
+                <button class="gameboy-toggle" type="button" aria-label="Abrir modo Game Boy em tela cheia">GAME BOY</button>
+            </section>
+            <div class="mouse-tip" aria-label="Use o botão esquerdo do mouse para interagir com os botões">
+                <div class="mouse" aria-hidden="true"></div>
+                CLIQUE ESQUERDO<br>PARA INTERAGIR
+            </div>
+            
+        </div>
+    </main>
+    <dialog id="project-info" aria-labelledby="project-info-title">
+        <div class="modal-content">
+            <button class="close-button" type="button">FECHAR</button>
+            <h2 class="modal-title" id="project-info-title"><img class="project-logo" src="assets/pwa/icon.svg" alt="">Sobre o projeto</h2>
+            <p>Flash Exterminator é um jogo espacial criado em Adobe Flash e executado no navegador pelo emulador Ruffle. Ele foi desenvolvido como projeto da disciplina Desenvolvimento de Jogos para Web I, do curso técnico em Jogos Digitais no ano de 2016.</p>
+            <h2>Como jogar</h2>
+            <ul>
+                <li>Use as setas para movimentar a nave.</li>
+                <li>Pressione a barra de espaço para atirar.</li>
+                <li>Clique dentro da tela uma vez para ativar o áudio e dar foco aos controles.</li>
+            </ul>
+            <h2>Modos de jogo</h2>
+            <ul>
+                <li><strong>Monitor:</strong> jogue na visualização padrão, com controles pelo teclado.</li>
+                <li><strong>Game Boy:</strong> abra o modo portátil para jogar com direcional e botão A na tela.</li>
+                <li>Use START ou B para voltar ao modo Monitor.</li>
+            </ul>
+            <p><a href="https://github.com/alanliveira/flash-exterminator" target="_blank" rel="noopener noreferrer">Dê uma estrela no repositório no GitHub</a></p>
+        </div>
+    </dialog>
+    <script>
+        const infoButton = document.querySelector('.info-button');
+        const infoDialog = document.querySelector('#project-info');
+        const closeButton = infoDialog.querySelector('.close-button');
+        const gameContainer = document.querySelector('#game-player');
+        const monitor = document.querySelector('.monitor');
+        const gameboyToggle = document.querySelector('.gameboy-toggle');
+        const gameboyExit = document.querySelector('.gameboy-exit');
+
+        const ruffle = window.RufflePlayer?.newest();
+        if (ruffle) {
+            const player = ruffle.createPlayer();
+            player.style.width = '100%';
+            player.style.height = '100%';
+            player.setAttribute('aria-label', 'Jogo Flash Exterminator');
+            gameContainer.append(player);
+            player.load('assets/prj-nave (1).swf');
+        } else {
+            gameContainer.textContent = 'Não foi possível carregar o emulador do jogo.';
+        }
+
+        infoButton.addEventListener('click', () => infoDialog.showModal());
+        closeButton.addEventListener('click', () => infoDialog.close());
+        infoDialog.addEventListener('click', (event) => {
+            if (event.target === infoDialog) infoDialog.close();
+        });
+
+        gameboyToggle.addEventListener('click', () => monitor.requestFullscreen());
+        gameboyExit.addEventListener('click', () => document.exitFullscreen());
+
+        const controlKeys = {
+            ArrowUp: { key: 'ArrowUp', code: 'ArrowUp', keyCode: 38, which: 38 },
+            ArrowLeft: { key: 'ArrowLeft', code: 'ArrowLeft', keyCode: 37, which: 37 },
+            ArrowDown: { key: 'ArrowDown', code: 'ArrowDown', keyCode: 40, which: 40 },
+            ArrowRight: { key: 'ArrowRight', code: 'ArrowRight', keyCode: 39, which: 39 },
+            Space: { key: ' ', code: 'Space', keyCode: 32, which: 32 }
+        };
+
+        function sendGameKey(keyName, type) {
+            const target = document.querySelector('ruffle-player') || document.querySelector('.screen');
+            const key = controlKeys[keyName];
+
+            target.focus();
+            target.dispatchEvent(new KeyboardEvent(type, { ...key, bubbles: true }));
+        }
+
+        document.querySelectorAll('[data-key]').forEach((button) => {
+            let isPressed = false;
+            let wasPointerActivated = false;
+            const release = () => {
+                if (!isPressed) return;
+                isPressed = false;
+                sendGameKey(button.dataset.key, 'keyup');
+            };
+
+            button.addEventListener('pointerdown', (event) => {
+                event.preventDefault();
+                if (isPressed) return;
+                isPressed = true;
+                wasPointerActivated = true;
+                button.setPointerCapture(event.pointerId);
+                sendGameKey(button.dataset.key, 'keydown');
+            });
+            button.addEventListener('pointerup', release);
+            button.addEventListener('pointercancel', release);
+            button.addEventListener('lostpointercapture', release);
+            button.addEventListener('click', () => {
+                if (wasPointerActivated) {
+                    wasPointerActivated = false;
+                    return;
+                }
+                sendGameKey(button.dataset.key, 'keydown');
+                sendGameKey(button.dataset.key, 'keyup');
+            });
+        });
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js'));
+        }
+    </script>
+</body>
+</html>

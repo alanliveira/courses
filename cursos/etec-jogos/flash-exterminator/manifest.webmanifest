@@ -1,0 +1,19 @@
+{
+  "name": "Flash Exterminator",
+  "short_name": "Flash Exterminator",
+  "description": "Jogo espacial clássico executado no navegador.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e9d8b7",
+  "theme_color": "#152e28",
+  "icons": [
+    {
+      "src": "assets/pwa/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
