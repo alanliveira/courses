@@ -1,0 +1,43 @@
+name: Atualizar README
+
+on:
+  push:
+    branches: [main]
+
+# permissão para dar push do commit com o README atualizado
+permissions:
+  contents: write
+
+# evita execuções simultâneas disputando o mesmo push
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    # não roda para commits do próprio bot (previne loop infinito)
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerar README
+        run: python scripts/gen_readme.py
+
+      - name: Commit e push se houver mudanças
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README já está atualizado — nada a fazer."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: atualiza README automaticamente [skip ci]"
+            git push
+          fi

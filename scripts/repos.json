@@ -1,0 +1,260 @@
+[
+  {
+    "name": "alanliveira/course-react-nextjs-nestjs-typescript",
+    "owner": "alanliveira",
+    "repo": "course-react-nextjs-nestjs-typescript",
+    "category": "cursos|udemy",
+    "sub": "udemy",
+    "prefix": "cursos/udemy/course-react-nextjs-nestjs-typescript",
+    "url": "https://github.com/alanliveira/course-react-nextjs-nestjs-typescript",
+    "ssh_url": "git@github.com:alanliveira/course-react-nextjs-nestjs-typescript.git",
+    "access": "public",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "name": "alanliveira/desafios-dio-me",
+    "owner": "alanliveira",
+    "repo": "desafios-dio-me",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/desafios-dio-me",
+    "url": "https://github.com/alanliveira/desafios-dio-me",
+    "ssh_url": "git@github.com:alanliveira/desafios-dio-me.git",
+    "access": "public",
+    "languages": [
+      "C#"
+    ]
+  },
+  {
+    "name": "alanliveira/dio-devops-fundamentals",
+    "owner": "alanliveira",
+    "repo": "dio-devops-fundamentals",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/dio-devops-fundamentals",
+    "url": "https://github.com/alanliveira/dio-devops-fundamentals",
+    "ssh_url": "git@github.com:alanliveira/dio-devops-fundamentals.git",
+    "access": "public",
+    "languages": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "alanliveira/dio-docker-fundamentos",
+    "owner": "alanliveira",
+    "repo": "dio-docker-fundamentos",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/dio-docker-fundamentos",
+    "url": "https://github.com/alanliveira/dio-docker-fundamentos",
+    "ssh_url": "git@github.com:alanliveira/dio-docker-fundamentos.git",
+    "access": "public",
+    "languages": [
+      "Shell"
+    ]
+  },
+  {
+    "name": "alanliveira/dio-formacao-ruby",
+    "owner": "alanliveira",
+    "repo": "dio-formacao-ruby",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/dio-formacao-ruby",
+    "url": "https://github.com/alanliveira/dio-formacao-ruby",
+    "ssh_url": "git@github.com:alanliveira/dio-formacao-ruby.git",
+    "access": "public",
+    "languages": [
+      "CSS",
+      "Ruby",
+      "HTML",
+      "JavaScript",
+      "Shell",
+      "SCSS"
+    ]
+  },
+  {
+    "name": "alanliveira/dio-formacao-ruby-01",
+    "owner": "alanliveira",
+    "repo": "dio-formacao-ruby-01",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/dio-formacao-ruby-01",
+    "url": "https://github.com/alanliveira/dio-formacao-ruby-01",
+    "ssh_url": "git@github.com:alanliveira/dio-formacao-ruby-01.git",
+    "access": "public",
+    "languages": [
+      "Ruby"
+    ]
+  },
+  {
+    "name": "alanliveira/dio-formacao-ruby-02",
+    "owner": "alanliveira",
+    "repo": "dio-formacao-ruby-02",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/dio-formacao-ruby-02",
+    "url": "https://github.com/alanliveira/dio-formacao-ruby-02",
+    "ssh_url": "git@github.com:alanliveira/dio-formacao-ruby-02.git",
+    "access": "public",
+    "languages": [
+      "Ruby"
+    ]
+  },
+  {
+    "name": "alanliveira/djangotutorial",
+    "owner": "alanliveira",
+    "repo": "djangotutorial",
+    "category": "cursos|django",
+    "sub": "django",
+    "prefix": "cursos/django/djangotutorial",
+    "url": "https://github.com/alanliveira/djangotutorial",
+    "ssh_url": "git@github.com:alanliveira/djangotutorial.git",
+    "access": "public",
+    "languages": [
+      "Python",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "name": "alanliveira/flash-exterminator",
+    "owner": "alanliveira",
+    "repo": "flash-exterminator",
+    "category": "cursos/etec jogos",
+    "sub": "etec-jogos",
+    "prefix": "cursos/etec-jogos/flash-exterminator",
+    "url": "https://github.com/alanliveira/flash-exterminator",
+    "ssh_url": "git@github.com:alanliveira/flash-exterminator.git",
+    "access": "public",
+    "languages": [
+      "HTML",
+      "ActionScript",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "alanliveira/lab-natty-or-not",
+    "owner": "alanliveira",
+    "repo": "lab-natty-or-not",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/lab-natty-or-not",
+    "url": "https://github.com/alanliveira/lab-natty-or-not",
+    "ssh_url": "git@github.com:alanliveira/lab-natty-or-not.git",
+    "access": "public",
+    "languages": []
+  },
+  {
+    "name": "alanliveira/microservice-rails-rabbit-MQ-dio",
+    "owner": "alanliveira",
+    "repo": "microservice-rails-rabbit-MQ-dio",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/microservice-rails-rabbit-MQ-dio",
+    "url": "https://github.com/alanliveira/microservice-rails-rabbit-MQ-dio",
+    "ssh_url": "git@github.com:alanliveira/microservice-rails-rabbit-MQ-dio.git",
+    "access": "public",
+    "languages": [
+      "Ruby",
+      "Procfile"
+    ]
+  },
+  {
+    "name": "alanliveira/react-nextjs-nestjs-udemy",
+    "owner": "alanliveira",
+    "repo": "react-nextjs-nestjs-udemy",
+    "category": "cursos|udemy",
+    "sub": "udemy",
+    "prefix": "cursos/udemy/react-nextjs-nestjs-udemy",
+    "url": "https://github.com/alanliveira/react-nextjs-nestjs-udemy",
+    "ssh_url": "git@github.com:alanliveira/react-nextjs-nestjs-udemy.git",
+    "access": "public",
+    "languages": [
+      "CSS",
+      "TypeScript",
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "name": "alanliveira/Simulador-de-corrida",
+    "owner": "alanliveira",
+    "repo": "Simulador-de-corrida",
+    "category": "cursos|dio",
+    "sub": "dio",
+    "prefix": "cursos/dio/Simulador-de-corrida",
+    "url": "https://github.com/alanliveira/Simulador-de-corrida",
+    "ssh_url": "git@github.com:alanliveira/Simulador-de-corrida.git",
+    "access": "public",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "alanliveira/smaug-precioso-shadow-trails",
+    "owner": "alanliveira",
+    "repo": "smaug-precioso-shadow-trails",
+    "category": "cursos|fatec jogos",
+    "sub": "fatec-jogos",
+    "prefix": "cursos/fatec-jogos/smaug-precioso-shadow-trails",
+    "url": "https://github.com/alanliveira/smaug-precioso-shadow-trails",
+    "ssh_url": "git@github.com:alanliveira/smaug-precioso-shadow-trails.git",
+    "access": "public",
+    "languages": []
+  },
+  {
+    "name": "alanliveira/imersao-flutter-alura",
+    "owner": "alanliveira",
+    "repo": "imersao-flutter-alura",
+    "category": "cursos|alura",
+    "sub": "alura",
+    "prefix": "cursos/alura/imersao-flutter-alura",
+    "url": "https://github.com/alanliveira/imersao-flutter-alura",
+    "ssh_url": "git@github.com:alanliveira/imersao-flutter-alura.git",
+    "access": "private",
+    "languages": [
+      "Dart",
+      "Nix",
+      "HTML",
+      "Kotlin"
+    ]
+  },
+  {
+    "name": "alanliveira/siteIdosos",
+    "owner": "alanliveira",
+    "repo": "siteIdosos",
+    "category": "cursos|etec desenvolvimento",
+    "sub": "etec-desenvolvimento",
+    "prefix": "cursos/etec-desenvolvimento/siteIdosos",
+    "url": "https://github.com/alanliveira/siteIdosos",
+    "ssh_url": "git@github.com:alanliveira/siteIdosos.git",
+    "access": "private",
+    "languages": [
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "name": "alanliveira/terra-vermelha-legado",
+    "owner": "alanliveira",
+    "repo": "terra-vermelha-legado",
+    "category": "cursos|etec jogos",
+    "sub": "etec-jogos",
+    "prefix": "cursos/etec-jogos/terra-vermelha-legado",
+    "url": "https://github.com/alanliveira/terra-vermelha-legado",
+    "ssh_url": "git@github.com:alanliveira/terra-vermelha-legado.git",
+    "access": "private",
+    "languages": [
+      "C#",
+      "HLSL",
+      "ShaderLab"
+    ]
+  }
+]
