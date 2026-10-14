@@ -2,16 +2,19 @@ import textwrap
 from datetime import date
 from typing import TypedDict
 
+
 class Usuario(TypedDict):
     nome: str
     data_nascimento: date
     cpf: str
     endereco: str
 
+
 class Conta(TypedDict):
     agencia: str
     numero_conta: int
     usuario: Usuario
+
 
 def menu() -> str:
     menu = """
@@ -27,6 +30,7 @@ def menu() -> str:
     => """
     return input(textwrap.dedent(menu))
 
+
 def depositar(saldo: float, valor: float, extrato: float, /) -> tuple[float, float]:
     """Realizar um depósito na conta"""
     print("================ Depósito ================")
@@ -36,10 +40,19 @@ def depositar(saldo: float, valor: float, extrato: float, /) -> tuple[float, flo
         print("\n=== depósito realizado com sucesso ===")
     else:
         print("\n@@@ Operação falhou! O valor informado é inválido. @@@")
-    
+
     return saldo, extrato
 
-def sacar(*, saldo: float, valor: float, extrato: float, limite: float, numero_saques: int, limite_saques: int) -> tuple[float, float]:
+
+def sacar(
+    *,
+    saldo: float,
+    valor: float,
+    extrato: float,
+    limite: float,
+    numero_saques: int,
+    limite_saques: int,
+) -> tuple[float, float]:
     """Realizar o saque da conta"""
     print("================ Saque ================")
     excedeu_saldo = valor > saldo
@@ -66,12 +79,14 @@ def sacar(*, saldo: float, valor: float, extrato: float, limite: float, numero_s
 
     return saldo, extrato
 
+
 def exibir_extrato(saldo: float, /, *, extrato: float):
     """Exibe o extrato da conta"""
     print("\n================ EXTRATO ================")
     print("Não foram realizadas movimentações." if not extrato else extrato)
     print(f"\nSaldo:\tR$ {saldo:.2f}")
     print("==========================================")
+
 
 def criar_usuario(usuarios: list[Usuario], /) -> None:
     """Cria um novo usuário"""
@@ -85,18 +100,31 @@ def criar_usuario(usuarios: list[Usuario], /) -> None:
 
     nome = input("Informe seu nome completo: ")
     data_nascimento = input("Informe a data de nascimento (dd-mm-aaaa): ")
-    endereco = input("Informe o seu endereço (logradouro, nro - bairro, cidade/Sigla estado): ")
+    endereco = input(
+        "Informe o seu endereço (logradouro, nro - bairro, cidade/Sigla estado): "
+    )
 
-    usuarios.append(Usuario(nome=nome, data_nascimento=date.strptime(data_nascimento, "%d-%m-%Y"), endereco=endereco, cpf=cpf))
+    usuarios.append(
+        Usuario(
+            nome=nome,
+            data_nascimento=date.strptime(data_nascimento, "%d-%m-%Y"),
+            endereco=endereco,
+            cpf=cpf,
+        )
+    )
 
     print("=== usuários criado com sucesso! ===")
 
-def _filtrar_usuario(cpf:str, usuarios: list[Usuario], /) -> Usuario | None:
+
+def _filtrar_usuario(cpf: str, usuarios: list[Usuario], /) -> Usuario | None:
     """Filtra os usuários do sistema"""
     usuarios_filtratos = [usuario for usuario in usuarios if usuario["cpf"] == cpf]
     return usuarios_filtratos[0] if usuarios_filtratos else None
 
-def criar_conta(agencia: str, numero_conta: int, usuarios: list[Usuario]) -> Conta | None:
+
+def criar_conta(
+    agencia: str, numero_conta: int, usuarios: list[Usuario]
+) -> Conta | None:
     """Cria uma nova conta associada ao usuário"""
     cpf: str = input("Informe o CPF do usuário: ")
     usuario = _filtrar_usuario(cpf, usuarios)
@@ -104,6 +132,7 @@ def criar_conta(agencia: str, numero_conta: int, usuarios: list[Usuario]) -> Con
     if usuario:
         print("\n=== Conta criada com sucesso! ===")
         return Conta(agencia=agencia, numero_conta=numero_conta, usuario=usuario)
+
 
 def listar_contas(contas: list[Conta]) -> None:
     """Lista todas as contas criadas no sistema"""
@@ -116,9 +145,10 @@ def listar_contas(contas: list[Conta]) -> None:
         print("=" * 100)
         print(textwrap.dedent(linha))
 
+
 def main() -> None:
     """Controle do sistema"""
-    
+
     saldo: float = 0
     limite: int = 500
     extrato: str = ""
@@ -132,7 +162,7 @@ def main() -> None:
     while True:
         opcao = menu()
 
-        match(opcao):
+        match (opcao):
             case "d":
                 valor = float(input("Informe o valor do depósito: "))
                 saldo, extrato = depositar(saldo, valor, extrato)
@@ -144,7 +174,7 @@ def main() -> None:
                     extrato=extrato,
                     limite=limite,
                     numero_saques=numero_saques,
-                    limite_saques=LIMITE_SAQUES
+                    limite_saques=LIMITE_SAQUES,
                 )
             case "e":
                 exibir_extrato(saldo, extrato=extrato)
@@ -161,7 +191,10 @@ def main() -> None:
             case "q":
                 break
             case _:
-                print("\n@@@ Operação inválida, por favor selecione novamente a operação desejada. @@@")
+                print(
+                    "\n@@@ Operação inválida, por favor selecione novamente a operação desejada. @@@"
+                )
+
 
 if __name__ == "__main__":
     main()
